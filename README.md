@@ -10,7 +10,6 @@ I build data systems — and I'm increasingly interested in what happens **under
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-mansi-eight.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-MsMansiDhruv-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MsMansiDhruv)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![Email](https://img.shields.io/badge/Email-mansi.p.dhruv%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mansi.p.dhruv@gmail.com)
 
 </div>
@@ -35,7 +34,9 @@ Parallel Computing
 GPU-Accelerated Data Systems
 ```
 
-My work today spans **data engineering, solution architecture, cloud platforms, distributed processing, and technical delivery**. I'm particularly interested in the problems that appear when systems get bigger: **execution, data movement, memory, parallelism, reliability, performance, and cost**.
+My work today spans **data engineering, solution architecture, cloud platforms, distributed processing, and technical delivery**.
+
+I'm particularly interested in the problems that appear when systems get bigger: **execution, data movement, memory, parallelism, reliability, performance, and cost**.
 
 I'm currently going deeper into **distributed systems and performance engineering**, with a long-term focus on **GPU-accelerated data processing and high-performance data systems**.
 
@@ -79,14 +80,31 @@ Solution Architecture · Technical Design · Project Delivery · Stakeholder Com
 
 ## Featured Engineering
 
-<div align="center">
+### 🛰️ Sentinel Lakehouse
 
-[![Sentinel Lakehouse](https://github-readme-stats.vercel.app/api/pin/?username=MsMansiDhruv&repo=sentinel-lakehouse&theme=transparent&hide_border=true)](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-[![Data Engineering Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=MsMansiDhruv&repo=portfolio_mansi&theme=transparent&hide_border=true)](https://github.com/MsMansiDhruv/portfolio_mansi)
+**Production Lakehouse Engineering**
 
-</div>
+`Databricks` · `Apache Spark` · `Delta Lake` · `Auto Loader` · `Data Quality`
 
-### Sentinel Lakehouse
+Resilient ingestion, schema evolution, quarantine patterns, failure handling, and trustworthy transformations.
+
+**[Explore Sentinel Lakehouse →](https://github.com/MsMansiDhruv/sentinel-lakehouse)**
+
+---
+
+### ⚡ Data Engineering Portfolio
+
+**Systems · Architecture · Experiments**
+
+`Distributed Data` · `Lakehouse` · `Spark` · `Performance` · `Data Platforms`
+
+An interactive engineering portfolio documenting architectures, technical decisions, experiments, and trade-offs.
+
+**[Live Portfolio →](https://portfolio-mansi-eight.vercel.app/)** · **[Source →](https://github.com/MsMansiDhruv/portfolio_mansi)**
+
+---
+
+## Sentinel Lakehouse
 
 ![Status](https://img.shields.io/badge/status-active_development-2ea44f?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
@@ -95,7 +113,9 @@ Solution Architecture · Technical Design · Project Delivery · Stakeholder Com
 
 **Production-oriented lakehouse engineering where failure is part of the design.**
 
-I'm building Sentinel to explore what happens when real-world data refuses to behave. Instead of feeding the pipeline perfect inputs, the project deliberately introduces **schema drift, malformed types, rescued records, invalid business fields, duplicates, data-quality failures, and recovery scenarios**.
+I'm building Sentinel to explore what happens when real-world data refuses to behave.
+
+Instead of feeding the pipeline perfect inputs, the project deliberately introduces **schema drift, malformed types, rescued records, invalid business fields, duplicates, data-quality failures, and recovery scenarios**.
 
 ```text
 Sources
@@ -130,19 +150,13 @@ The question behind the project is simple:
 
 **[Explore Sentinel Lakehouse →](https://github.com/MsMansiDhruv/sentinel-lakehouse)**
 
-### Data Engineering Portfolio
-
-My interactive engineering portfolio documents the systems, architectures, experiments, and engineering decisions behind my work — from **distributed data pipelines and lakehouse architecture to Spark performance, retrieval systems, cloud architecture, and engineering trade-offs**.
-
-**[Explore the portfolio →](https://portfolio-mansi-eight.vercel.app/)** · **[View source →](https://github.com/MsMansiDhruv/portfolio_mansi)**
-
 ---
 
 ## Currently Working On
 
 ### Production-grade Spark & Databricks
 
-I'm currently working through the parts of data engineering that become important after a pipeline works:
+I'm currently working through the parts of data engineering that become important **after a pipeline works**:
 
 `Resilient Ingestion` · `Schema Evolution` · `Data Quality` · `Streaming` · `Partitioning` · `Join Strategies` · `Shuffle Behavior` · `Query Execution` · `Observability` · `Failure Recovery`
 
@@ -169,7 +183,9 @@ The questions I'm increasingly interested in are:
 
 ## Engineering Labs
 
-These aren't badge-collection projects. Each lab is intended to produce **experiments, measurements, execution evidence, and documented trade-offs**.
+These aren't badge-collection projects.
+
+Each lab is intended to produce **experiments, measurements, execution evidence, and documented trade-offs**.
 
 ### ⚡ Spark Performance Lab · `PLANNED`
 
@@ -197,13 +213,15 @@ Experiments around the fundamentals behind large-scale data infrastructure.
 
 `Partitioning` · `Replication` · `Consistency` · `Fault Tolerance` · `Distributed Execution` · `Data Movement`
 
-### GPU Data Processing Lab · `FUTURE`
+### ⚙️ GPU Data Processing Lab · `FUTURE`
 
 CPU vs GPU experiments for analytical workloads.
 
 `Pandas vs cuDF` · `CPU vs GPU Aggregations` · `Join Performance` · `Memory Transfer Overhead` · `Break-even Dataset Sizes` · `GPU-Accelerated Spark`
 
-The goal won't be to prove that GPUs are always faster. It will be to understand **when acceleration helps, when it doesn't, and why**.
+The goal won't be to prove that GPUs are always faster.
+
+It will be to understand **when acceleration helps, when it doesn't, and why**.
 
 ---
 
@@ -260,7 +278,9 @@ but:
 
 > **“What is the system actually doing?”**
 
-Tools change. Understanding **execution, memory, networks, storage, parallelism, failure, and trade-offs** lasts much longer.
+Tools change.
+
+Understanding **execution, memory, networks, storage, parallelism, failure, and trade-offs** lasts much longer.
 
 <details>
 <summary><b>What I'm currently studying</b></summary>
@@ -289,8 +309,6 @@ Tools change. Understanding **execution, memory, networks, storage, parallelism,
 
 ![Mansi's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MsMansiDhruv&theme=github-compact&hide_border=true&area=true)
 
-![Mansi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MsMansiDhruv&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true)
-
 </div>
 
 > GitHub activity is only one signal. The projects above are where I document the architecture, experiments, failures, and engineering decisions behind the work.
@@ -305,7 +323,6 @@ If you're building difficult data systems — especially systems where **scale a
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-mansi-eight.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MsMansiDhruv)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mansi.p.dhruv@gmail.com)
