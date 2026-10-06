@@ -1,323 +1,149 @@
-<div align="center">
+# Mansi Dhruv
 
-# MANSI DHRUV
+**Lead Data Engineer · Solution Architect**
 
-### DATA SYSTEMS · DISTRIBUTED COMPUTING · PERFORMANCE
+I build and modernize data platforms, with a focus on **distributed processing, cloud architecture, performance, and reliable data systems**.
 
-**Lead Data Engineer · Solutions Architect · Assistant Project Manager**
+My day-to-day work spans AWS, Databricks, Apache Spark, PySpark, SQL, streaming, ETL/ELT, Terraform, CI/CD, and production ML integration.
 
-I build data systems — and I'm increasingly interested in what happens **underneath** them.
+I'm currently going deeper into **Spark internals, distributed systems, query execution, and performance engineering** — with a longer-term interest in GPU-accelerated data systems.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-mansi-eight.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-MsMansiDhruv-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MsMansiDhruv)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mansidhruv/)
-[![Email](https://img.shields.io/badge/Email-mansi.p.dhruv%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mansi.p.dhruv@gmail.com)
-
-</div>
+[Portfolio](https://portfolio-mansi-eight.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/mansidhruv/) · [Email](mailto:mansi.p.dhruv@gmail.com)
 
 ---
 
-## Engineering Focus
+## What I work on
 
-```text
+**Data platforms**  
+Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
+
+**Cloud & infrastructure**  
+AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · API Gateway · DMS · Athena · Terraform · Docker · CI/CD
+
+**Engineering**  
+Python · Scala · FastAPI · GraphQL · Kafka · Kinesis · Airflow · GitHub Actions
+
+**ML / analytics**  
+MLflow · production ML pipeline integration · Power BI · Tableau
+
+---
+
+## Selected work
+
+### [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+
+**Production-oriented Databricks lakehouse**
+
+A deliberately imperfect commerce data platform designed to explore the problems that appear after a pipeline works: schema evolution, malformed records, data quality, quarantine, CDC, incremental processing, dimensional modeling, observability, CI/CD, governance, and performance.
+
+The project includes reproducible engineering decisions and measured trade-offs rather than presenting one architecture as universally correct.
+
+**Databricks · Apache Spark · Delta Lake · Lakeflow · Auto Loader · CDC · Unity Catalog · Python · pytest · GitHub Actions**
+
+→ [Read the engineering work](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+
+---
+
+### [Engineering Portfolio](https://portfolio-mansi-eight.vercel.app/)
+
+My portfolio documents systems, architecture decisions, experiments, and technical work across data engineering and cloud infrastructure.
+
+→ [View portfolio](https://portfolio-mansi-eight.vercel.app/) · [Source](https://github.com/MsMansiDhruv/portfolio_mansi)
+
+---
+
+## Engineering direction
+
+I'm interested in the layer underneath data platforms:
+
+```
 Data Engineering
-      │
-      ▼
-Distributed Systems
-      │
-      ▼
+      ↓
+Distributed Processing
+      ↓
+Query Execution
+      ↓
 Performance Engineering
-      │
-      ▼
+      ↓
 Parallel Computing
-      │
-      ▼
-GPU-Accelerated Data Systems
+      ↓
+Accelerated Data Systems
 ```
 
-My work today spans **data engineering, solution architecture, cloud platforms, distributed processing, and technical delivery**. I'm particularly interested in the problems that appear when systems get bigger: **execution, data movement, memory, parallelism, reliability, performance, and cost**.
+The questions I'm currently exploring:
 
-I'm currently going deeper into **distributed systems and performance engineering**, with a long-term focus on **GPU-accelerated data processing and high-performance data systems**.
-
-> I don't want to just know how to run Spark. I want to understand **why it behaves the way it does — and how to make it faster.**
-
----
-
-## Core Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" />
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks" />
-  <img src="https://img.shields.io/badge/Delta%20Lake-003366?style=flat-square" alt="Delta Lake" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
-
-**Data Engineering**  
-Apache Spark · PySpark · Databricks · Delta Lake · SQL · Python · ETL/ELT · Streaming
-
-**Architecture**  
-Lakehouse Architecture · Medallion Architecture · Data Modeling · Data Quality · Schema Evolution · System Design
-
-**Performance & Systems**  
-Query Optimization · Partitioning · Shuffle Analysis · Distributed Processing · Performance Profiling
-
-**Leadership**  
-Solution Architecture · Technical Design · Project Delivery · Stakeholder Communication · Engineering Coordination
-
-### Going deeper
-
-`Spark Internals` · `Distributed Query Execution` · `Memory Management` · `Storage & I/O` · `Parallel Computing`
-
-### Building toward
-
-`C/C++` · `CUDA` · `RAPIDS` · `cuDF` · `GPU Architecture` · `GPU-Accelerated Spark`
+- Where is a distributed workload actually spending its time?
+- What causes unnecessary data movement and shuffle?
+- How do partitioning and join strategies change execution?
+- How do memory, storage, and serialization affect performance?
+- When does scaling compute help — and when does it simply cost more?
+- What changes when analytical workloads move toward heterogeneous CPU/GPU systems?
 
 ---
 
-## Featured Engineering
+## What I'm building next
 
-> ### 🛰️ [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-> **Production Lakehouse Engineering**  
-> `Databricks` · `Apache Spark` · `Delta Lake` · `Auto Loader` · `Data Quality`  
-> Resilient ingestion, schema evolution, quarantine patterns, failure handling, and trustworthy transformations.
+### Spark Performance Lab
+Benchmark-driven experiments around partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown, and execution plans.
 
-> ### ⚡ [Data Engineering Portfolio](https://portfolio-mansi-eight.vercel.app/)
-> **Systems · Architecture · Experiments**  
-> `Distributed Data` · `Lakehouse` · `Spark` · `Performance` · `Data Platforms`  
-> An interactive engineering portfolio documenting architectures, technical decisions, experiments, and trade-offs.  
-> [Live portfolio →](https://portfolio-mansi-eight.vercel.app/) · [Source →](https://github.com/MsMansiDhruv/portfolio_mansi)
+### Query Engine Lab
+A small query-processing engine to understand the path from:
 
-### Sentinel Lakehouse
+`SQL → Logical Plan → Optimization → Physical Plan → Execution`
 
-![Status](https://img.shields.io/badge/status-active_development-2ea44f?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Engine](https://img.shields.io/badge/engine-Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Architecture](https://img.shields.io/badge/architecture-Lakehouse-555555?style=flat-square)
+### Distributed Systems Experiments
+Small, reproducible experiments around partitioning, replication, consistency, fault tolerance, and data movement.
 
-**Production-oriented lakehouse engineering where failure is part of the design.**
+### GPU Data Processing
+Later-stage experiments comparing CPU and GPU execution for analytical workloads, including the cost of data transfer and the point at which acceleration becomes worthwhile.
 
-I'm building Sentinel to explore what happens when real-world data refuses to behave. Instead of feeding the pipeline perfect inputs, the project deliberately introduces **schema drift, malformed types, rescued records, invalid business fields, duplicates, data-quality failures, and recovery scenarios**.
-
-```text
-Sources
-   │
-   ▼
-Auto Loader
-   │
-   ▼
-┌─────────┐
-│ BRONZE  │ ─────► Rescued / Unexpected Data
-└────┬────┘
-     │
-     ▼
-DQ Validation ───► Quarantine
-     │
-     ▼
-┌─────────┐
-│ SILVER  │
-└────┬────┘
-     │
-     ▼
-┌─────────┐
-│  GOLD   │
-└─────────┘
-```
-
-The question behind the project is simple:
-
-> **How do you design a data platform that remains trustworthy when its inputs aren't?**
-
-`Databricks` · `Apache Spark` · `Auto Loader` · `Delta Lake` · `Data Quality` · `Streaming`
-
-**[Explore Sentinel Lakehouse →](https://github.com/MsMansiDhruv/sentinel-lakehouse)**
-
-### Data Engineering Portfolio
-
-My interactive engineering portfolio documents the systems, architectures, experiments, and engineering decisions behind my work — from **distributed data pipelines and lakehouse architecture to Spark performance, retrieval systems, cloud architecture, and engineering trade-offs**.
-
-**[Explore the portfolio →](https://portfolio-mansi-eight.vercel.app/)** · **[View source →](https://github.com/MsMansiDhruv/portfolio_mansi)**
+These are intentionally **evidence-first projects**: experiments, measurements, code, failures, and conclusions — not certificate projects.
 
 ---
 
-## Currently Working On
+## Selected production outcomes
 
-### Production-grade Spark & Databricks
+In professional work, I've worked on:
 
-I'm currently working through the parts of data engineering that become important after a pipeline works:
+- modernizing legacy ETL into AWS lakehouse architecture
+- reducing an end-to-end pipeline by ~40% while reducing infrastructure cost by ~30%
+- productionizing ML-driven data workflows
+- automating web-intelligence pipelines and reducing manual monitoring by ~50%
+- reducing data-processing time by ~45% on an enterprise pipeline
+- diagnosing and redesigning slow SQL paths with ~85% improvement on the affected workload
 
-`Resilient Ingestion` · `Schema Evolution` · `Data Quality` · `Streaming` · `Partitioning` · `Join Strategies` · `Shuffle Behavior` · `Query Execution` · `Observability` · `Failure Recovery`
-
-The objective is to move from:
-
-> **“The pipeline works.”**
-
-to:
-
-> **“I understand why it works, how it fails, and where the time and resources are going.”**
-
-### Performance Engineering
-
-The questions I'm increasingly interested in are:
-
-- Where is the actual bottleneck?
-- Why did this stage shuffle so much data?
-- When should computation move instead of data?
-- What does the execution engine actually do with this query?
-- How do memory layout and data representation affect performance?
-- What changes when a workload scales from one machine to a cluster?
+Client implementations are confidential, so the public repositories here use synthetic or independently reproducible systems to document the engineering principles.
 
 ---
 
-## Engineering Labs
+## Open source
 
-These aren't badge-collection projects. Each lab is intended to produce **experiments, measurements, execution evidence, and documented trade-offs**.
+I'm building toward deeper contributions in the **Apache / CNCF / cloud-native / data systems** ecosystem.
 
-### ⚡ Spark Performance Lab · `PLANNED`
+Current areas of interest:
 
-A benchmark-driven investigation of Spark execution.
+**Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · Kubeflow · RAPIDS**
 
-`Partitioning` · `Shuffle` · `Join Strategies` · `Data Skew` · `AQE` · `Caching` · `Predicate Pushdown`
-
-**Goal:** compare execution plans and measurable behavior instead of simply showing working Spark code.
-
-### 🧠 Query Engine Lab · `PLANNED`
-
-A small query-processing engine built to understand the path between:
-
-```sql
-SELECT ...
-```
-
-and the result returned to the user.
-
-`Parsing → Logical Plan → Optimization → Physical Plan → Execution`
-
-### 🌐 Distributed Systems Lab · `PLANNED`
-
-Experiments around the fundamentals behind large-scale data infrastructure.
-
-`Partitioning` · `Replication` · `Consistency` · `Fault Tolerance` · `Distributed Execution` · `Data Movement`
-
-### GPU Data Processing Lab · `FUTURE`
-
-CPU vs GPU experiments for analytical workloads.
-
-`Pandas vs cuDF` · `CPU vs GPU Aggregations` · `Join Performance` · `Memory Transfer Overhead` · `Break-even Dataset Sizes` · `GPU-Accelerated Spark`
-
-The goal won't be to prove that GPUs are always faster. It will be to understand **when acceleration helps, when it doesn't, and why**.
+The goal is not to accumulate contribution counts. I want to contribute where I can understand the problem, reproduce it, and add something maintainers can actually use.
 
 ---
 
-## Engineering Direction
+## Current learning
 
-```text
-TODAY
-│
-├── Data Engineering
-│   ├── Spark / PySpark
-│   ├── Databricks / Delta Lake
-│   ├── Lakehouse Architecture
-│   └── Production Data Pipelines
-│
-├── NEXT DEPTH
-│   ├── Spark Internals
-│   ├── Distributed Systems
-│   ├── Query Execution
-│   ├── Performance Profiling
-│   └── Memory / Storage / I/O
-│
-└── LONG-TERM SPECIALIZATION
-    ├── C / C++
-    ├── Parallel Algorithms
-    ├── GPU Architecture
-    ├── CUDA
-    ├── RAPIDS / cuDF
-    └── GPU-Accelerated Data Systems
-```
-
-My long-term engineering focus sits at the intersection of:
-
-### **Data Systems × Distributed Computing × Hardware Acceleration**
-
-I want to understand how joins, aggregations, sorting, filtering, compression, and large-scale ETL can be redesigned or accelerated for heterogeneous CPU/GPU systems.
-
-Not just:
-
-> How do I use a GPU?
-
-But:
-
-> **What makes a data workload worth accelerating in the first place?**
-
----
-
-## How I Think About Engineering
-
-I like systems where the interesting question isn't:
-
-> “Which tool should we use?”
-
-but:
-
-> **“What is the system actually doing?”**
-
-Tools change. Understanding **execution, memory, networks, storage, parallelism, failure, and trade-offs** lasts much longer.
-
-<details>
-<summary><b>What I'm currently studying</b></summary>
-
-<br>
-
-- Apache Spark internals
+- Spark internals
 - Distributed query execution
-- Query and performance profiling
+- Performance profiling
 - Data structures & algorithms
 - System design
-- Memory, storage, and I/O behavior
-- C/C++ foundations
+- Memory, storage & I/O
+- C/C++
 - Parallel computing
-- GPU architecture
 - CUDA fundamentals
 - RAPIDS / cuDF
 
-</details>
-
 ---
 
-## GitHub Activity
+## Let's build things that can be measured.
 
-<div align="center">
+If you're working on **data systems, distributed computing, cloud architecture, Spark performance, or accelerated data processing**, I'd be interested in comparing approaches and sharing experiments.
 
-![Mansi's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MsMansiDhruv&theme=github-compact&hide_border=true&area=true)
-
-</div>
-
-> GitHub activity is only one signal. The projects above are where I document the architecture, experiments, failures, and engineering decisions behind the work.
-
----
-
-## Let's Talk
-
-I'm interested in conversations around **Data Engineering · Distributed Systems · Apache Spark · Performance Engineering · Data Infrastructure · Accelerated Computing**.
-
-If you're building difficult data systems — especially systems where **scale and performance actually matter** — I'd love to talk.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mansidhruv/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-mansi-eight.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MsMansiDhruv)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mansi.p.dhruv@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-**Building toward the intersection of data engineering, distributed systems, performance, and accelerated computing.**
-
-</div>
