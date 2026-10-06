@@ -199,3 +199,6 @@ The goal is simple: **reproduce the problem → understand the root cause → ma
 <img src="https://www.gitskins.com/api/section/hero?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins Studio visual footer" width="100%" />
 
 </div>
+
+
+<!-- profile refresh: 2026-10-06T06:42Z -->
