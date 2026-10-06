@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/38699181?v=4" width="140" alt="Mansi Dhruv" />
+<img src="https://avatars.githubusercontent.com/u/38699181?v=4" width="150" alt="Mansi Dhruv" />
 
-# Mansi Dhruv
-
-### Lead Data Engineer · Solution Architect
-
-**Data Engineering → Distributed Systems → Performance → Accelerated Data Systems**
+![Mansi Dhruv — Lead Data Engineer](https://www.gitskins.com/api/section/hero?username=MsMansiDhruv&theme=minimal&style=aura)
 
 <p>
   <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
@@ -18,124 +14,166 @@
 
 ---
 
-## mansi@github ~ $ whoami
+## 01 / HOW I THINK
 
 I build and modernize data platforms, mostly around **AWS, Databricks, Apache Spark and PySpark**.
 
-My work sits between **data engineering and architecture** — designing pipelines, debugging bottlenecks, improving reliability, and understanding why a workload is slow before simply adding more compute.
+My sweet spot is the space between **data engineering and architecture**: understanding the system, finding the bottleneck, changing the right layer, and measuring what happened.
 
-Right now I am going deeper into **Spark internals, distributed systems, query execution and performance engineering**, with a longer-term interest in **GPU-accelerated data systems**.
+Right now I am pushing deeper into **Spark internals → query execution → performance engineering → distributed systems → GPU-accelerated data systems**.
 
-```text
-Data Engineering
-      ↓
-Distributed Processing
-      ↓
-Query Execution
-      ↓
-Performance Engineering
-      ↓
-Parallel Computing
-      ↓
-Accelerated Data Systems
-```
+<table>
+<tr>
+<td width="33%" align="center">
+<strong>BUILD</strong><br/>Reliable data platforms<br/>ETL / ELT · CDC · Streaming
+</td>
+<td width="33%" align="center">
+<strong>UNDERSTAND</strong><br/>Execution and data movement<br/>Spark · SQL · Distributed systems
+</td>
+<td width="33%" align="center">
+<strong>ACCELERATE</strong><br/>Measure before scaling<br/>Profiling · Parallelism · CUDA
+</td>
+</tr>
+</table>
 
-## ./stack.sh
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,aws,docker,terraform,kafka,postgres,git,github,linux,cpp&perline=10" />
-</p>
+## 02 / CURRENT ARC
+
+<table>
+<tr>
+<td width="45%">
+### <code>today</code>
+
+**Lead Data Engineer**
+
+AWS · Databricks · Spark · PySpark · Terraform · production ETL
+</td>
+<td width="10%" align="center">→</td>
+<td width="45%">
+### <code>next</code>
+
+**Systems-oriented engineer**
+
+Spark internals · query engines · performance · open source · GPU data
+</td>
+</tr>
+</table>
+
+> I am not trying to become “the person who knows every tool.” I want to understand the layer underneath the tools.
+
+---
+
+## 03 / THE WORK
+
+<table>
+<tr>
+<td width="50%">
+### [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+
+Production-oriented Databricks lakehouse work built around the messy parts: **schema evolution, data quality, quarantine, CDC, SCD1/SCD2, observability, governance and performance trade-offs**.
+
+`Spark` `Delta Lake` `Lakeflow` `Auto Loader` `Unity Catalog`
+</td>
+<td width="50%">
+### Query Engine Lab
+
+A small engine for learning the path from **SQL to execution** rather than treating the database as a black box.
+
+`parsing` `logical plan` `optimization` `physical plan`
+</td>
+</tr>
+<tr>
+<td width="50%">
+### Spark Performance Lab
+
+Benchmarking **partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans**.
+
+`PySpark` `benchmarks` `profiling`
+</td>
+<td width="50%">
+### Distributed Systems Experiments
+
+Small reproducible experiments around **replication, consistency, fault tolerance and data movement**.
+
+`systems` `concurrency` `distributed computing`
+</td>
+</tr>
+</table>
+
+---
+
+## 04 / STACK — BUT WITHOUT THE BADGE WALL
+
+![Animated technology stack](https://www.gitskins.com/api/section/stack?username=MsMansiDhruv&theme=minimal&style=aura)
+
+<details>
+<summary><strong>What is actually in the stack</strong></summary>
 
 **Data** — Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming  
 **Cloud** — AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena  
 **Engineering** — Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis  
 **ML / Analytics** — MLflow · production ML workflows · Power BI · Tableau  
-**Exploring** — Spark internals · query engines · profiling · distributed systems · CUDA · RAPIDS/cuDF
+**Exploring** — C/C++ · CUDA · RAPIDS/cuDF · query execution · performance profiling
 
-## ./contributions.sh
-
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=MsMansiDhruv&show_icons=true&hide_title=true&include_all_commits=true&hide_border=true" />
-</td>
-<td>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MsMansiDhruv&layout=compact&hide_border=true&langs_count=8" />
-</td>
-</tr>
-</table>
-
-## Selected work
-
-### [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-
-A deliberately imperfect Databricks lakehouse built to study what happens **after a pipeline works**.
-
-Schema evolution · malformed records · data quality · quarantine · CDC · incremental processing · SCD1/SCD2 · dimensional modelling · observability · governance · CI/CD · performance trade-offs
-
-**Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog · Python · pytest · GitHub Actions**
-
-### Query Engine Lab
-
-A small query-processing engine to understand:
-
-`SQL → Logical Plan → Optimization → Physical Plan → Execution`
-
-The goal is less “build a database” and more **understand what the database is actually doing**.
-
-### Spark Performance Lab
-
-Benchmark-driven experiments around partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans.
-
-The work is intended to show the **experiment, numbers, failure and conclusion** — not just the final result.
-
-### Distributed Systems Experiments
-
-Small, reproducible experiments around partitioning, replication, consistency, fault tolerance and data movement.
-
-### GPU Data Processing
-
-Longer-term experiments comparing CPU and GPU execution for analytical workloads, including the cost of moving data to the accelerator.
+</details>
 
 ---
 
-## ./what-i-have-learned.sh
+## 05 / PROOF
 
-- ~40% reduction in end-to-end pipeline time
-- ~30% reduction in infrastructure cost on a redesigned pipeline
-- ~45% reduction in data-processing time on an enterprise workload
-- ~85% improvement on an affected slow-SQL path
-- ~50% reduction in manual monitoring through automation
+<table>
+<tr>
+<td align="center"><strong>~40%</strong><br/>pipeline time reduction</td>
+<td align="center"><strong>~30%</strong><br/>infrastructure cost reduction</td>
+<td align="center"><strong>~45%</strong><br/>processing-time reduction</td>
+<td align="center"><strong>~85%</strong><br/>slow-SQL improvement</td>
+</tr>
+</table>
 
-I care less about collecting impressive numbers and more about being able to explain **what changed, why it changed, and how it was measured**.
+The useful part is not the number. It is being able to explain **what changed, why it changed, and how it was measured**.
 
-> Some professional systems are confidential. The public projects here are intentionally reproducible versions of the engineering problems I care about.
+---
 
-## ./open-source.sh
+## 06 / GITHUB ACTIVITY
 
-I'm working toward contributions in the **Apache / CNCF / cloud-native / data systems** ecosystem.
+### Starting from here.
 
-**Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · Kubeflow · RAPIDS**
+There is not a giant contribution history to decorate yet. That is intentional: I am building the engineering work first and letting the graph follow it.
 
-The goal isn't to collect contribution counts. I want to pick problems I can reproduce, understand properly, and make changes that are useful to maintainers.
+![Animated GitHub heatmap](https://www.gitskins.com/api/section/heatmap?username=MsMansiDhruv&theme=minimal&style=aura)
 
-## ./learning.log
+![Contribution snake](https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/output/github-contribution-grid-snake.svg)
 
-```text
-Spark internals
-Distributed query execution
-Performance profiling
-System design
-Data structures & algorithms
-Memory / storage / I/O
-C / C++
-Parallel computing
-CUDA fundamentals
-RAPIDS / cuDF
-```
+![Animated GitHub stats](https://www.gitskins.com/api/section/stats?username=MsMansiDhruv&theme=minimal&style=aura)
+
+---
+
+## 07 / OPEN SOURCE
+
+<table>
+<tr>
+<td width="25%" align="center">Apache Spark</td>
+<td width="25%" align="center">Airflow</td>
+<td width="25%" align="center">MLflow</td>
+<td width="25%" align="center">RAPIDS</td>
+</tr>
+</table>
+
+I am aiming for contributions that I can **reproduce, understand and defend in a code review** — not contribution-count padding.
+
+### Current learning log
+
+`Spark internals` · `distributed query execution` · `system design` · `memory / I/O` · `parallel computing` · `CUDA`
+
+---
 
 <div align="center">
 
 ### Building systems. Measuring them. Learning what breaks.
+
+<a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
+<a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
 
 </div>
