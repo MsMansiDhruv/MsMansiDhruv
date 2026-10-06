@@ -2,61 +2,23 @@
 
 **Lead Data Engineer · Solution Architect**
 
-I build and modernize data platforms, with a focus on **distributed processing, cloud architecture, performance, and reliable data systems**.
-
-My day-to-day work spans AWS, Databricks, Apache Spark, PySpark, SQL, streaming, ETL/ELT, Terraform, CI/CD, and production ML integration.
-
-I'm currently going deeper into **Spark internals, distributed systems, query execution, and performance engineering** — with a longer-term interest in GPU-accelerated data systems.
-
-[Portfolio](https://portfolio-mansi-eight.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/mansidhruv/) · [Email](mailto:mansi.p.dhruv@gmail.com)
+<p align="center">
+  <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
+  <a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
+</p>
 
 ---
 
-## What I work on
+## About me
 
-**Data platforms**  
-Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
+I build and modernize data platforms — mostly around **AWS, Databricks, Apache Spark and PySpark**.
 
-**Cloud & infrastructure**  
-AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · API Gateway · DMS · Athena · Terraform · Docker · CI/CD
+My work sits somewhere between data engineering and architecture: designing pipelines, fixing bottlenecks, making systems observable, and figuring out why something is slow before throwing more compute at it.
 
-**Engineering**  
-Python · Scala · FastAPI · GraphQL · Kafka · Kinesis · Airflow · GitHub Actions
+Right now, I'm going deeper into **Spark internals, distributed systems, query execution and performance engineering**, with a longer-term interest in **GPU-accelerated data systems**.
 
-**ML / analytics**  
-MLflow · production ML pipeline integration · Power BI · Tableau
-
----
-
-## Selected work
-
-### [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-
-**Production-oriented Databricks lakehouse**
-
-A deliberately imperfect commerce data platform designed to explore the problems that appear after a pipeline works: schema evolution, malformed records, data quality, quarantine, CDC, incremental processing, dimensional modeling, observability, CI/CD, governance, and performance.
-
-The project includes reproducible engineering decisions and measured trade-offs rather than presenting one architecture as universally correct.
-
-**Databricks · Apache Spark · Delta Lake · Lakeflow · Auto Loader · CDC · Unity Catalog · Python · pytest · GitHub Actions**
-
-→ [Read the engineering work](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-
----
-
-### [Engineering Portfolio](https://portfolio-mansi-eight.vercel.app/)
-
-My portfolio documents systems, architecture decisions, experiments, and technical work across data engineering and cloud infrastructure.
-
-→ [View portfolio](https://portfolio-mansi-eight.vercel.app/) · [Source](https://github.com/MsMansiDhruv/portfolio_mansi)
-
----
-
-## Engineering direction
-
-I'm interested in the layer underneath data platforms:
-
-```
+```text
 Data Engineering
       ↓
 Distributed Processing
@@ -70,80 +32,85 @@ Parallel Computing
 Accelerated Data Systems
 ```
 
-The questions I'm currently exploring:
+## What I work with
 
-- Where is a distributed workload actually spending its time?
-- What causes unnecessary data movement and shuffle?
-- How do partitioning and join strategies change execution?
-- How do memory, storage, and serialization affect performance?
-- When does scaling compute help — and when does it simply cost more?
-- What changes when analytical workloads move toward heterogeneous CPU/GPU systems?
+| Area | Stack |
+|---|---|
+| **Data** | Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming |
+| **Cloud** | AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · API Gateway · DMS · Athena |
+| **Engineering** | Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis |
+| **ML / Analytics** | MLflow · production ML workflows · Power BI · Tableau |
+| **Exploring** | Spark internals · query engines · profiling · distributed systems · CUDA · RAPIDS/cuDF |
 
----
+## Selected work
 
-## What I'm building next
+### [Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)
 
-### Spark Performance Lab
-Benchmark-driven experiments around partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown, and execution plans.
+A deliberately imperfect Databricks lakehouse built to study what happens **after a pipeline works**.
+
+Schema evolution · malformed records · data quality · quarantine · CDC · incremental processing · SCD1/SCD2 · dimensional modelling · observability · governance · CI/CD · performance trade-offs.
+
+**Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog · Python · pytest · GitHub Actions**
 
 ### Query Engine Lab
-A small query-processing engine to understand the path from:
+
+A small query-processing engine to understand:
 
 `SQL → Logical Plan → Optimization → Physical Plan → Execution`
 
+The goal is less “build a database” and more **understand what the database is actually doing**.
+
+### Spark Performance Lab
+
+Benchmark-driven experiments around partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans.
+
+I want the work to show the **experiment, numbers, failure and conclusion** — not just the final result.
+
 ### Distributed Systems Experiments
-Small, reproducible experiments around partitioning, replication, consistency, fault tolerance, and data movement.
+
+Small, reproducible experiments around partitioning, replication, consistency, fault tolerance and data movement.
 
 ### GPU Data Processing
-Later-stage experiments comparing CPU and GPU execution for analytical workloads, including the cost of data transfer and the point at which acceleration becomes worthwhile.
 
-These are intentionally **evidence-first projects**: experiments, measurements, code, failures, and conclusions — not certificate projects.
-
----
-
-## Selected production outcomes
-
-In professional work, I've worked on:
-
-- modernizing legacy ETL into AWS lakehouse architecture
-- reducing an end-to-end pipeline by ~40% while reducing infrastructure cost by ~30%
-- productionizing ML-driven data workflows
-- automating web-intelligence pipelines and reducing manual monitoring by ~50%
-- reducing data-processing time by ~45% on an enterprise pipeline
-- diagnosing and redesigning slow SQL paths with ~85% improvement on the affected workload
-
-Client implementations are confidential, so the public repositories here use synthetic or independently reproducible systems to document the engineering principles.
+Longer-term experiments comparing CPU and GPU execution for analytical workloads, including the cost of moving data to the accelerator.
 
 ---
+
+## Engineering outcomes
+
+- ~40% reduction in end-to-end pipeline time
+- ~30% reduction in infrastructure cost on a redesigned pipeline
+- ~45% reduction in data-processing time on an enterprise workload
+- ~85% improvement on an affected slow-SQL path
+- ~50% reduction in manual monitoring through automation
+
+I care less about collecting impressive numbers and more about being able to explain **what changed, why it changed, and how it was measured**.
+
+> Some professional systems are confidential. The public projects here are intentionally reproducible versions of the engineering problems I care about.
 
 ## Open source
 
-I'm building toward deeper contributions in the **Apache / CNCF / cloud-native / data systems** ecosystem.
-
-Current areas of interest:
+I'm working toward contributions in the **Apache / CNCF / cloud-native / data systems** ecosystem.
 
 **Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · Kubeflow · RAPIDS**
 
-The goal is not to accumulate contribution counts. I want to contribute where I can understand the problem, reproduce it, and add something maintainers can actually use.
+My goal is not to collect contribution counts. I want to pick problems I can reproduce, understand them properly, and make changes that are useful to maintainers.
 
----
+## Currently learning
 
-## Current learning
+```text
+Spark internals
+Distributed query execution
+Performance profiling
+System design
+Data structures & algorithms
+Memory / storage / I/O
+C / C++
+Parallel computing
+CUDA fundamentals
+RAPIDS / cuDF
+```
 
-- Spark internals
-- Distributed query execution
-- Performance profiling
-- Data structures & algorithms
-- System design
-- Memory, storage & I/O
-- C/C++
-- Parallel computing
-- CUDA fundamentals
-- RAPIDS / cuDF
-
----
-
-## Let's build things that can be measured.
-
-If you're working on **data systems, distributed computing, cloud architecture, Spark performance, or accelerated data processing**, I'd be interested in comparing approaches and sharing experiments.
-
+<p align="center">
+  <strong>Building systems. Measuring them. Learning what breaks.</strong>
+</p>
