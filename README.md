@@ -1,22 +1,30 @@
+<div align="center">
+
+<img src="https://avatars.githubusercontent.com/u/38699181?v=4" width="140" alt="Mansi Dhruv" />
+
 # Mansi Dhruv
 
-**Lead Data Engineer · Solution Architect**
+### Lead Data Engineer · Solution Architect
 
-<p align="center">
+**Data Engineering → Distributed Systems → Performance → Accelerated Data Systems**
+
+<p>
   <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
   <a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
 </p>
 
+</div>
+
 ---
 
-## About me
+## mansi@github ~ $ whoami
 
-I build and modernize data platforms — mostly around **AWS, Databricks, Apache Spark and PySpark**.
+I build and modernize data platforms, mostly around **AWS, Databricks, Apache Spark and PySpark**.
 
-My work sits somewhere between data engineering and architecture: designing pipelines, fixing bottlenecks, making systems observable, and figuring out why something is slow before throwing more compute at it.
+My work sits between **data engineering and architecture** — designing pipelines, debugging bottlenecks, improving reliability, and understanding why a workload is slow before simply adding more compute.
 
-Right now, I'm going deeper into **Spark internals, distributed systems, query execution and performance engineering**, with a longer-term interest in **GPU-accelerated data systems**.
+Right now I am going deeper into **Spark internals, distributed systems, query execution and performance engineering**, with a longer-term interest in **GPU-accelerated data systems**.
 
 ```text
 Data Engineering
@@ -32,15 +40,30 @@ Parallel Computing
 Accelerated Data Systems
 ```
 
-## What I work with
+## ./stack.sh
 
-| Area | Stack |
-|---|---|
-| **Data** | Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming |
-| **Cloud** | AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · API Gateway · DMS · Athena |
-| **Engineering** | Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis |
-| **ML / Analytics** | MLflow · production ML workflows · Power BI · Tableau |
-| **Exploring** | Spark internals · query engines · profiling · distributed systems · CUDA · RAPIDS/cuDF |
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,aws,docker,terraform,kafka,postgres,git,github,linux,cpp&perline=10" />
+</p>
+
+**Data** — Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming  
+**Cloud** — AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena  
+**Engineering** — Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis  
+**ML / Analytics** — MLflow · production ML workflows · Power BI · Tableau  
+**Exploring** — Spark internals · query engines · profiling · distributed systems · CUDA · RAPIDS/cuDF
+
+## ./contributions.sh
+
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=MsMansiDhruv&show_icons=true&hide_title=true&include_all_commits=true&hide_border=true" />
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MsMansiDhruv&layout=compact&hide_border=true&langs_count=8" />
+</td>
+</tr>
+</table>
 
 ## Selected work
 
@@ -48,7 +71,7 @@ Accelerated Data Systems
 
 A deliberately imperfect Databricks lakehouse built to study what happens **after a pipeline works**.
 
-Schema evolution · malformed records · data quality · quarantine · CDC · incremental processing · SCD1/SCD2 · dimensional modelling · observability · governance · CI/CD · performance trade-offs.
+Schema evolution · malformed records · data quality · quarantine · CDC · incremental processing · SCD1/SCD2 · dimensional modelling · observability · governance · CI/CD · performance trade-offs
 
 **Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog · Python · pytest · GitHub Actions**
 
@@ -64,7 +87,7 @@ The goal is less “build a database” and more **understand what the database 
 
 Benchmark-driven experiments around partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans.
 
-I want the work to show the **experiment, numbers, failure and conclusion** — not just the final result.
+The work is intended to show the **experiment, numbers, failure and conclusion** — not just the final result.
 
 ### Distributed Systems Experiments
 
@@ -76,7 +99,7 @@ Longer-term experiments comparing CPU and GPU execution for analytical workloads
 
 ---
 
-## Engineering outcomes
+## ./what-i-have-learned.sh
 
 - ~40% reduction in end-to-end pipeline time
 - ~30% reduction in infrastructure cost on a redesigned pipeline
@@ -88,15 +111,15 @@ I care less about collecting impressive numbers and more about being able to exp
 
 > Some professional systems are confidential. The public projects here are intentionally reproducible versions of the engineering problems I care about.
 
-## Open source
+## ./open-source.sh
 
 I'm working toward contributions in the **Apache / CNCF / cloud-native / data systems** ecosystem.
 
 **Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · Kubeflow · RAPIDS**
 
-My goal is not to collect contribution counts. I want to pick problems I can reproduce, understand them properly, and make changes that are useful to maintainers.
+The goal isn't to collect contribution counts. I want to pick problems I can reproduce, understand properly, and make changes that are useful to maintainers.
 
-## Currently learning
+## ./learning.log
 
 ```text
 Spark internals
@@ -111,6 +134,8 @@ CUDA fundamentals
 RAPIDS / cuDF
 ```
 
-<p align="center">
-  <strong>Building systems. Measuring them. Learning what breaks.</strong>
-</p>
+<div align="center">
+
+### Building systems. Measuring them. Learning what breaks.
+
+</div>
