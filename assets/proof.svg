@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300">
+<style>.bg{fill:#0B100E}.m{font:11px monospace;fill:#88A096;letter-spacing:1.5px}.n{font:700 15px monospace;fill:#E8EEE9}.b{fill:#16241F}.bar{animation:b 4s ease-in-out infinite}@keyframes b{0%,100%{opacity:.82}50%{opacity:1;transform:scaleX(1.03);transform-origin:left}}</style>
+<rect width="980" height="300" rx="26" class="bg"/><rect x=".5" y=".5" width="979" height="299" rx="25" fill="none" stroke="#E8762E" stroke-opacity=".15"/>
+<text x="32" y="28" class="m">PROOF OF WORK / SELECTED PROFESSIONAL OUTCOMES</text>
+<text x="36" y="62" class="m">PIPELINE TIME</text><rect x="230" y="50" width="520" height="12" rx="6" class="b"/><rect x="230" y="50" width="208" height="12" rx="6" fill="#2EC4B6" class="bar"/><text x="775" y="62" class="n">~40%</text>
+<text x="36" y="104" class="m">INFRASTRUCTURE COST</text><rect x="230" y="92" width="520" height="12" rx="6" class="b"/><rect x="230" y="92" width="156" height="12" rx="6" fill="#E8762E" class="bar"/><text x="775" y="104" class="n">~30%</text>
+<text x="36" y="146" class="m">PROCESSING TIME</text><rect x="230" y="134" width="520" height="12" rx="6" class="b"/><rect x="230" y="134" width="234" height="12" rx="6" fill="#2EC4B6" class="bar"/><text x="775" y="146" class="n">~45%</text>
+<text x="36" y="188" class="m">AFFECTED SLOW SQL PATH</text><rect x="230" y="176" width="520" height="12" rx="6" class="b"/><rect x="230" y="176" width="442" height="12" rx="6" fill="#E8762E" class="bar"/><text x="775" y="188" class="n">~85%</text>
+<text x="36" y="230" class="m">MANUAL MONITORING</text><rect x="230" y="218" width="520" height="12" rx="6" class="b"/><rect x="230" y="218" width="260" height="12" rx="6" fill="#2EC4B6" class="bar"/><text x="775" y="230" class="n">~50%</text>
+<text x="36" y="274" class="m">PERFORMANCE · COST · RELIABILITY · OPERATIONAL EFFICIENCY</text>
+</svg>
