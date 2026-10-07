@@ -26,11 +26,14 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Render contribution and activity visuals
+      - name: Install image renderer
+        run: pip install pillow
+
+      - name: Render live profile visuals
         run: python scripts/render_profile_art.py
 
       - name: Commit refreshed visuals
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh profile activity art"
-          file_pattern: "assets/contrib-heatmap.svg assets/activity.svg"
+          commit_message: "chore: refresh profile visuals"
+          file_pattern: "assets/*.gif assets/achievements.png"
