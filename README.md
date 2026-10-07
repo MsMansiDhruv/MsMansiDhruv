@@ -12,7 +12,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait-v2.gif" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/mansi-avatar.jpg" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
 
 <img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
