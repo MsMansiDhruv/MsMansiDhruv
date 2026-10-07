@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 220">
+<defs>
+<style>
+.bg{fill:#F7F4EC}.m{font:12px "DejaVu Sans Mono",monospace;fill:#73787D;letter-spacing:2px}.h{font:700 22px Georgia,serif;fill:#171B1E}.dash{fill:none;stroke:#8B9298;stroke-width:2;stroke-dasharray:8 10;animation:dash 4s linear infinite}.node{fill:#FFFDF8;stroke:#2E63D7;stroke-width:2}.hot{stroke:#E8762E}.orb{fill:#E8762E;animation:move 5s linear infinite}@keyframes dash{to{stroke-dashoffset:-100}}@keyframes move{0%{transform:translateX(0)}100%{transform:translateX(1120px)}}</style>
+</defs>
+<rect width="1400" height="220" rx="28" class="bg"/>
+<text x="40" y="34" class="m">ENGINEERING TRAJECTORY</text>
+<text x="40" y="66" class="h">Go deeper. Keep the thread.</text>
+<path d="M140 128 C330 68 450 188 650 125 S970 66 1260 126" class="dash"/>
+<g>
+<circle cx="140" cy="128" r="24" class="node"/><circle cx="415" cy="112" r="24" class="node"/><circle cx="650" cy="125" r="24" class="node hot"/><circle cx="920" cy="103" r="24" class="node"/><circle cx="1260" cy="126" r="24" class="node hot"/>
+<text x="140" y="172" text-anchor="middle" class="m">DATA</text><text x="415" y="156" text-anchor="middle" class="m">CLOUD</text><text x="650" y="169" text-anchor="middle" class="m">SPARK</text><text x="920" y="147" text-anchor="middle" class="m">SYSTEMS</text><text x="1260" y="170" text-anchor="middle" class="m">GPU</text>
+</g>
+<circle cx="108" cy="128" r="6" class="orb"/>
+<text x="1028" y="53" class="m">OPEN SOURCE → APACHE / CNCF</text>
+</svg>
