@@ -12,15 +12,7 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/MsMansiDhruv/MsMansiDhruv/raw/refs/heads/main/assets/mansi-avatar.jpg" alt="Mansi Dhruv illustrated avatar" width="420" />
-</p>
-
-<img src="./assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
-
-<br />
-
-<img src="./assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
+<img src="./assets/profile-hero.svg" alt="Mansi Dhruv cinematic GitHub profile hero with illustrated portrait, engineering identity, technical focus and professional highlights" width="100%" />
 
 ---
 
