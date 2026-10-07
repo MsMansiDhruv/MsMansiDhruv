@@ -29,7 +29,7 @@
 
 ---
 
-## What I work on
+## What I Work On
 
 I have **7+ years of professional experience** building and modernizing production data systems.
 
@@ -45,7 +45,7 @@ That is the engineering thread I am deepening.
 
 <div align="center">
 
-### `mansi@github ~ $ ./contributions.sh`
+### `Mansi@GitHub ~ $ ./contributions.sh`
 
 </div>
 
@@ -60,11 +60,11 @@ That is the engineering thread I am deepening.
 </td>
 <td width="40%" valign="top">
 
-### Public engineering trail
+### Activity
 
-This is where the next phase of my work becomes visible.
+I use GitHub to keep a visible record of the systems I build, experiments I run, and work I contribute to.
 
-The contribution canvas is generated from real GitHub activity and refreshed automatically. The public repositories are intentionally aligned with the systems direction above, so the graph grows around **engineering work rather than profile decoration**.
+The activity panel is refreshed from my public GitHub events, so this section changes as the work changes.
 
 </td>
 </tr>
@@ -72,7 +72,13 @@ The contribution canvas is generated from real GitHub activity and refreshed aut
 
 ---
 
-## Systems I am building
+<div align="center">
+
+### `Mansi@GitHub ~ $ ./activity.sh`
+
+</div>
+
+## Systems I Am Building
 
 ### 01 · Sentinel Lakehouse
 
@@ -114,37 +120,25 @@ Small reproducible work around **replication, consistency, fault tolerance, conc
 
 ---
 
-## Proof of work
+## Proof of Work
 
 The useful part of an engineering metric is the reasoning behind it.
 
 **~40%** faster end to end pipeline · **~30%** lower infrastructure cost · **~45%** lower processing time · **~85%** improvement on an affected slow SQL path · **~50%** less manual monitoring
 
-Some professional implementations are confidential. The public work shows the engineering patterns, experiments and decisions I can make visible.
+Some Professional Implementations Are Confidential. The public work shows the engineering patterns, experiments and decisions I can make visible.
 
 ---
 
-## Deepening the systems layer
+## The Direction
 
 <img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory-dark.svg" alt="Animated engineering trajectory" width="100%" />
 
-**Current practice** · data platforms · AWS · Databricks · Spark
+**Current Practice** · Data Platforms · AWS · Databricks · Spark
 
-**Current study** · Spark internals · distributed query execution · performance engineering
+**Current Study** · Spark Internals · Distributed Query Execution · Performance Engineering
 
-**Research direction** · parallel computing · CUDA · RAPIDS · GPU data systems
-
----
-
-## Open source
-
-I am taking the experience from production systems upstream into the ecosystems I work closest to:
-
-**Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · RAPIDS**
-
-The goal is practical contribution: understand the system, reproduce the problem, make the smallest useful change, and build a public record of that work.
-
-This profile will evolve with the repositories, benchmarks and upstream contributions rather than being frozen as a static résumé.
+**Long Term** · Parallel Computing · CUDA · RAPIDS · GPU Data Systems
 
 ---
 
