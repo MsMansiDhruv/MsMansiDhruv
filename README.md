@@ -12,13 +12,13 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/mansi-avatar.jpg" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
+<img src="./assets/mansi-avatar.jpg" alt="Mansi Dhruv illustrated avatar" width="100%" />
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
+<img src="./assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
 <br />
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
+<img src="./assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
 
 ---
 
@@ -30,7 +30,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
+<img src="./assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
 
 <p align="center"><sub>Commit Density · Pull Requests · Issues · Repository Work</sub></p>
 
@@ -40,7 +40,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity map" width="100%" />
+<img src="./assets/activity.svg" alt="Animated engineering activity map" width="100%" />
 
 ---
 
@@ -60,7 +60,7 @@ That Is The Thread I Am Deepening.
 
 ### 01 · Sentinel Lakehouse
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture-cinematic.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
+<img src="./assets/architecture-cinematic.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
 A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine, CDC, SCD1/SCD2, Observability, Governance And Performance Trade Offs**.
 
@@ -86,7 +86,7 @@ Small Reproducible Work Around **Replication, Consistency, Fault Tolerance, Conc
 
 ## Technical DNA
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/tech-marquee.svg" alt="Animated technical stack" width="100%" />
+<img src="./assets/tech-marquee.svg" alt="Animated technical stack" width="100%" />
 
 **Data** · Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
 
@@ -102,7 +102,7 @@ Small Reproducible Work Around **Replication, Consistency, Fault Tolerance, Conc
 
 The Useful Part Of An Engineering Metric Is The Reasoning Behind It.
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/proof.svg" alt="Animated engineering outcome bars" width="100%" />
+<img src="./assets/proof.svg" alt="Animated engineering outcome bars" width="100%" />
 
 Some Professional Implementations Are Confidential. The Public Work Shows The Engineering Patterns, Experiments And Decisions I Can Make Visible.
 
@@ -110,7 +110,7 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ## The Direction
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory.svg" alt="Animated space time prism showing engineering trajectory" width="100%" />
+<img src="./assets/trajectory.svg" alt="Animated space time prism showing engineering trajectory" width="100%" />
 
 **Current Practice** · Data Platforms · AWS · Databricks · Spark
 
@@ -122,7 +122,7 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ## Vision / Let's Collaborate
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
+<img src="./assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
 
 I Like Working On Problems Where **Data, Systems, Performance And Product Thinking** Meet.
 
