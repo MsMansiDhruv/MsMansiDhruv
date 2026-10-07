@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 720" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<defs><style>
+.bg{fill:#0B100E}.frame{fill:none;stroke:#2EC4B6;stroke-opacity:.18}.bar{fill:#101713}
+.m{fill:#8AA299;font-size:12px}.a{fill:#DCE7E1;font-size:10px;letter-spacing:.15px}.accent{fill:#2EC4B6}.orange{fill:#E8762E}
+.scan{animation:scan 5.8s linear infinite}@keyframes scan{0%{transform:translateY(0);opacity:0}12%{opacity:.45}88%{opacity:.45}100%{transform:translateY(520px);opacity:0}}
+.blink{animation:blink 1s steps(2,end) infinite}@keyframes blink{50%{opacity:0}}
+</style></defs>
+<rect width="860" height="720" rx="26" class="bg"/><rect x=".5" y=".5" width="859" height="719" rx="25" class="frame"/>
+<rect width="860" height="38" rx="26" class="bar"/>
+<circle cx="23" cy="19" r="5" class="orange"/><circle cx="41" cy="19" r="5" class="accent"/><circle cx="59" cy="19" r="5" fill="#66756F"/>
+<text x="82" y="24" class="m">Mansi@GitHub:~$ ./portrait.sh</text>
+<g transform="translate(31 62)">
+.................................................................
+</g>
+<text x="30" y="602" class="m">Mansi Dhruv</text>
+<text x="30" y="628" class="m">Lead Data Engineer · Solution Architect</text>
+<text x="30" y="660" class="m">Data Platforms · Distributed Systems · Performance · Accelerated Data</text>
+<text x="30" y="690" class="m">status: <tspan class="accent">building</tspan><tspan class="blink">▌</tspan></text>
+<rect x="28" y="58" width="804" height="490" fill="#E8762E" opacity=".10" class="scan"/>
+<line x1="28" y1="570" x2="832" y2="570" stroke="#2EC4B6" stroke-opacity=".13"/>
+<circle cx="813" cy="602" r="4" class="orange"/><circle cx="827" cy="602" r="4" class="accent"/>
+</svg>
