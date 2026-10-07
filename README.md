@@ -6,13 +6,21 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=2800&pause=900&color=2EC4B6&center=true&vCenter=true&width=820&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+distributed+and+accelerated+systems." alt="Animated engineering positioning" />
 
-<p>
-  <a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> ·
-  <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> ·
-  <a href="mailto:mansi.p.dhruv@gmail.com">email</a>
-</p>
+<p><a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
 
 </div>
+
+---
+
+<div align="center">
+
+### `mansi@github ~ $ ./contributions.sh`
+
+</div>
+
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contrib-heatmap.svg" alt="Animated contribution heatmap generated from GitHub data" width="100%" />
+
+<p align="center"><sub>Real contribution data · automatically regenerated · the graph grows when the work does.</sub></p>
 
 ---
 
@@ -20,16 +28,26 @@
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami panel" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv achievements panel" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv achievements" width="100%" />
 
 </td>
 </tr>
 </table>
+
+---
+
+<div align="center">
+
+### `mansi@github ~ $ ./activity.sh`
+
+</div>
+
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated recent contribution activity" width="100%" />
 
 ---
 
@@ -37,44 +55,11 @@
 
 I build and modernize data platforms around **AWS, Databricks, Apache Spark and PySpark**.
 
-The interesting part starts after the happy path works: **data movement, partitioning, joins, shuffle, memory, storage, execution plans, reliability and cost.**
+The interesting problems start after the happy path works: **data movement, partitioning, joins, shuffle, memory, storage, execution plans, reliability and cost.**
 
 **Data Platforms → Distributed Processing → Query Execution → Performance → Accelerated Data Systems**
 
 That is the thread I am deliberately following.
-
----
-
-## Contributions
-
-This is one of the pieces I wanted to make more like a real personal system rather than a generic GitHub widget.
-
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contrib-heatmap.svg" alt="Animated contribution heatmap" width="100%" />
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated contribution activity feed" width="100%" />
-
-</td>
-<td width="40%" valign="top">
-
-### The rule
-
-No fake streaks.  
-No contribution padding.  
-No decorative activity.
-
-The graph is generated from **real GitHub contribution data**, while the activity panel is generated from public GitHub events and refreshed automatically.
-
-The public trail is small right now. That is fine.
-
-The next meaningful signal I am working toward is a **real Apache Spark contribution**.
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -162,11 +147,6 @@ The goal is not contribution count.
 
 ### Building systems. Measuring them. Learning what breaks.
 
-<p>
-<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">work</a> ·
-<a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> ·
-<a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> ·
-<a href="mailto:mansi.p.dhruv@gmail.com">email</a>
-</p>
+<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
 
 </div>
