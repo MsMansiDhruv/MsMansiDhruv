@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420">
+<defs>
+<style>
+.bg{fill:#0B100E}.panel{fill:#111915;stroke:#2EC4B6;stroke-opacity:.22}.m{font:12px "DejaVu Sans Mono",monospace;fill:#87A39A;letter-spacing:2px}.t{font:16px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.g{fill:#2EC4B6}.o{fill:#E8762E}.muted{fill:#697B74}.cursor{animation:blink 1s steps(2,end) infinite}.scan{animation:scan 4.5s linear infinite}@keyframes blink{50%{opacity:0}}@keyframes scan{from{transform:translateY(0);opacity:0}10%{opacity:.6}90%{opacity:.6}to{transform:translateY(340px);opacity:0}} 
+</style>
+</defs>
+<rect width="840" height="420" rx="24" class="bg"/>
+<rect x="1" y="1" width="838" height="418" rx="23" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
+<rect x="0" y="0" width="840" height="36" rx="24" fill="#111915"/>
+<circle cx="22" cy="18" r="5" class="o"/><circle cx="40" cy="18" r="5" class="g"/><circle cx="58" cy="18" r="5" fill="#66756F"/>
+<text x="82" y="23" class="m">mansi@github ~ $ whoami</text>
+<text x="34" y="76" class="g">role</text><text x="190" y="76" class="t">Lead Data Engineer / Solution Architect</text>
+<text x="34" y="108" class="g">focus</text><text x="190" y="108" class="t">data platforms → distributed systems</text>
+<text x="34" y="140" class="g">stack</text><text x="190" y="140" class="t">AWS · Spark · PySpark · Databricks</text>
+<text x="34" y="172" class="g">deep</text><text x="190" y="172" class="t">execution · performance · memory · I/O</text>
+<text x="34" y="204" class="g">next</text><text x="190" y="204" class="t">CUDA · RAPIDS · accelerated data systems</text>
+<line x1="34" y1="232" x2="806" y2="232" stroke="#2EC4B6" stroke-opacity=".14"/>
+<text x="34" y="266" class="m">engineering rule</text>
+<text x="34" y="300" class="t">measure first → change the right layer → measure again<span class="cursor">▌</span></text>
+<text x="34" y="350" class="muted">public profile / reproducible systems / open source in progress</text>
+<rect x="790" y="48" width="2" height="330" class="g" opacity=".35" class="scan"/>
+</svg>
