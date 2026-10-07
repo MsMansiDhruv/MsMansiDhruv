@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420">
+<defs>
+<style>
+.bg{fill:#0B100E}.card{fill:#111915;stroke:#E8762E;stroke-opacity:.22}.m{font:12px "DejaVu Sans Mono",monospace;fill:#87A39A;letter-spacing:2px}.h{font:700 25px Georgia,serif;fill:#E8EEE9}.v{font:700 30px Georgia,serif;fill:#2EC4B6}.s{font:13px "DejaVu Sans Mono",monospace;fill:#71827B}.dot{animation:p 2.4s ease-in-out infinite}@keyframes p{50%{opacity:.3;transform:scale(.7)}}
+</style>
+</defs>
+<rect width="840" height="420" rx="24" class="bg"/>
+<rect x="1" y="1" width="838" height="418" rx="23" fill="none" stroke="#E8762E" stroke-opacity=".14"/>
+<text x="34" y="42" class="m">ACHIEVEMENTS / SIGNALS WORTH SHOWING</text>
+<g transform="translate(26 68)">
+<rect width="382" height="142" rx="20" class="card"/><circle cx="28" cy="30" r="6" class="dot" fill="#E8762E"/><text x="50" y="36" class="h">GEM AWARD</text><text x="24" y="76" class="s">recognition for engineering impact</text><text x="24" y="112" class="v">awarded</text>
+<rect x="406" width="382" height="142" rx="20" class="card"/><circle cx="434" cy="30" r="6" class="dot" fill="#2EC4B6"/><text x="456" y="36" class="h">6+ YEARS</text><text x="430" y="76" class="s">building production data systems</text><text x="430" y="112" class="v">experience</text>
+<rect y="160" width="382" height="142" rx="20" class="card"/><circle cx="28" cy="190" r="6" class="dot" fill="#2EC4B6"/><text x="50" y="196" class="h">MASTER'S</text><text x="24" y="236" class="s">graduate-level engineering foundation</text><text x="24" y="272" class="v">completed</text>
+<rect x="406" y="160" width="382" height="142" rx="20" class="card"/><circle cx="434" cy="190" r="6" class="dot" fill="#E8762E"/><text x="456" y="196" class="h">AWS PATH</text><text x="430" y="236" class="s">building toward solutions architecture</text><text x="430" y="272" class="v">in progress</text>
+</g>
+<text x="34" y="392" class="m">less “badge collecting” · more engineering signal</text>
+</svg>
