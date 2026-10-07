@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330">
-<style>
-.bg{fill:#0B100E}.card{fill:#101713;stroke:#E8762E;stroke-opacity:.18}.m{font:11px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.2px}.h{font:700 17px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.s{font:11px "DejaVu Sans Mono",monospace;fill:#7B8E85}.v{font:700 18px "DejaVu Sans Mono",monospace;fill:#2EC4B6}.dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{50%{opacity:.3;transform:scale(.65)}}
-</style>
-<rect width="780" height="330" rx="22" class="bg"/>
-<rect x="0.5" y="0.5" width="779" height="329" rx="21" fill="none" stroke="#E8762E" stroke-opacity=".14"/>
-<text x="24" y="28" class="m">ACHIEVEMENTS / SIGNALS WORTH SHOWING</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 350">
+<style>.bg{fill:#0B100E}.card{fill:#101713;stroke:#E8762E;stroke-opacity:.20}.m{font:11px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.2px}.h{font:700 16px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.s{font:11px "DejaVu Sans Mono",monospace;fill:#7A8C84}.v{font:700 17px "DejaVu Sans Mono",monospace;fill:#2EC4B6}.dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{50%{opacity:.28;transform:scale(.65)}}</style>
+<rect width="780" height="350" rx="22" class="bg"/><rect x=".5" y=".5" width="779" height="349" rx="21" fill="none" stroke="#E8762E" stroke-opacity=".14"/><text x="24" y="28" class="m">ACHIEVEMENTS / PROFESSIONAL SIGNAL</text>
 <g transform="translate(18 50)">
-<rect width="355" height="108" rx="16" class="card"/><circle cx="24" cy="24" r="5" fill="#E8762E" class="dot"/><text x="42" y="30" class="h">7+ years</text><text x="20" y="57" class="s">professional data engineering</text><text x="20" y="85" class="v">production</text>
-<rect x="389" width="355" height="108" rx="16" class="card"/><circle cx="413" cy="24" r="5" fill="#2EC4B6" class="dot"/><text x="431" y="30" class="h">GEM Award</text><text x="409" y="57" class="s">engineering impact recognized</text><text x="409" y="85" class="v">awarded</text>
-<rect y="124" width="355" height="108" rx="16" class="card"/><circle cx="24" cy="148" r="5" fill="#2EC4B6" class="dot"/><text x="42" y="154" class="h">Master's</text><text x="20" y="181" class="s">graduate technical foundation</text><text x="20" y="209" class="v">completed</text>
-<rect x="389" y="124" width="355" height="108" rx="16" class="card"/><circle cx="413" cy="148" r="5" fill="#E8762E" class="dot"/><text x="431" y="154" class="h">Engineering impact</text><text x="409" y="181" class="s">pipeline · cost · performance · reliability</text><text x="409" y="209" class="v">measured</text>
-</g>
-<text x="24" y="311" class="m">credentials + outcomes, not badge collecting</text>
+<rect width="355" height="108" rx="16" class="card"/><circle cx="23" cy="23" r="5" fill="#E8762E" class="dot"/><text x="40" y="29" class="h">7+ Years</text><text x="18" y="55" class="s">Professional Data Engineering</text><text x="18" y="86" class="v">Production</text>
+<rect x="389" width="355" height="108" rx="16" class="card"/><circle cx="412" cy="23" r="5" fill="#2EC4B6" class="dot"/><text x="430" y="29" class="h">GEM Award</text><text x="407" y="55" class="s">Engineering Impact</text><text x="407" y="86" class="v">Recognized</text>
+<rect y="124" width="355" height="108" rx="16" class="card"/><circle cx="23" cy="147" r="5" fill="#2EC4B6" class="dot"/><text x="40" y="153" class="h">Master's</text><text x="18" y="179" class="s">Graduate Technical Foundation</text><text x="18" y="210" class="v">Completed</text>
+<rect x="389" y="124" width="355" height="108" rx="16" class="card"/><circle cx="412" cy="147" r="5" fill="#E8762E" class="dot"/><text x="430" y="153" class="h">Production Impact</text><text x="407" y="179" class="s">Pipeline · Cost · Performance</text><text x="407" y="210" class="v">Measured</text>
+</g><text x="24" y="311" class="m">Credentials + Outcomes</text>
 </svg>
