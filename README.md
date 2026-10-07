@@ -12,22 +12,13 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait.svg" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
-
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait-v2.gif" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
 
 <img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
-</td>
-<td width="50%" valign="top">
+<br />
 
 <img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
-
-</td>
-</tr>
-</table>
 
 ---
 
