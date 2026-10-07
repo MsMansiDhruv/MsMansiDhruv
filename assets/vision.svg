@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 330">
+<style>.bg{fill:#0B100E}.p{fill:#101713;stroke:#2EC4B6;stroke-opacity:.18}.m{font:11px monospace;fill:#88A096;letter-spacing:1.4px}.h{font:700 19px monospace;fill:#E8EEE9}.s{font:11px monospace;fill:#73877D}.o{fill:#E8762E}.g{fill:#2EC4B6}.orb{animation:o 5s linear infinite}@keyframes o{to{transform:rotate(360deg)}}</style>
+<rect width="980" height="330" rx="26" class="bg"/><rect x=".5" y=".5" width="979" height="329" rx="25" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
+<text x="32" y="30" class="m">VISION / LET'S COLLABORATE</text><text x="32" y="58" class="h">Good Systems Get Better When The Right People Build Together.</text>
+<rect x="30" y="92" width="285" height="150" rx="18" class="p" stroke="#2EC4B6"/><text x="48" y="118" class="m">WHAT I BRING</text><text x="48" y="154" class="s">Production Data Engineering</text><text x="48" y="179" class="s">AWS · Spark · Databricks</text><text x="48" y="204" class="s">Architecture · Performance</text>
+<rect x="345" y="92" width="285" height="150" rx="18" class="p" stroke="#E8762E"/><text x="363" y="118" class="m">WHAT I EXPLORE</text><text x="363" y="154" class="s">Query Execution</text><text x="363" y="179" class="s">Distributed Systems</text><text x="363" y="204" class="s">CUDA · RAPIDS · GPU Data</text>
+<rect x="660" y="92" width="285" height="150" rx="18" class="p" stroke="#2EC4B6"/><text x="678" y="118" class="m">WHAT WE CAN BUILD</text><text x="678" y="154" class="s">Benchmarks</text><text x="678" y="179" class="s">Open Systems</text><text x="678" y="204" class="s">Research · Experiments</text><circle cx="900" cy="118" r="7" class="o"/>
+<text x="32" y="285" class="m">DATA SYSTEMS · PERFORMANCE · ARCHITECTURE · GPU DATA</text>
+</svg>
