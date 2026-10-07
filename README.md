@@ -1,134 +1,138 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/profile/avatar.jpg" width="132" alt="Mansi Dhruv — illustrated avatar" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/profile/avatar.jpg" width="118" alt="Illustrated Mansi Dhruv avatar" />
 
-# Mansi Dhruv
+<h1>Mansi Dhruv</h1>
 
-**Lead Data Engineer · Solution Architect**
+<p><strong>Lead Data Engineer · Solution Architect</strong></p>
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=20&duration=2600&pause=800&color=1677FF&center=true&vCenter=true&width=720&lines=I+build+data+systems;I+debug+the+slow+part;I+study+what+happens+underneath;I%27m+heading+toward+accelerated+data+systems" alt="Animated profile positioning" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2800&pause=900&color=2E63D7&center=true&vCenter=true&width=760&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+accelerated+data+systems." alt="Animated positioning statement" />
 
-<a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
-<a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
-<a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
+<p><a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 
 </div>
 
-<img src="https://www.gitskins.com/api/section/hero?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins Studio hero" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/hero.svg" alt="Cinematic engineering system illustration" width="100%" />
 
-<div align="center"><sub>DATA ENGINEERING  ·  DISTRIBUTED SYSTEMS  ·  PERFORMANCE  ·  GPU DATA</sub></div>
+<div align="center"><sub>RELIABLE DATA · DISTRIBUTED PROCESSING · QUERY EXECUTION · PERFORMANCE · GPU DATA</sub></div>
 
 ---
 
-<div align="center"><sub>WHOAMI</sub></div>
+## The idea
 
-## I like the part where the diagram meets reality.
+> **I like the part where the diagram meets reality.**
 
 I build and modernize data platforms around **AWS, Databricks, Apache Spark and PySpark**.
 
-My work is increasingly about the layer underneath the platform: **execution, data movement, partitioning, joins, shuffle, memory, storage, cost and reliability**.
+The interesting problems start after the happy path works: **where data moves, where time disappears, where memory goes, what the execution plan is actually doing, and whether more compute is even the right answer.**
 
-The rule I keep coming back to:
-
-<p align="center"><strong>measure first → change the right layer → measure again</strong></p>
-
-![Animated system signal](https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/particles.gif)
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/system-arc.svg" alt="Animated engineering arc" width="100%" />
 
 ---
 
-<div align="center"><sub>WHAT KEEPS ME BUSY</sub></div>
+## What I am building
 
-<img src="https://www.gitskins.com/api/section/highlights?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated focus highlights" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/particles.gif" alt="Subtle animated data field" width="100%" />
 
-**Now:** production data platforms · AWS · Databricks · Spark
+### 01 — Sentinel Lakehouse
 
-**Next:** Spark internals · query execution · distributed systems · performance
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/sentinel-lakehouse/main/docs/sentinel-architecture.jpg" alt="Sentinel Lakehouse architecture" width="100%" />
 
-**Longer arc:** parallel computing · CUDA · RAPIDS · accelerated data systems
+**Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · CDC · Unity Catalog**
+
+A deliberately imperfect commerce lakehouse built to explore **schema evolution, malformed data, quality gates, quarantine, CDC, SCD1/SCD2, observability, governance and performance trade-offs**.
+
+→ [Read the engineering decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+
+### 02 — Query Engine Lab
+
+`SQL → Logical Plan → Optimization → Physical Plan → Execution`
+
+A small engine for understanding the machinery analytical systems normally hide.
+
+### 03 — Spark Performance Lab
+
+Controlled experiments around **partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans**.
+
+### 04 — Distributed Systems Experiments
+
+Small reproducible studies around **replication, consistency, fault tolerance, concurrency and data movement**.
 
 ---
 
-<div align="center"><sub>FEATURED WORK</sub></div>
+## Technical DNA
 
-<img src="https://www.gitskins.com/api/section/projects?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated project showcase" width="100%" />
+**DATA SYSTEMS**  
+Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
 
-### The work behind the cards
+**CLOUD**  
+AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena · API Gateway
 
-**[Sentinel Lakehouse](https://github.com/MsMansiDhruv/sentinel-lakehouse)** — a production-oriented Databricks lakehouse built around schema evolution, DQ, quarantine, CDC, SCD1/SCD2, observability, governance and measured performance trade-offs.
+**ENGINEERING**  
+Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis
 
-**Query Engine Lab** — following `SQL → logical plan → optimization → physical plan → execution` instead of treating the engine as a black box.
-
-**Spark Performance Lab** — controlled experiments around joins, shuffle, skew, partitioning, AQE, caching and execution plans.
-
-**Distributed Systems Experiments** — small studies of replication, consistency, fault tolerance, concurrency and data movement.
+**NEXT LAYER**  
+C/C++ · CUDA · RAPIDS/cuDF · performance profiling · query execution
 
 ---
 
-<div align="center"><sub>TECHNICAL DNA</sub></div>
+## Proof of work
 
-<img src="https://www.gitskins.com/api/section/stack?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated technology stack" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/proof-strip.svg" alt="Animated measured engineering outcomes" width="100%" />
+
+I care less about making a metric look impressive and more about being able to explain **what changed, why it changed, and how it was measured**.
 
 <details>
-<summary><strong>Full stack</strong></summary>
+<summary><strong>Selected outcomes</strong></summary>
 
-**Data:** Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming  
-**Cloud:** AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena · API Gateway  
-**Engineering:** Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis  
-**Analytics / ML:** MLflow · production ML workflows · Power BI · Tableau  
-**Next layer:** C/C++ · CUDA · RAPIDS/cuDF · profiling · query execution
+<br/>
+
+~40% faster end-to-end pipeline · ~30% lower infrastructure cost · ~45% lower processing time · ~85% improvement on an affected slow-SQL path · ~50% reduction in manual monitoring
 
 </details>
 
 ---
 
-<div align="center"><sub>PROOF OF WORK</sub></div>
+## GitHub — the workbench
 
-![GitSkins animated engineering highlights](https://www.gitskins.com/api/section/highlights?username=MsMansiDhruv&theme=studio&style=aura)
+<img src="https://www.gitskins.com/api/section/heatmap?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated contribution heatmap" width="100%" />
 
-<p align="center"><strong>~40%</strong> faster pipeline · <strong>~30%</strong> lower infrastructure cost · <strong>~45%</strong> lower processing time · <strong>~85%</strong> improvement on an affected slow-SQL path</p>
+<div align="center">
+<img src="https://www.gitskins.com/api/section/stats?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated GitHub stats" width="76%" />
+</div>
 
-The numbers only matter because I can explain **what changed, why it changed, and how it was measured**.
-
----
-
-<div align="center"><sub>CONTRIBUTION PLAYGROUND</sub></div>
-
-## Starting from here.
-
-<img src="https://www.gitskins.com/api/section/heatmap?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated GitHub activity" width="100%" />
-
-<img src="https://www.gitskins.com/api/section/stats?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated GitHub stats" width="100%" />
-
-<p align="center"><sub>No contribution padding. The graph gets interesting when the work does.</sub></p>
+<p align="center"><sub>The activity history is intentionally organic. No contribution padding.</sub></p>
 
 ---
 
-<div align="center"><sub>THE DIRECTION</sub></div>
+## The direction
 
-## Where I am taking this
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/system-arc.svg" alt="Engineering direction" width="100%" />
 
-`Data Platforms` → `Distributed Processing` → `Query Execution` → `Performance` → `Parallel Computing` → `GPU Data Systems`
+**Now** — Lead Data Engineering · AWS · Databricks · Spark  
+**Next** — Spark internals · distributed query execution · performance  
+**Longer term** — parallel computing · CUDA · RAPIDS · accelerated data systems
 
-I am currently learning **Spark internals, distributed query execution, system design, memory/I/O, parallel computing, CUDA and RAPIDS/cuDF**.
+Currently learning: `Spark internals` · `system design` · `memory / I/O` · `parallel computing` · `CUDA` · `RAPIDS/cuDF`
 
 ---
 
-<div align="center"><sub>OPEN SOURCE</sub></div>
+## Open source
 
-### Depth over contribution count.
+**Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · RAPIDS**
 
-My target ecosystem is **Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · RAPIDS**.
+The goal is not contribution count. It is: **reproduce the problem → understand the root cause → make the smallest useful change → learn from review.**
 
-My first goal is simple: **reproduce a real problem → understand the root cause → make the smallest useful change → learn from review.**
+### Next milestone
+
+**First meaningful Apache Spark contribution.**
 
 ---
 
 <div align="center">
 
-<img src="https://www.gitskins.com/api/section/social?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated social links" width="76%" />
+<h2>Building systems. Measuring them. Learning what breaks.</h2>
 
-### Building systems. Measuring them. Learning what breaks.
-
-<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
+<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 
 </div>
