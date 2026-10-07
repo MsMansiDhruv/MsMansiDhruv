@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F4EC"/><stop offset="0.55" stop-color="#FAF8F2"/><stop offset="1" stop-color="#EEF4FB"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2E63D7"/><stop offset="1" stop-color="#7EA8EA"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <style>
+    .grid{stroke:#8A9096;stroke-opacity:.16;stroke-width:1}
+    .mono{font:14px "DejaVu Sans Mono",monospace;letter-spacing:2px;fill:#6E7378}
+    .serif{font:700 62px Georgia,serif;fill:#161A1D}
+    .small{font:15px "DejaVu Sans Mono",monospace;fill:#60666B}
+    .line{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    .float{animation:float 4.5s ease-in-out infinite}
+    .dash{stroke-dasharray:12 10;animation:dash 3.5s linear infinite}
+    .blink{animation:blink 1.6s steps(2,end) infinite}
+    @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+</defs>
+<rect width="1400" height="520" fill="url(#bg)"/>
+<g class="grid">
+  <path d="M0 80H1400M0 160H1400M0 240H1400M0 320H1400M0 400H1400M0 480H1400"/>
+  <path d="M80 0V520M180 0V520M280 0V520M380 0V520M480 0V520M580 0V520M680 0V520M780 0V520M880 0V520M980 0V520M1080 0V520M1180 0V520M1280 0V520"/>
+</g>
+<text x="54" y="54" class="mono">MANSI DHRUV  /  ENGINEERING PROFILE</text>
+<text x="1130" y="54" class="mono">SYSTEM 01</text>
+<text x="54" y="142" class="serif">Build.</text>
+<text x="54" y="208" class="serif" fill="#2E63D7">Measure.</text>
+<text x="54" y="274" class="serif">Understand.</text>
+<text x="56" y="316" class="small">data platforms · distributed processing · performance</text>
+<g transform="translate(555 80)" class="float">
+  <ellipse cx="310" cy="290" rx="265" ry="28" fill="#1A1D20" opacity=".08" filter="url(#soft)"/>
+  <path d="M70 270 C145 308 380 314 555 252 L505 290 C390 336 180 340 92 304 Z" fill="#191D20"/>
+  <path d="M300 270 V26" stroke="#666B70" stroke-width="4"/>
+  <path d="M314 45 L500 218 L314 235 Z" fill="url(#blue)" stroke="#F7F4EC" stroke-width="4"/>
+  <path d="M314 45 L314 235" stroke="#D8E3F7" stroke-width="2"/>
+  <path d="M95 292 C170 315 270 320 365 312" class="line dash" stroke="#2E63D7" stroke-width="4"/>
+  <circle cx="104" cy="294" r="7" fill="#E8762E" class="pulse"/>
+  <circle cx="438" cy="304" r="7" fill="#2E63D7" class="pulse"/>
+  <circle cx="530" cy="260" r="7" fill="#E8762E" class="pulse"/>
+</g>
+<g transform="translate(1010 120)">
+  <rect x="0" y="0" width="320" height="172" rx="22" fill="#FFFFFF" fill-opacity=".72" stroke="#5E666D" stroke-opacity=".22"/>
+  <circle cx="24" cy="24" r="6" fill="#E8762E" class="pulse"/>
+  <text x="42" y="30" class="small" fill="#2E63D7">LIVE SYSTEM TRACE</text>
+  <text x="24" y="70" class="small">ingest</text><text x="106" y="70" class="small">→</text><text x="135" y="70" class="small">partition</text>
+  <text x="24" y="101" class="small">join</text><text x="106" y="101" class="small">→</text><text x="135" y="101" class="small">execute</text>
+  <text x="24" y="132" class="small">measure</text><text x="106" y="132" class="small">→</text><text x="135" y="132" class="small">optimize</text>
+  <rect x="24" y="150" width="200" height="3" rx="2" fill="#D7DCE1"/>
+  <rect x="24" y="150" width="138" height="3" rx="2" fill="#2E63D7">
+    <animate attributeName="width" values="72;210;124;188;72" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<g transform="translate(1000 365)">
+  <text x="0" y="0" class="small">DATA → SPARK → QUERY → PERFORMANCE → GPU</text>
+  <line x1="0" y1="25" x2="330" y2="25" stroke="#8A9096" stroke-opacity=".25"/>
+  <circle cx="72" cy="25" r="5" fill="#2E63D7" class="pulse"/><circle cx="166" cy="25" r="5" fill="#E8762E" class="pulse"/><circle cx="258" cy="25" r="5" fill="#2E63D7" class="pulse"/><circle cx="330" cy="25" r="5" fill="#E8762E" class="pulse"/>
+</g>
+<text x="56" y="460" class="mono">RELIABLE SYSTEMS / EVIDENCE-FIRST ENGINEERING</text>
+<text x="1322" y="462" text-anchor="end" class="mono">●</text>
+</svg>
