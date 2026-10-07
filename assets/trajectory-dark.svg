@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 180">
+<style>
+.bg{fill:#0B100E}.m{font:11px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.4px}.h{font:700 19px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.line{fill:none;stroke:#536E63;stroke-width:2;stroke-dasharray:8 9;animation:dash 4s linear infinite}.n{fill:#101713;stroke:#2EC4B6;stroke-width:2}.hot{stroke:#E8762E}.orb{fill:#E8762E;animation:move 5s linear infinite}@keyframes dash{to{stroke-dashoffset:-100}}@keyframes move{to{transform:translateX(760px)}}
+</style>
+<rect width="960" height="180" rx="22" class="bg"/>
+<rect x=".5" y=".5" width="959" height="179" rx="21" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
+<text x="26" y="27" class="m">ENGINEERING DIRECTION</text>
+<text x="26" y="53" class="h">Deepening the same systems thread</text>
+<path d="M70 105 C190 72 280 132 400 104 S620 72 835 108" class="line"/>
+<circle cx="70" cy="105" r="20" class="n"/><circle cx="260" cy="92" r="20" class="n"/><circle cx="400" cy="104" r="20" class="n hot"/><circle cx="620" cy="90" r="20" class="n"/><circle cx="835" cy="108" r="20" class="n hot"/>
+<text x="70" y="140" text-anchor="middle" class="m">DATA</text><text x="260" y="127" text-anchor="middle" class="m">CLOUD</text><text x="400" y="139" text-anchor="middle" class="m">SPARK</text><text x="620" y="125" text-anchor="middle" class="m">SYSTEMS</text><text x="835" y="143" text-anchor="middle" class="m">GPU</text>
+<circle cx="58" cy="105" r="5" class="orb"/>
+<text x="26" y="166" class="m">production systems → distributed processing → performance → accelerated data</text>
+</svg>
