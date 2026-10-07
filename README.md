@@ -12,7 +12,9 @@
 
 ---
 
-<img src="./assets/mansi-avatar.jpg" alt="Mansi Dhruv illustrated avatar" width="100%" />
+<p align="center">
+  <img src="https://github.com/MsMansiDhruv/MsMansiDhruv/raw/refs/heads/main/assets/mansi-avatar.jpg" alt="Mansi Dhruv illustrated avatar" width="420" />
+</p>
 
 <img src="./assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
