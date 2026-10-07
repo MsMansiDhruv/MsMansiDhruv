@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 210">
+<defs><style>.bg{fill:#F7F4EC}.card{fill:#fff;fill-opacity:.72;stroke:#858B91;stroke-opacity:.18}.n{font:700 54px Georgia,serif;fill:#171B1E}.b{font:13px "DejaVu Sans Mono",monospace;fill:#6D7277}.bar{animation:bar 3.5s ease-in-out infinite}@keyframes bar{0%,100%{width:55}50%{width:180}}.dot{animation:dot 2s ease-in-out infinite}@keyframes dot{50%{r:9;opacity:.4}}</style></defs>
+<rect width="1400" height="210" rx="28" class="bg"/>
+<text x="42" y="32" class="b">MEASURED OUTCOMES / SELECTED PROFESSIONAL WORK</text>
+<g transform="translate(35 58)">
+<rect x="0" y="0" width="320" height="120" rx="20" class="card"/><text x="24" y="55" class="n" fill="#2E63D7">~40%</text><text x="25" y="82" class="b">PIPELINE TIME ↓</text><rect x="24" y="98" width="230" height="6" rx="3" fill="#D8DDE2"/><rect x="24" y="98" width="140" height="6" rx="3" fill="#2E63D7" class="bar"/>
+<rect x="335" y="0" width="320" height="120" rx="20" class="card"/><text x="359" y="55" class="n">~30%</text><text x="360" y="82" class="b">INFRA COST ↓</text><rect x="359" y="98" width="230" height="6" rx="3" fill="#D8DDE2"/><rect x="359" y="98" width="125" height="6" rx="3" fill="#E8762E" class="bar"/>
+<rect x="670" y="0" width="320" height="120" rx="20" class="card"/><text x="694" y="55" class="n" fill="#2E63D7">~45%</text><text x="695" y="82" class="b">PROCESSING TIME ↓</text><rect x="694" y="98" width="230" height="6" rx="3" fill="#D8DDE2"/><rect x="694" y="98" width="155" height="6" rx="3" fill="#2E63D7" class="bar"/>
+<rect x="1005" y="0" width="320" height="120" rx="20" class="card"/><text x="1029" y="55" class="n">~85%</text><text x="1030" y="82" class="b">SLOW-SQL PATH ↑</text><rect x="1029" y="98" width="230" height="6" rx="3" fill="#D8DDE2"/><rect x="1029" y="98" width="175" height="6" rx="3" fill="#E8762E" class="bar"/></g>
+<circle cx="1330" cy="32" r="6" fill="#2E63D7" class="dot"/><circle cx="1350" cy="32" r="6" fill="#E8762E" class="dot"/>
+</svg>
