@@ -12,13 +12,13 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait.svg" alt="Animated Mansi Dhruv portrait in a terminal inspired visual" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait.svg" alt="Animated portrait based on the Mansi Dhruv avatar" width="100%" />
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami terminal" width="100%" />
 
 </td>
 <td width="50%" valign="top">
@@ -39,17 +39,23 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap with density view" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
 
-<p align="center"><sub>Real GitHub contribution data, rendered into a custom visual system.</sub></p>
+<p align="center"><sub>Commit Density · Pull Requests · Issues · Repository Work</sub></p>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity pipeline" width="100%" />
+<div align="center">
+
+### `Mansi@GitHub:~$ ./activity.sh`
+
+</div>
+
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity map" width="100%" />
 
 ---
 
 ## What I Work On
 
-I Have **7+ Years Of Professional Experience** Building And Modernizing Production Data Systems.
+I Have **Current Professional Experience** Building And Modernizing Production Data Systems.
 
 My Work Spans **AWS, Databricks, Apache Spark And PySpark**, With A Strong Focus On The Problems Beneath The Platform: Data Movement, Partitioning, Joins, Shuffle, Memory, Storage, Execution Plans, Reliability And Cost.
 
@@ -63,7 +69,7 @@ That Is The Thread I Am Deepening.
 
 ### 01 · Sentinel Lakehouse
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture-cinematic.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
 A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine, CDC, SCD1/SCD2, Observability, Governance And Performance Trade Offs**.
 
@@ -75,7 +81,7 @@ A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine
 
 `SQL → Logical Plan → Optimization → Physical Plan → Execution`
 
-A Small Laboratory For Understanding What Analytical Systems Are Actually Doing Underneath The API.
+A Small Laboratory For Understanding What Analytical Systems Are Acutally Doing Underneath The API.
 
 ### 03 · Spark Performance Lab
 
@@ -125,7 +131,7 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ## Vision / Let's Collaborate
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
 
 I Like Working On Problems Where **Data, Systems, Performance And Product Thinking** Meet.
 
@@ -136,7 +142,7 @@ For Collaboration, I Am Especially Interested In **Data Platforms, Spark And Que
 <div align="center">
 
 ### Building Systems. Measuring Them. Learning What Breaks.
-
-<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
+<br>
+<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv">InkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 
 </div>
