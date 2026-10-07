@@ -12,20 +12,18 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/portrait.svg" alt="Animated Mansi Dhruv portrait in a terminal inspired visual" width="100%" />
+
 <table>
 <tr>
-<td width="54%" valign="top">
+<td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/mansi-ascii.svg" alt="Animated terminal portrait of Mansi Dhruv" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.svg" alt="Mansi Dhruv whoami" width="100%" />
 
 </td>
-<td width="46%" valign="top">
+<td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/whoami.gif" alt="Mansi Dhruv whoami terminal" width="100%" />
-
-<br />
-
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.png" alt="Mansi Dhruv professional achievements" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
 
 </td>
 </tr>
@@ -37,23 +35,15 @@
 
 <div align="center">
 
-### `Mansi@GitHub ~ $ ./contributions.sh`
+### `Mansi@GitHub:~$ ./contributions.sh`
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contrib-heatmap.gif" alt="Animated GitHub contribution heatmap" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap with density view" width="100%" />
 
-<p align="center"><sub>Real GitHub activity, rendered into my own visual system.</sub></p>
+<p align="center"><sub>Real GitHub contribution data, rendered into a custom visual system.</sub></p>
 
-<div align="center">
-
-### `Mansi@GitHub ~ $ ./activity.sh`
-
-</div>
-
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.gif" alt="Animated recent GitHub activity" width="100%" />
-
-<p align="center"><sub>Recent public activity from this account. Updated automatically.</sub></p>
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity pipeline" width="100%" />
 
 ---
 
@@ -73,7 +63,7 @@ That Is The Thread I Am Deepening.
 
 ### 01 · Sentinel Lakehouse
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture.gif" alt="Animated Sentinel Lakehouse architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
 A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine, CDC, SCD1/SCD2, Observability, Governance And Performance Trade Offs**.
 
@@ -115,7 +105,7 @@ Small Reproducible Work Around **Replication, Consistency, Fault Tolerance, Conc
 
 The Useful Part Of An Engineering Metric Is The Reasoning Behind It.
 
-**~40%** Faster End To End Pipeline · **~30%** Lower Infrastructure Cost · **~45%** Lower Processing Time · **~85%** Improvement On An Affected Slow SQL Path · **~50%** Less Manual Monitoring
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/proof.svg" alt="Animated engineering outcome bars" width="100%" />
 
 Some Professional Implementations Are Confidential. The Public Work Shows The Engineering Patterns, Experiments And Decisions I Can Make Visible.
 
@@ -123,7 +113,7 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ## The Direction
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory.gif" alt="Animated engineering trajectory" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory.svg" alt="Animated space time prism showing engineering trajectory" width="100%" />
 
 **Current Practice** · Data Platforms · AWS · Databricks · Spark
 
@@ -133,13 +123,13 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ---
 
-## Open Source
+## Vision / Let's Collaborate
 
-Open Source Is A Natural Extension Of The Work I Already Do With Data Platforms And Distributed Processing.
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
 
-My Focus Is On **Apache Spark, Airflow, MLflow, Delta Lake, Kubernetes And RAPIDS**, Where I Can Bring Production Experience To Real Engineering Problems.
+I Like Working On Problems Where **Data, Systems, Performance And Product Thinking** Meet.
 
-The Public Side Of This Profile Will Grow Through **Code, Benchmarks, Experiments, Fixes And Upstream Contributions**.
+For Collaboration, I Am Especially Interested In **Data Platforms, Spark And Query Execution, Performance Experiments, Semantic Systems, GenAI Data Workflows, And GPU Accelerated Data Systems**.
 
 ---
 
