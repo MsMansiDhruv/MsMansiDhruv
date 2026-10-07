@@ -1,46 +1,31 @@
-name: Refresh profile art
+name: Refresh Contribution Visual
 
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 0 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "README.md"
-      - "scripts/render_profile_art.py"
-      - ".github/workflows/update-profile-art.yml"
 
 permissions:
   contents: write
 
 jobs:
   render:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-
-      - name: Install image renderer
-        run: pip install pillow
-
-      - name: Render live profile visuals
+      - name: Render Contribution Visual
         run: python scripts/render_profile_art.py
-
-      - name: Commit refreshed visuals
+      - name: Commit Updated Visual
         run: |
-          git add assets/*.gif assets/achievements.png
-          if git diff --cached --quiet; then
-            echo "No profile art changes."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh profile visuals"
+          git add assets/contributions.svg
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: refresh contribution visual"
           git push
