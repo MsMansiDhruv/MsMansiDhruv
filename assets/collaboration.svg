@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#071614"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1D1A"/><stop offset="1" stop-color="#0A1715"/></linearGradient>
+<radialGradient id="g" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".18"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
+<style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:Inter,Segoe UI,Arial,sans-serif}.t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}@keyframes flow{from{stroke-dashoffset:130}to{stroke-dashoffset:0}}@keyframes pulse{0%,100%{opacity:.2}50%{opacity:1}}@keyframes sweep{0%{transform:translateX(-1200px);opacity:0}25%{opacity:.35}75%{opacity:.35}100%{transform:translateX(1200px);opacity:0}}</style>
+</defs><rect width="1600" height="380" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1598" height="378" rx="27" fill="none" stroke="#17352F"/><title>Vision and Collaboration</title>
+<text x="50" y="56" class="m gt" font-size="14">Mansi@GitHub:~$ ./collab</text>
+<text x="50" y="91" class="s t" font-size="32" font-weight="700">Vision / Let's Collaborate</text>
+<text x="50" y="119" class="s mt" font-size="15">Good Work Usually Starts With A Hard Problem Worth Taking Apart.</text>
+<g fill="none" stroke-linecap="round"><path d="M800 190 C610 108 470 214 300 168" stroke="#2EE6A7" stroke-width="2"/><path d="M800 190 C990 106 1125 232 1325 168" stroke="#FF9B4A" stroke-width="2"/><path d="M800 190 C640 296 510 304 320 322" stroke="#5EC8FF" stroke-width="2"/><path d="M800 190 C990 298 1130 300 1338 322" stroke="#2EE6A7" stroke-width="2"/></g>
+<circle cx="800" cy="190" r="54" fill="url(#g)" stroke="#2EE6A7" stroke-width="2"/><text x="800" y="186" class="m gt" font-size="12" text-anchor="middle">BUILD</text><text x="800" y="208" class="s t" font-size="17" font-weight="700" text-anchor="middle">Together</text>
+<g class="s"><rect x="170" y="134" width="240" height="70" rx="15" fill="url(#panel)" stroke="#17352F"/><text x="290" y="162" class="m gt" font-size="11" text-anchor="middle">DATA PLATFORMS</text><text x="290" y="185" class="t" font-size="13" text-anchor="middle">Architecture · Reliability</text>
+<rect x="1190" y="134" width="240" height="70" rx="15" fill="url(#panel)" stroke="#17352F"/><text x="1310" y="162" class="m ot" font-size="11" text-anchor="middle">PERFORMANCE</text><text x="1310" y="185" class="t" font-size="13" text-anchor="middle">Spark · Query Execution</text>
+<rect x="175" y="278" width="270" height="70" rx="15" fill="url(#panel)" stroke="#17352F"/><text x="310" y="306" class="m gt" font-size="11" text-anchor="middle">SEMANTIC + GENAI</text><text x="310" y="329" class="t" font-size="13" text-anchor="middle">Grounded Data Experiences</text>
+<rect x="1175" y="278" width="270" height="70" rx="15" fill="url(#panel)" stroke="#17352F"/><text x="1310" y="306" class="m ot" font-size="11" text-anchor="middle">ACCELERATED SYSTEMS</text><text x="1310" y="329" class="t" font-size="13" text-anchor="middle">CUDA · RAPIDS · GPU Data</text></g></svg>

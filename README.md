@@ -1,133 +1,87 @@
 <div align="center">
-
-# Mansi Dhruv
-
-**Lead Data Engineer · Solution Architect**
-
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=2800&pause=900&color=2EC4B6&center=true&vCenter=true&width=820&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+distributed+and+accelerated+systems." alt="Animated engineering positioning" />
-
+<img src="./assets/signal-field.svg" alt="Mansi Dhruv visual engineering workbench" width="100%" />
 <p><a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
-
 </div>
 
 ---
 
-<img src="./assets/profile-hero.svg" alt="Mansi Dhruv cinematic GitHub profile hero with illustrated portrait, engineering identity, technical focus and professional highlights" width="100%" />
+## 01 / Contribution Field
+
+<img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
+
+This Is The Public Part Of The Work. Most Production Systems Stay Private, So GitHub Is Where I Make The Reproducible Pieces Visible.
 
 ---
 
-## Contributions
+## 02 / How I Work
 
-<div align="center">
+<img src="./assets/activity.svg" alt="Engineering activity across medallion, semantic and GenAI layers" width="100%" />
 
-### `Mansi@GitHub:~$ ./contributions.sh`
-
-</div>
-
-<img src="./assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
-
-<p align="center"><sub>Commit Density · Pull Requests · Issues · Repository Work</sub></p>
-
-<div align="center">
-
-### `Mansi@GitHub:~$ ./activity.sh`
-
-</div>
-
-<img src="./assets/activity.svg" alt="Animated engineering activity map" width="100%" />
+I Work From The Data Path Outward: Ingest, Model, Execute, Measure, Then Make The System Easier To Operate.
 
 ---
 
-## What I Work On
+## 03 / Sentinel Lakehouse
 
-I have **7+ years of professional experience** building and modernizing production data systems.
-
-My Work Spans **AWS, Databricks, Apache Spark And PySpark**, With A Strong Focus On The Problems Beneath The Platform: Data Movement, Partitioning, Joins, Shuffle, Memory, Storage, Execution Plans, Reliability And Cost.
-
-**Data Platforms → Distributed Processing → Query Execution → Performance → Accelerated Data Systems**
-
-That Is The Thread I Am Deepening.
-
----
-
-## Systems I Am Building
-
-### 01 · Sentinel Lakehouse
-
-<img src="./assets/architecture-cinematic.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
+<img src="./assets/sentinel-architecture.svg" alt="Sentinel Lakehouse animated architecture" width="100%" />
 
 A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine, CDC, SCD1/SCD2, Observability, Governance And Performance Trade Offs**.
 
 **Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog**
 
-→ [Read The Engineering Decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
-
-### 02 · Query Engine Lab
-
-`SQL → Logical Plan → Optimization → Physical Plan → Execution`
-
-A Small Laboratory For Understanding What Analytical Systems Are Acutally Doing Underneath The API.
-
-### 03 · Spark Performance Lab
-
-Controlled Experiments Around **Partitioning, Joins, Shuffle, Skew, AQE, Caching, Predicate Pushdown And Execution Plans**.
-
-### 04 · Distributed Systems Experiments
-
-Small Reproducible Work Around **Replication, Consistency, Fault Tolerance, Concurrency And Data Movement**.
+[Read The Engineering Decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
 
 ---
 
-## Technical DNA
+## 04 / Engineering Labs
 
-<img src="./assets/tech-marquee.svg" alt="Animated technical stack" width="100%" />
+**Query Engine Lab**  
+SQL → Logical Plan → Optimization → Physical Plan → Execution
+
+**Spark Performance Lab**  
+Partitioning · Joins · Shuffle · Skew · AQE · Caching · Predicate Pushdown · Execution Plans
+
+**Distributed Systems Experiments**  
+Replication · Consistency · Fault Tolerance · Concurrency · Data Movement
+
+These Are Small, Reproducible Projects For Understanding What Larger Systems Are Actually Doing.
+
+---
+
+## 05 / Systems Stack
 
 **Data** · Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
 
-**Cloud** · AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena · API Gateway
+**Cloud** · AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena
 
-**Engineering** · Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis
+**Engineering** · Python · Terraform · Docker · CI/CD · Airflow · Kafka
 
 **Next Layer** · C/C++ · CUDA · RAPIDS/cuDF · Profiling · Query Execution
 
 ---
 
-## Proof Of Work
+## 06 / Engineering Direction
 
-The Useful Part Of An Engineering Metric Is The Reasoning Behind It.
+<img src="./assets/trajectory.svg" alt="Animated space-time engineering trajectory" width="100%" />
 
-<img src="./assets/proof.svg" alt="Animated engineering outcome bars" width="100%" />
-
-Some Professional Implementations Are Confidential. The Public Work Shows The Engineering Patterns, Experiments And Decisions I Can Make Visible.
-
----
-
-## The Direction
-
-<img src="./assets/trajectory.svg" alt="Animated space time prism showing engineering trajectory" width="100%" />
-
-**Current Practice** · Data Platforms · AWS · Databricks · Spark
-
-**Current Study** · Spark Internals · Distributed Query Execution · Performance Engineering
-
-**Long Term** · Parallel Computing · CUDA · RAPIDS · GPU Data Systems
+**Current Practice** · Data Platforms · AWS · Databricks · Spark  
+**Current Study** · Spark Internals · Distributed Query Execution · Performance Engineering  
+**Longer Arc** · Parallel Computing · CUDA · RAPIDS · GPU Data Systems
 
 ---
 
-## Vision / Let's Collaborate
+## 07 / Vision / Let's Collaborate
 
-<img src="./assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
+<img src="./assets/collaboration.svg" alt="Vision and collaboration map" width="100%" />
 
-I Like Working On Problems Where **Data, Systems, Performance And Product Thinking** Meet.
+I Like Problems Where **Data, Systems, Performance And Product Thinking** Meet.
 
-For Collaboration, I Am Especially Interested In **Data Platforms, Spark And Query Execution, Performance Experiments, Semantic Systems, GenAI Data Workflows, And GPU Accelerated Data Systems**.
+For Collaboration, I Am Interested In **Data Platforms, Spark And Query Execution, Performance Experiments, Semantic Systems, GenAI Data Workflows And GPU Accelerated Data Systems**.
 
 ---
 
 <div align="center">
-
 ### Building Systems. Measuring Them. Learning What Breaks.
-<br>
-<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 
+<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
 </div>
