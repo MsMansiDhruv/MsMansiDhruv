@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 290">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300">
 <style>
-.bg{fill:#0B100E}.m{font:12px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.5px}.t{font:13px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.s{font:12px "DejaVu Sans Mono",monospace;fill:#71837A}.o{fill:#E8762E}.pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{50%{opacity:.28;transform:scale(.62)}}
+.bg{fill:#0B100E}.m{font:12px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.5px}
+.t{font:13px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.s{font:12px "DejaVu Sans Mono",monospace;fill:#71837A}
 </style>
-<rect width="960" height="290" rx="26" class="bg"/><rect x=".5" y=".5" width="959" height="289" rx="25" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
+<rect width="960" height="300" rx="26" class="bg"/><rect x=".5" y=".5" width="959" height="299" rx="25" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
 <text x="34" y="34" class="m">mansi@github ~ $ ./activity.sh</text>
-<text x="34" y="62" class="s">recent public contribution signal · generated from GitHub events</text>
-<line x1="50" y1="88" x2="50" y2="246" stroke="#2EC4B6" stroke-opacity=".18" stroke-width="2"/>
-<circle cx="50" cy="108" r="5" class="o pulse"/><text x="76" y="113" class="t">feed ready</text><text x="76" y="134" class="s">recent pushes, pull requests, issues and other public events</text>
-<circle cx="50" cy="168" r="5" class="o pulse" style="animation-delay:-.6s"/><text x="76" y="173" class="t">open-source trail</text><text x="76" y="194" class="s">real activity only · refreshed daily</text>
-<circle cx="50" cy="228" r="5" class="o pulse" style="animation-delay:-1.2s"/><text x="76" y="233" class="t">next signal</text><text x="76" y="254" class="s">first meaningful Apache Spark contribution</text>
+<text x="34" y="62" class="s">recent public work · generated from GitHub events</text>
+<line x1="52" y1="88" x2="52" y2="268" stroke="#2EC4B6" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="52" cy="101" r="5" fill="#E8762E"><animate attributeName="r" values="5;2.5;5" dur="2.4s" begin="-0.0s" repeatCount="indefinite"/></circle><text x="76" y="106" class="t">Push</text><text x="245" y="106" class="t">MsMansiDhruv</text><circle cx="52" cy="135" r="5" fill="#E8762E"><animate attributeName="r" values="5;2.5;5" dur="2.4s" begin="-0.35s" repeatCount="indefinite"/></circle><text x="76" y="140" class="t">Push</text><text x="245" y="140" class="t">MsMansiDhruv</text><circle cx="52" cy="169" r="5" fill="#E8762E"><animate attributeName="r" values="5;2.5;5" dur="2.4s" begin="-0.7s" repeatCount="indefinite"/></circle><text x="76" y="174" class="t">Push</text><text x="245" y="174" class="t">MsMansiDhruv</text><circle cx="52" cy="203" r="5" fill="#E8762E"><animate attributeName="r" values="5;2.5;5" dur="2.4s" begin="-1.0499999999999998s" repeatCount="indefinite"/></circle><text x="76" y="208" class="t">Create</text><text x="245" y="208" class="t">portfolio_naiya</text><circle cx="52" cy="237" r="5" fill="#E8762E"><animate attributeName="r" values="5;2.5;5" dur="2.4s" begin="-1.4s" repeatCount="indefinite"/></circle><text x="76" y="242" class="t">Push</text><text x="245" y="242" class="t">MsMansiDhruv</text>
+<text x="34" y="286" class="m">PUSH · PR · ISSUE · CREATE · COMMENT</text>
 </svg>
