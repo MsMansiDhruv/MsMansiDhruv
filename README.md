@@ -1,138 +1,142 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/profile/avatar.jpg" width="118" alt="Illustrated Mansi Dhruv avatar" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/profile/avatar.jpg" width="112" alt="Mansi Dhruv illustrated avatar" />
 
-<h1>Mansi Dhruv</h1>
+# Mansi Dhruv
 
-<p><strong>Lead Data Engineer · Solution Architect</strong></p>
+**Lead Data Engineer · Solution Architect**
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=18&duration=2800&pause=900&color=2E63D7&center=true&vCenter=true&width=760&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+accelerated+data+systems." alt="Animated positioning statement" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=3000&pause=900&color=2E63D7&center=true&vCenter=true&width=760&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+distributed+and+accelerated+systems." alt="Animated engineering positioning" />
 
-<p><a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
+<p><a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/hero.svg" alt="Cinematic engineering system illustration" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/hero.svg" alt="Cinematic engineering hero: Build, Measure, Understand" width="100%" />
 
-<div align="center"><sub>RELIABLE DATA · DISTRIBUTED PROCESSING · QUERY EXECUTION · PERFORMANCE · GPU DATA</sub></div>
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/engineering-terminal.svg" alt="Animated engineering terminal" width="100%" />
 
 ---
 
-## The idea
+<div align="center"><sub>THE POINT OF THE PROFILE</sub></div>
 
-> **I like the part where the diagram meets reality.**
+## Not a tool list.
 
 I build and modernize data platforms around **AWS, Databricks, Apache Spark and PySpark**.
 
-The interesting problems start after the happy path works: **where data moves, where time disappears, where memory goes, what the execution plan is actually doing, and whether more compute is even the right answer.**
+The part I care about is what happens underneath: **data movement, partitioning, joins, shuffle, memory, storage, execution plans, reliability and cost.**
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/system-arc.svg" alt="Animated engineering arc" width="100%" />
+So the direction is deliberate:
+
+<p align="center"><strong>DATA PLATFORMS → DISTRIBUTED PROCESSING → QUERY EXECUTION → PERFORMANCE → ACCELERATED DATA SYSTEMS</strong></p>
 
 ---
 
-## What I am building
+<div align="center"><sub>THE WORK</sub></div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/particles.gif" alt="Subtle animated data field" width="100%" />
+## 01 — Systems I am actually building
 
-### 01 — Sentinel Lakehouse
+### Sentinel Lakehouse
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/sentinel-lakehouse/main/docs/sentinel-architecture.jpg" alt="Sentinel Lakehouse architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture-cinematic.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
 **Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · CDC · Unity Catalog**
 
-A deliberately imperfect commerce lakehouse built to explore **schema evolution, malformed data, quality gates, quarantine, CDC, SCD1/SCD2, observability, governance and performance trade-offs**.
+A deliberately imperfect lakehouse designed around the hard parts: schema evolution, malformed records, data quality gates, quarantine, CDC, SCD1/SCD2, observability, governance and measured performance trade-offs.
 
-→ [Read the engineering decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+→ [Read the repository](https://github.com/MsMansiDhruv/sentinel-lakehouse)
 
-### 02 — Query Engine Lab
+### Query Engine Lab
 
-`SQL → Logical Plan → Optimization → Physical Plan → Execution`
+`SQL → logical plan → optimization → physical plan → execution`
 
-A small engine for understanding the machinery analytical systems normally hide.
+A small laboratory for understanding the machinery analytical systems normally hide.
 
-### 03 — Spark Performance Lab
+### Spark Performance Lab
 
-Controlled experiments around **partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans**.
+Controlled studies around **partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans**.
 
-### 04 — Distributed Systems Experiments
+### Distributed Systems Experiments
 
-Small reproducible studies around **replication, consistency, fault tolerance, concurrency and data movement**.
-
----
-
-## Technical DNA
-
-**DATA SYSTEMS**  
-Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
-
-**CLOUD**  
-AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena · API Gateway
-
-**ENGINEERING**  
-Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis
-
-**NEXT LAYER**  
-C/C++ · CUDA · RAPIDS/cuDF · performance profiling · query execution
+Small reproducible work around **replication, consistency, fault tolerance, concurrency and data movement**.
 
 ---
 
-## Proof of work
+<div align="center"><sub>PROOF</sub></div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/proof-strip.svg" alt="Animated measured engineering outcomes" width="100%" />
+## 02 — What changed in the real world
+
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/proof-strip.svg" alt="Animated engineering outcomes" width="100%" />
 
 I care less about making a metric look impressive and more about being able to explain **what changed, why it changed, and how it was measured**.
 
-<details>
-<summary><strong>Selected outcomes</strong></summary>
-
-<br/>
-
+<details><summary><strong>More context</strong></summary><br/>
 ~40% faster end-to-end pipeline · ~30% lower infrastructure cost · ~45% lower processing time · ~85% improvement on an affected slow-SQL path · ~50% reduction in manual monitoring
-
+<br/><br/>
+Some professional implementations are confidential. Public repositories focus on the engineering problem, the design decision and the evidence.
 </details>
 
 ---
 
-## GitHub — the workbench
+<div align="center"><sub>TECHNICAL DNA</sub></div>
 
-<img src="https://www.gitskins.com/api/section/heatmap?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated contribution heatmap" width="100%" />
+## 03 — The stack underneath the stack
 
-<div align="center">
-<img src="https://www.gitskins.com/api/section/stats?username=MsMansiDhruv&theme=studio&style=aura" alt="GitSkins animated GitHub stats" width="76%" />
-</div>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,aws,docker,terraform,kafka,postgres,git,linux,cpp&perline=9" alt="Selected engineering technologies" />
+</p>
 
-<p align="center"><sub>The activity history is intentionally organic. No contribution padding.</sub></p>
+<p align="center"><strong>DATA</strong> · Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming<br/>
+<strong>CLOUD</strong> · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena<br/>
+<strong>ENGINEERING</strong> · Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis<br/>
+<strong>NEXT LAYER</strong> · C/C++ · CUDA · RAPIDS/cuDF · profiling · query execution</p>
 
 ---
 
-## The direction
+<div align="center"><sub>GITHUB AS A WORKBENCH</sub></div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/system-arc.svg" alt="Engineering direction" width="100%" />
+## 04 — Starting the public trail
 
-**Now** — Lead Data Engineering · AWS · Databricks · Spark  
-**Next** — Spark internals · distributed query execution · performance  
-**Longer term** — parallel computing · CUDA · RAPIDS · accelerated data systems
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contributions.svg" alt="Animated GitHub contribution activity" width="100%" />
+
+<p align="center"><sub>The graph is intentionally honest. I would rather have an empty square than a decorative lie.</sub></p>
+
+---
+
+<div align="center"><sub>TRAJECTORY</sub></div>
+
+## 05 — Going deeper, not wider
+
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory-cinematic.svg" alt="Animated engineering trajectory" width="100%" />
+
+**Now** · Lead Data Engineering · AWS · Databricks · Spark  
+**Next** · Spark internals · distributed query execution · performance engineering  
+**Longer arc** · parallel computing · CUDA · RAPIDS · GPU data systems
 
 Currently learning: `Spark internals` · `system design` · `memory / I/O` · `parallel computing` · `CUDA` · `RAPIDS/cuDF`
 
 ---
 
-## Open source
+<div align="center"><sub>OPEN SOURCE</sub></div>
+
+## 06 — The next proof will be public
 
 **Apache Spark · Airflow · MLflow · Delta Lake · Kubernetes · RAPIDS**
 
-The goal is not contribution count. It is: **reproduce the problem → understand the root cause → make the smallest useful change → learn from review.**
+My goal is not to collect contribution counts.
+
+**Reproduce the problem → understand the root cause → make the smallest useful change → learn from review.**
 
 ### Next milestone
 
-**First meaningful Apache Spark contribution.**
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=16&duration=2800&pause=1000&color=E8762E&center=true&vCenter=true&width=600&lines=First+meaningful+Apache+Spark+contribution;First+measurable+performance+experiment;First+GPU+data+systems+benchmark" alt="Animated open-source milestones" />
 
 ---
 
 <div align="center">
 
-<h2>Building systems. Measuring them. Learning what breaks.</h2>
+### Building systems. Measuring them. Learning what breaks.
 
-<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
+<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">sentinel-lakehouse</a> · <a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
 
 </div>
