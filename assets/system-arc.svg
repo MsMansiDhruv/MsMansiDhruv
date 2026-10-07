@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 190">
+<defs><style>
+.g{stroke:#858B91;stroke-opacity:.16}.t{font:700 20px Georgia,serif;fill:#171B1E}.m{font:12px "DejaVu Sans Mono",monospace;fill:#70757A}.p{animation:p 2s ease-in-out infinite}.move{animation:move 4s linear infinite}.dash{stroke-dasharray:10 12;animation:dash 3s linear infinite}@keyframes p{50%{r:10;opacity:.45}}@keyframes move{to{transform:translateX(1120px)}}@keyframes dash{to{stroke-dashoffset:-120}}
+</style></defs>
+<rect width="1400" height="190" rx="28" fill="#F2EFE7" stroke="#8A9096" stroke-opacity=".18"/>
+<text x="38" y="35" class="m">THE LAYER UNDERNEATH</text>
+<line x1="140" y1="98" x2="1260" y2="98" stroke="#8A9096" stroke-opacity=".22" stroke-width="4"/>
+<line x1="140" y1="98" x2="1260" y2="98" stroke="#2E63D7" stroke-opacity=".35" stroke-width="2" class="dash"/>
+<g><circle cx="140" cy="98" r="24" fill="#fff" stroke="#2E63D7"/><circle cx="420" cy="98" r="24" fill="#fff" stroke="#2E63D7"/><circle cx="700" cy="98" r="24" fill="#fff" stroke="#E8762E"/><circle cx="980" cy="98" r="24" fill="#fff" stroke="#2E63D7"/><circle cx="1260" cy="98" r="24" fill="#fff" stroke="#E8762E"/></g>
+<g class="t"><text x="140" y="145" text-anchor="middle">DATA</text><text x="420" y="145" text-anchor="middle">SPARK</text><text x="700" y="145" text-anchor="middle">QUERY</text><text x="980" y="145" text-anchor="middle">PERFORMANCE</text><text x="1260" y="145" text-anchor="middle">GPU</text></g>
+<g class="m"><text x="140" y="72" text-anchor="middle">platform</text><text x="420" y="72" text-anchor="middle">execution</text><text x="700" y="72" text-anchor="middle">plans</text><text x="980" y="72" text-anchor="middle">profiling</text><text x="1260" y="72" text-anchor="middle">acceleration</text></g>
+<circle cx="-10" cy="98" r="7" fill="#E8762E" class="p"><animateMotion dur="4s" repeatCount="indefinite" path="M 0 0 L 1260 0"/></circle>
+</svg>
