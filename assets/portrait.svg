@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430">
+<defs><style>
+.bg{fill:#080C0A}.panel{fill:#0E1612}.m{font:12px "DejaVu Sans Mono",monospace;fill:#88A096;letter-spacing:1.4px}.h{font:700 24px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.s{font:12px "DejaVu Sans Mono",monospace;fill:#7B8E84}.g{fill:#2EC4B6}.o{fill:#E8762E}.scan{animation:scan 5s linear infinite}.orbit{animation:orbit 4s linear infinite}@keyframes scan{0%{transform:translateY(0);opacity:0}10%{opacity:.5}90%{opacity:.5}100%{transform:translateY(310px);opacity:0}}@keyframes orbit{to{transform:rotate(360deg)}} 
+</style></defs>
+<rect width="820" height="430" rx="26" class="bg"/><rect x=".5" y=".5" width="819" height="429" rx="25" fill="none" stroke="#2EC4B6" stroke-opacity=".18"/>
+<rect width="820" height="38" rx="26" class="panel"/><circle cx="22" cy="19" r="5" class="o"/><circle cx="40" cy="19" r="5" class="g"/><circle cx="58" cy="19" r="5" fill="#66756F"/><text x="80" y="24" class="m">Mansi@GitHub:~$ ./portrait.sh</text>
+<circle cx="188" cy="212" r="154" fill="none" stroke="#2EC4B6" stroke-opacity=".12"/><circle cx="188" cy="212" r="136" fill="none" stroke="#E8762E" stroke-opacity=".10"/>
+<image href="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/mansi-avatar.jpg" x="48" y="72" width="280" height="280" preserveAspectRatio="xMidYMid slice"/>
+<g class="orbit" transform-origin="188 212"><circle cx="188" cy="56" r="4" class="o"/><circle cx="188" cy="56" r="3" class="g" transform="rotate(180 188 212)"/></g>
+<rect x="42" y="70" width="292" height="286" fill="#E8762E" opacity=".08" class="scan"/>
+<text x="420" y="116" class="h">Mansi Dhruv</text><text x="420" y="147" class="s">Lead Data Engineer</text><text x="420" y="171" class="s">Solution Architect</text><line x1="420" y1="196" x2="762" y2="196" stroke="#17342C"/>
+<text x="420" y="224" class="m">DATA PLATFORMS</text><text x="420" y="253" class="m">DISTRIBUTED SYSTEMS</text><text x="420" y="282" class="m">PERFORMANCE ENGINEERING</text><text x="420" y="311" class="m">ACCELERATED DATA SYSTEMS</text>
+<text x="420" y="361" class="s">7+ Years · Production Engineering · AWS · Spark · PySpark</text>
+<circle cx="742" cy="354" r="5" class="o"/><circle cx="758" cy="354" r="5" class="g"/>
+</svg>
