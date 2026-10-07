@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 150">
+<style>
+.bg{fill:#0B100E}.m{font:12px "DejaVu Sans Mono",monospace;fill:#8AA299;letter-spacing:1.6px}.t{font:700 22px "DejaVu Sans Mono",monospace;fill:#E8EEE9}.track{stroke:#2EC4B6;stroke-opacity:.2}.move{animation:scroll 16s linear infinite}@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-930px)}}
+</style>
+<rect width="1400" height="150" rx="26" class="bg"/><rect x=".5" y=".5" width="1399" height="149" rx="25" fill="none" stroke="#2EC4B6" stroke-opacity=".16"/>
+<text x="34" y="31" class="m">TECHNICAL DNA / SIGNAL, NOT BADGES</text>
+<line x1="34" y1="76" x2="1366" y2="76" class="track"/>
+<g class="move">
+<text x="34" y="84" class="t">PYTHON</text><circle cx="150" cy="76" r="4" fill="#E8762E"/><text x="190" y="84" class="t">PYSPARK</text><circle cx="352" cy="76" r="4" fill="#2EC4B6"/><text x="392" y="84" class="t">AWS</text><circle cx="465" cy="76" r="4" fill="#E8762E"/><text x="505" y="84" class="t">DATABRICKS</text><circle cx="690" cy="76" r="4" fill="#2EC4B6"/><text x="730" y="84" class="t">TERRAFORM</text><circle cx="880" cy="76" r="4" fill="#E8762E"/><text x="920" y="84" class="t">AIRFLOW</text><circle cx="1055" cy="76" r="4" fill="#2EC4B6"/><text x="1095" y="84" class="t">DELTA LAKE</text><circle cx="1290" cy="76" r="4" fill="#E8762E"/><text x="1330" y="84" class="t">CUDA</text>
+<text x="1500" y="84" class="t">RAPIDS / CUDF</text><circle cx="1715" cy="76" r="4" fill="#E8762E"/><text x="1755" y="84" class="t">SPARK INTERNALS</text><circle cx="1990" cy="76" r="4" fill="#2EC4B6"/><text x="2030" y="84" class="t">QUERY EXECUTION</text>
+</g>
+<text x="34" y="123" class="m">DATA SYSTEMS · CLOUD · ENGINEERING · NEXT LAYER</text>
+</svg>
