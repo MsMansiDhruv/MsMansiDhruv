@@ -39,7 +39,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contributions.svg" alt="Animated contribution heatmap and density chart" width="100%" />
 
 <p align="center"><sub>Commit Density · Pull Requests · Issues · Repository Work</sub></p>
 
@@ -49,13 +49,13 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity map" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated engineering activity map" width="100%" />
 
 ---
 
 ## What I Work On
 
-I Have **Current Professional Experience** Building And Modernizing Production Data Systems.
+I have **7+ years of professional experience** building and modernizing production data systems.
 
 My Work Spans **AWS, Databricks, Apache Spark And PySpark**, With A Strong Focus On The Problems Beneath The Platform: Data Movement, Partitioning, Joins, Shuffle, Memory, Storage, Execution Plans, Reliability And Cost.
 
@@ -131,7 +131,7 @@ Some Professional Implementations Are Confidential. The Public Work Shows The En
 
 ## Vision / Let's Collaborate
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/vision.svg" alt="Vision and collaboration visual" width="100%" />
 
 I Like Working On Problems Where **Data, Systems, Performance And Product Thinking** Meet.
 
@@ -143,6 +143,6 @@ For Collaboration, I Am Especially Interested In **Data Platforms, Spark And Que
 
 ### Building Systems. Measuring Them. Learning What Breaks.
 <br>
-<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv">InkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
+<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 
 </div>
