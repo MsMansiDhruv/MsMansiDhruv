@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 230">
+<defs>
+<style>
+.bg{fill:#090D0B}.m{font:12px "DejaVu Sans Mono",monospace;fill:#7C9288;letter-spacing:2px}.h{font:700 25px Georgia,serif;fill:#E8EEE9}.line{fill:none;stroke:#61736B;stroke-width:2;stroke-dasharray:8 11;animation:dash 4s linear infinite}.n{fill:#101713;stroke:#2EC4B6;stroke-width:2}.hot{stroke:#E8762E}.orb{fill:#E8762E;animation:move 5s linear infinite}@keyframes dash{to{stroke-dashoffset:-120}}@keyframes move{to{transform:translateX(1120px)}} 
+</style>
+</defs>
+<rect width="1400" height="230" rx="28" class="bg"/>
+<text x="40" y="38" class="m">ENGINEERING TRAJECTORY</text>
+<text x="40" y="72" class="h">Go deeper, not wider.</text>
+<path d="M150 136 C330 74 455 190 650 130 S985 78 1260 136" class="line"/>
+<circle cx="150" cy="136" r="24" class="n"/><circle cx="430" cy="117" r="24" class="n"/><circle cx="650" cy="130" r="24" class="n hot"/><circle cx="930" cy="108" r="24" class="n"/><circle cx="1260" cy="136" r="24" class="n hot"/>
+<text x="150" y="179" text-anchor="middle" class="m">DATA</text><text x="430" y="160" text-anchor="middle" class="m">CLOUD</text><text x="650" y="173" text-anchor="middle" class="m">SPARK</text><text x="930" y="151" text-anchor="middle" class="m">SYSTEMS</text><text x="1260" y="180" text-anchor="middle" class="m">GPU</text>
+<circle cx="110" cy="136" r="6" class="orb"/>
+<text x="42" y="214" class="m">OPEN SOURCE → APACHE / CNCF · CUDA / RAPIDS AS THE NEXT LAYER</text>
+</svg>
