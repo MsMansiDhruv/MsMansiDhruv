@@ -1,25 +1,36 @@
 name: Refresh profile art
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "17 0 * * *"
-  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/render_profile_art.py"
+      - ".github/workflows/update-profile-art.yml"
 
 permissions:
   contents: write
 
 jobs:
   render:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Render live contribution visuals
+
+      - name: Render contribution and activity visuals
         run: python scripts/render_profile_art.py
-      - name: Commit refreshed art
+
+      - name: Commit refreshed visuals
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution art"
+          commit_message: "chore: refresh profile activity art"
           file_pattern: "assets/contrib-heatmap.svg assets/activity.svg"
