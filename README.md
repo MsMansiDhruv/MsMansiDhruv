@@ -6,7 +6,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=17&duration=2800&pause=900&color=2EC4B6&center=true&vCenter=true&width=820&lines=I+build+data+systems.;I+debug+the+slow+part.;I+measure+before+I+scale.;I%27m+going+deeper+into+distributed+and+accelerated+systems." alt="Animated engineering positioning" />
 
-<p><a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
+<p>
+  <a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
+  <a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
+</p>
 
 </div>
 
@@ -21,23 +25,11 @@
 </td>
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv achievements and professional signals" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/achievements.svg" alt="Mansi Dhruv professional achievements" width="100%" />
 
 </td>
 </tr>
 </table>
-
----
-
-## What I Work On
-
-I have **7+ years of professional experience** building and modernizing production data systems.
-
-My work spans **AWS, Databricks, Apache Spark and PySpark**, with a strong interest in what happens underneath the platform: data movement, partitioning, joins, shuffle, memory, storage, execution plans, reliability and cost.
-
-**Data Platforms → Distributed Processing → Query Execution → Performance → Accelerated Data Systems**
-
-That is the engineering thread I am deepening.
 
 ---
 
@@ -49,22 +41,26 @@ That is the engineering thread I am deepening.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contrib-heatmap.svg" alt="Animated GitHub contribution activity" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/contrib-heatmap.gif" alt="Animated GitHub contribution heatmap" width="100%" />
+
+<p align="center">
+<sub>Real GitHub activity, rendered into my own visual system.</sub>
+</p>
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.svg" alt="Animated recent GitHub activity" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/activity.gif" alt="Animated recent GitHub activity" width="100%" />
 
 </td>
 <td width="40%" valign="top">
 
 ### Activity
 
-I use GitHub to keep a visible record of the systems I build, experiments I run, and work I contribute to.
+Most Of My Production Work Lives In Private Systems. GitHub Is Where I Can Share The Parts That Are Worth Exploring: Experiments, Engineering Work, Open Source Contributions, And Reproducible Ideas.
 
-The activity panel is refreshed from my public GitHub events, so this section changes as the work changes.
+This Activity View Changes With The Work. No Static “Busy Developer” Counter.
 
 </td>
 </tr>
@@ -72,37 +68,43 @@ The activity panel is refreshed from my public GitHub events, so this section ch
 
 ---
 
-<div align="center">
+## What I Work On
 
-### `Mansi@GitHub ~ $ ./activity.sh`
+I Have **7+ Years Of Professional Experience** Building And Modernizing Production Data Systems.
 
-</div>
+My Work Spans **AWS, Databricks, Apache Spark And PySpark**, With A Strong Focus On The Problems Beneath The Platform: Data Movement, Partitioning, Joins, Shuffle, Memory, Storage, Execution Plans, Reliability And Cost.
+
+**Data Platforms → Distributed Processing → Query Execution → Performance → Accelerated Data Systems**
+
+That Is The Thread I Am Deepening.
+
+---
 
 ## Systems I Am Building
 
 ### 01 · Sentinel Lakehouse
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture-live.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/architecture.gif" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
-A Databricks lakehouse built to explore **schema evolution, data quality, quarantine, CDC, SCD1/SCD2, observability, governance and performance trade offs**.
+A Deliberately Imperfect Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine, CDC, SCD1/SCD2, Observability, Governance And Performance Trade Offs**.
 
 **Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog**
 
-→ [Read the engineering decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
+→ [Read The Engineering Decisions](https://github.com/MsMansiDhruv/sentinel-lakehouse)
 
 ### 02 · Query Engine Lab
 
 `SQL → Logical Plan → Optimization → Physical Plan → Execution`
 
-A small laboratory for understanding analytical execution rather than treating the engine as a black box.
+A Small Laboratory For Understanding What Analytical Systems Are Actually Doing Underneath The API.
 
 ### 03 · Spark Performance Lab
 
-Controlled experiments around **partitioning, joins, shuffle, skew, AQE, caching, predicate pushdown and execution plans**.
+Controlled Experiments Around **Partitioning, Joins, Shuffle, Skew, AQE, Caching, Predicate Pushdown And Execution Plans**.
 
 ### 04 · Distributed Systems Experiments
 
-Small reproducible work around **replication, consistency, fault tolerance, concurrency and data movement**.
+Small Reproducible Work Around **Replication, Consistency, Fault Tolerance, Concurrency And Data Movement**.
 
 ---
 
@@ -116,23 +118,23 @@ Small reproducible work around **replication, consistency, fault tolerance, conc
 
 **Engineering** · Python · Scala · Terraform · Docker · CI/CD · Airflow · Kafka · Kinesis
 
-**Next layer** · C/C++ · CUDA · RAPIDS/cuDF · profiling · query execution
+**Next Layer** · C/C++ · CUDA · RAPIDS/cuDF · Profiling · Query Execution
 
 ---
 
-## Proof of Work
+## Proof Of Work
 
-The useful part of an engineering metric is the reasoning behind it.
+The Useful Part Of An Engineering Metric Is The Reasoning Behind It.
 
-**~40%** faster end to end pipeline · **~30%** lower infrastructure cost · **~45%** lower processing time · **~85%** improvement on an affected slow SQL path · **~50%** less manual monitoring
+**~40%** Faster End To End Pipeline · **~30%** Lower Infrastructure Cost · **~45%** Lower Processing Time · **~85%** Improvement On An Affected Slow SQL Path · **~50%** Less Manual Monitoring
 
-Some Professional Implementations Are Confidential. The public work shows the engineering patterns, experiments and decisions I can make visible.
+Some Professional Implementations Are Confidential. The Public Work Shows The Engineering Patterns, Experiments And Decisions I Can Make Visible.
 
 ---
 
 ## The Direction
 
-<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory-dark.svg" alt="Animated engineering trajectory" width="100%" />
+<img src="https://raw.githubusercontent.com/MsMansiDhruv/MsMansiDhruv/main/assets/trajectory.gif" alt="Animated engineering trajectory" width="100%" />
 
 **Current Practice** · Data Platforms · AWS · Databricks · Spark
 
@@ -142,10 +144,27 @@ Some Professional Implementations Are Confidential. The public work shows the en
 
 ---
 
+## Open Source
+
+Open Source Is A Natural Extension Of The Work I Already Do With Data Platforms And Distributed Processing.
+
+My Focus Is On **Apache Spark, Airflow, MLflow, Delta Lake, Kubernetes And RAPIDS**, Where I Can Bring Production Experience To Real Engineering Problems.
+
+The Public Side Of This Profile Will Grow Through **Code, Benchmarks, Experiments, Fixes And Upstream Contributions**.
+
+Not A Collection Of Badges. Just Better Work, Made Visible.
+
+---
+
 <div align="center">
 
-### Building systems. Measuring them. Learning what breaks.
+### Building Systems. Measuring Them. Learning What Breaks.
 
-<p><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">work</a> · <a href="https://portfolio-mansi-eight.vercel.app/">portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">linkedin</a> · <a href="mailto:mansi.p.dhruv@gmail.com">email</a></p>
+<p>
+<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Work</a> ·
+<a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> ·
+<a href="mailto:mansi.p.dhruv@gmail.com">Email</a>
+</p>
 
 </div>
