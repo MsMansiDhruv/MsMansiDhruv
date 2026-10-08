@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/profile-hero.svg" alt="Mansi Dhruv cinematic GitHub introduction and professional highlights" width="100%" />
+<img src="./assets/profile-hero.svg" alt="Mansi Dhruv cinematic engineering introduction with animated 3D wireframe terrain and professional highlights" width="100%" />
 <p><a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 </div>
 
@@ -11,7 +11,6 @@
 
 I Build Data Platforms Today, Go Deeper Into Distributed Systems And Performance Engineering, And Keep Moving Toward Accelerated Data Systems.
 
-## 02 / Contribution Field
 ## 02 / Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
