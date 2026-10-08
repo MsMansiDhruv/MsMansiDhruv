@@ -9,13 +9,11 @@
 
 <img src="./assets/whoami-prism.svg" alt="Space-time prism showing Mansi Dhruv's engineering trajectory" width="100%" />
 
-I Build Data Platforms Today, Go Deeper Into Distributed Systems And Performance Engineering, And Keep Moving Toward Accelerated Data Systems.
-
 ## Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
 
-This Is The Public Part Of The Work. Most Production Systems Stay Private, So GitHub Is Where I Make The Reproducible Pieces Visible.
+Most Production Systems Stay Private. This Is The Reproducible Part I Can Share.
 
 ---
 
@@ -23,7 +21,6 @@ This Is The Public Part Of The Work. Most Production Systems Stay Private, So Gi
 
 <img src="./assets/wireframe-terrain.svg" alt="Animated 3D wireframe terrain showing data, compute, semantic, GenAI and performance layers" width="100%" />
 
-I Work Across The Data Path: Build The Platform, Understand The Engine, Measure The Cost, Then Push The Boundary.
 
 ---
 
@@ -57,11 +54,11 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 ## Systems Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,bash,aws,s3,lambda,redshift,postgres,databricks,spark,terraform,docker,githubactions,airflow,kafka&theme=dark" alt="Mansi Dhruv technology stack" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,bash,aws,s3,lambda,redshift,postgres,mysql,databricks,spark,terraform,docker,githubactions,airflow,kafka&theme=dark" alt="Technology stack" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cuda,pytorch,opencv&theme=dark" alt="Accelerated computing and AI stack" />
+  <img src="https://skillicons.dev/icons?i=cuda,pytorch,opencv&theme=dark" alt="Accelerated computing stack" />
 </p>
 
 ---
