@@ -7,20 +7,17 @@
 
 ## Who Am I
 
-<img src="./assets/whoami-prism.svg" alt="Space-time prism showing Mansi Dhruv's engineering trajectory" width="100%" />
+I Am A Lead Data Engineer And Solution Architect With 7+ Years Of Experience Building Production Data Systems.
+
+My Work Sits At The Intersection Of **Cloud Data Platforms, Distributed Processing And Performance Engineering**. I Design And Modernize Data Platforms On AWS And Databricks, Build ETL/ELT Pipelines With Spark And PySpark, And Spend Increasingly More Time Understanding What Happens Beneath The Abstraction: **Query Execution, Partitioning, Joins, Shuffle, Memory, I/O And Cost**.
+
+The Direction From Here Is Deliberate: Keep Building Reliable Data Platforms While Going Deeper Into **Parallel Computing, CUDA, RAPIDS And GPU-Accelerated Data Systems**. I Am Also Exploring **Semantic Layers And GenAI For Data** Where Better Systems Can Make Data More Useful, Not Just More Available.
 
 ## Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
 
 Most Production Systems Stay Private. This Is The Reproducible Part I Can Share.
-
----
-
-## Wireframe Terrain
-
-<img src="./assets/wireframe-terrain.svg" alt="Animated 3D wireframe terrain showing data, compute, semantic, GenAI and performance layers" width="100%" />
-
 
 ---
 
@@ -54,14 +51,19 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 ## Systems Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,bash,aws,s3,lambda,redshift,postgres,mysql,databricks,spark,terraform,docker,githubactions,airflow,kafka&theme=dark" alt="Technology stack" />
+  <img src="https://cdn.simpleicons.org/python/2EE6A7" height="34" alt="Python" />
+  <img src="https://cdn.simpleicons.org/amazonaws/FF9B4A" height="34" alt="AWS" />
+  <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="34" alt="Databricks" />
+  <img src="https://cdn.simpleicons.org/apachespark/FF9B4A" height="34" alt="Apache Spark" />
+  <img src="https://cdn.simpleicons.org/terraform/2EE6A7" height="34" alt="Terraform" />
+  <img src="https://cdn.simpleicons.org/docker/FF9B4A" height="34" alt="Docker" />
+  <img src="https://cdn.simpleicons.org/apacheairflow/2EE6A7" height="34" alt="Apache Airflow" />
+  <img src="https://cdn.simpleicons.org/apachekafka/FF9B4A" height="34" alt="Apache Kafka" />
+  <img src="https://cdn.simpleicons.org/postgresql/2EE6A7" height="34" alt="PostgreSQL" />
+  <img src="https://cdn.simpleicons.org/mysql/FF9B4A" height="34" alt="MySQL" />
+  <img src="https://cdn.simpleicons.org/cplusplus/2EE6A7" height="34" alt="C++" />
+  <img src="https://cdn.simpleicons.org/nvidia/FF9B4A" height="34" alt="NVIDIA" />
 </p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cuda,pytorch,opencv&theme=dark" alt="Accelerated computing stack" />
-</p>
-
----
 
 ---
 
