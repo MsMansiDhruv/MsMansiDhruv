@@ -30,7 +30,7 @@ I Am Going Deeper Into **Parallel Computing, CUDA And RAPIDS**, While Exploring 
 
 ## Systems Map
 
-<img src="./assets/systems-map.svg" alt="Animated data systems network and clustered dataset" width="100%" />
+<img src="./assets/systems-map.svg" alt="Animated data systems node-link diagram" width="100%" />
 
 ---
 
@@ -46,7 +46,24 @@ I Am Going Deeper Into **Parallel Computing, CUDA And RAPIDS**, While Exploring 
 
 ## Systems Stack
 
-<img src="./assets/stack.svg" alt="Technology stack" width="100%" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/python.svg" height="30" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/amazonaws.svg" height="30" alt="AWS" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/databricks.svg" height="30" alt="Databricks" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/apachespark.svg" height="30" alt="Apache Spark" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/terraform.svg" height="30" alt="Terraform" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/docker.svg" height="30" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/apacheairflow.svg" height="30" alt="Apache Airflow" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/apachekafka.svg" height="30" alt="Apache Kafka" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/postgresql.svg" height="30" alt="PostgreSQL" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/mysql.svg" height="30" alt="MySQL" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/cplusplus.svg" height="30" alt="C++" />
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/nvidia.svg" height="30" alt="NVIDIA" />
+</p>
+
+---
+
+## Vision / Let's Collaborate
 
 ---
 
