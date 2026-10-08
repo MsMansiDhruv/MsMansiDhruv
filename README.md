@@ -5,13 +5,13 @@
 
 ---
 
-## 01 / Who Am I
+## Who Am I
 
 <img src="./assets/whoami-prism.svg" alt="Space-time prism showing Mansi Dhruv's engineering trajectory" width="100%" />
 
 I Build Data Platforms Today, Go Deeper Into Distributed Systems And Performance Engineering, And Keep Moving Toward Accelerated Data Systems.
 
-## 02 / Contribution Field
+## Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
 
@@ -19,15 +19,15 @@ This Is The Public Part Of The Work. Most Production Systems Stay Private, So Gi
 
 ---
 
-## 03 / How I Work
+## Wireframe Terrain
 
-<img src="./assets/activity.svg" alt="Engineering activity across medallion, semantic and GenAI layers" width="100%" />
+<img src="./assets/wireframe-terrain.svg" alt="Animated 3D wireframe terrain showing data, compute, semantic, GenAI and performance layers" width="100%" />
 
-I Work From The Data Path Outward: Ingest, Model, Execute, Measure, Then Make The System Easier To Operate.
+I Work Across The Data Path: Build The Platform, Understand The Engine, Measure The Cost, Then Push The Boundary.
 
 ---
 
-## 04 / Sentinel Lakehouse
+## Sentinel Lakehouse
 
 <img src="./assets/sentinel-architecture.svg" alt="Sentinel Lakehouse animated architecture" width="100%" />
 
@@ -39,7 +39,7 @@ A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine
 
 ---
 
-## 05 / Engineering Labs
+## Engineering Labs
 
 **Query Engine Lab**  
 SQL → Logical Plan → Optimization → Physical Plan → Execution
@@ -54,19 +54,21 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 
 ---
 
-## 06 / Systems Stack
+## Systems Stack
 
-**Data** · Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,bash,aws,s3,lambda,redshift,postgres,databricks,spark,terraform,docker,githubactions,airflow,kafka&theme=dark" alt="Mansi Dhruv technology stack" />
+</p>
 
-**Cloud** · AWS · S3 · Glue · Redshift · Lambda · ECS · EC2 · DMS · Athena
-
-**Engineering** · Python · Terraform · Docker · CI/CD · Airflow · Kafka
-
-**Next Layer** · C/C++ · CUDA · RAPIDS/cuDF · Profiling · Query Execution
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cuda,pytorch,opencv&theme=dark" alt="Accelerated computing and AI stack" />
+</p>
 
 ---
 
-## 07 / Engineering Direction
+---
+
+## Engineering Direction
 
 <img src="./assets/trajectory.svg" alt="Animated space-time engineering trajectory" width="100%" />
 
@@ -76,7 +78,7 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 
 ---
 
-## 08 / Vision / Let's Collaborate
+## Vision / Let's Collaborate
 
 <img src="./assets/collaboration.svg" alt="Vision and collaboration map" width="100%" />
 

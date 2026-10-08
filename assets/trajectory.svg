@@ -5,9 +5,6 @@
 <radialGradient id="g" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".18"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
 <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.s{font-family:Inter,Segoe UI,Arial,sans-serif}.t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}@keyframes flow{from{stroke-dashoffset:130}to{stroke-dashoffset:0}}@keyframes pulse{0%,100%{opacity:.2}50%{opacity:1}}@keyframes sweep{0%{transform:translateX(-1200px);opacity:0}25%{opacity:.35}75%{opacity:.35}100%{transform:translateX(1200px);opacity:0}}</style>
 </defs><rect width="1600" height="400" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1598" height="398" rx="27" fill="none" stroke="#17352F"/><title>Engineering Trajectory</title>
-<text x="50" y="56" class="m gt" font-size="14">ENGINEERING TRAJECTORY · SPACE / TIME</text>
-<text x="50" y="88" class="s t" font-size="28" font-weight="700">Depth Over Time</text>
-<text x="50" y="111" class="s mt" font-size="15">A Direction From Platform Engineering Into The Systems Beneath It</text>
 <g fill="none" stroke="#17352F"><line x1="190" y1="330" x2="1500" y2="330"/><line x1="190" y1="330" x2="190" y2="150"/></g>
 <path d="M230 302 L500 255 L770 212 L1040 165 L1290 120 L1460 88" fill="none" stroke="#2EE6A7" stroke-width="3"/>
 <path d="M230 324 L500 312 L770 278 L1040 238 L1290 194 L1460 158" fill="none" stroke="#FF9B4A" stroke-width="2" stroke-dasharray="7 10"/>
