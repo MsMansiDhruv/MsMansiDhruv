@@ -5,7 +5,11 @@
 
 ---
 
-## 01 / Contribution Field
+## 01 / Professional Highlights
+
+<img src="./assets/achievements.svg" alt="Animated professional highlights with experience, recognition, education and production impact" width="100%" />
+
+## 02 / Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
 
@@ -13,7 +17,7 @@ This Is The Public Part Of The Work. Most Production Systems Stay Private, So Gi
 
 ---
 
-## 02 / How I Work
+## 03 / How I Work
 
 <img src="./assets/activity.svg" alt="Engineering activity across medallion, semantic and GenAI layers" width="100%" />
 
@@ -21,7 +25,7 @@ I Work From The Data Path Outward: Ingest, Model, Execute, Measure, Then Make Th
 
 ---
 
-## 03 / Sentinel Lakehouse
+## 04 / Sentinel Lakehouse
 
 <img src="./assets/sentinel-architecture.svg" alt="Sentinel Lakehouse animated architecture" width="100%" />
 
@@ -33,7 +37,7 @@ A Databricks Lakehouse Built Around **Schema Evolution, Data Quality, Quarantine
 
 ---
 
-## 04 / Engineering Labs
+## 05 / Engineering Labs
 
 **Query Engine Lab**  
 SQL → Logical Plan → Optimization → Physical Plan → Execution
@@ -48,7 +52,7 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 
 ---
 
-## 05 / Systems Stack
+## 06 / Systems Stack
 
 **Data** · Apache Spark · PySpark · Databricks · Delta Lake · SQL · ETL/ELT · Streaming
 
@@ -60,7 +64,7 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 
 ---
 
-## 06 / Engineering Direction
+## 07 / Engineering Direction
 
 <img src="./assets/trajectory.svg" alt="Animated space-time engineering trajectory" width="100%" />
 
@@ -70,7 +74,7 @@ These Are Small, Reproducible Projects For Understanding What Larger Systems Are
 
 ---
 
-## 07 / Vision / Let's Collaborate
+## 08 / Vision / Let's Collaborate
 
 <img src="./assets/collaboration.svg" alt="Vision and collaboration map" width="100%" />
 
