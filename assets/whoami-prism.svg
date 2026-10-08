@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#071614"/></linearGradient>
+  <radialGradient id="core" cx="50%" cy="50%" r="65%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".20"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
+  <linearGradient id="plane" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5EC8FF" stop-opacity=".13"/><stop offset=".5" stop-color="#2EE6A7" stop-opacity=".10"/><stop offset="1" stop-color="#FF9B4A" stop-opacity=".13"/></linearGradient>
+  <style>
+    .s{font-family:Inter,Segoe UI,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}
+  </style>
+</defs>
+
+<rect width="1600" height="540" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1598" height="538" rx="27" fill="none" stroke="#17352F"/>
+
+<text x="52" y="56" class="m gt" font-size="14">Mansi@GitHub:~$ ./whoami</text>
+<text x="52" y="92" class="s t" font-size="31" font-weight="700">Who I Am — A Systems View</text>
+<text x="52" y="119" class="s mt" font-size="15">The Work Moves Through Layers. The Questions Get Closer To The System.</text>
+
+<!-- prism / coordinate field -->
+<g transform="translate(120 150)">
+  <polygon points="90,280 330,70 1060,70 820,280" fill="url(#plane)" stroke="#17352F" stroke-width="1.5"/>
+  <polygon points="330,70 560,10 1290,10 1060,70" fill="none" stroke="#17352F" stroke-dasharray="5 8"/>
+  <polygon points="820,280 1060,70 1290,10 1050,220" fill="none" stroke="#17352F" stroke-dasharray="5 8"/>
+  
+  <!-- time axis -->
+  <line x1="90" y1="280" x2="1290" y2="10" stroke="#91A8A2" stroke-opacity=".45" stroke-width="1.2"/>
+  <line x1="90" y1="280" x2="90" y2="338" stroke="#91A8A2" stroke-opacity=".45"/>
+  <line x1="390" y1="280" x2="390" y2="338" stroke="#91A8A2" stroke-opacity=".45"/>
+  <line x1="690" y1="280" x2="690" y2="338" stroke="#91A8A2" stroke-opacity=".45"/>
+  <line x1="990" y1="280" x2="990" y2="338" stroke="#91A8A2" stroke-opacity=".45"/>
+  <line x1="1290" y1="10" x2="1290" y2="67" stroke="#91A8A2" stroke-opacity=".45"/>
+
+  <!-- trajectories -->
+  <path d="M120 260 C250 212 270 240 390 182 S600 204 690 140 S905 120 990 72 S1160 40 1255 20" fill="none" stroke="#2EE6A7" stroke-width="3"/>
+  <path d="M145 275 C240 258 318 220 390 218 S570 178 690 174 S850 148 990 116 S1160 79 1270 49" fill="none" stroke="#FF9B4A" stroke-width="2.2" stroke-dasharray="8 9"/>
+  <path d="M128 248 C260 182 300 152 390 143 S585 115 690 83 S865 70 990 48 S1140 22 1270 20" fill="none" stroke="#5EC8FF" stroke-width="2" stroke-dasharray="4 10"/>
+
+  <!-- stages -->
+  <g class="s">
+    <circle cx="150" cy="252" r="7" fill="#2EE6A7"/>
+    <circle cx="390" cy="182" r="7" fill="#5EC8FF"/>
+    <circle cx="690" cy="140" r="7" fill="#FF9B4A"/>
+    <circle cx="990" cy="72" r="7" fill="#2EE6A7"/>
+    <circle cx="1255" cy="20" r="7" fill="#FF9B4A"/>
+
+    <rect x="108" y="300" width="184" height="56" rx="14" fill="#0A1715" stroke="#17352F"/>
+    <text x="200" y="323" class="m gt" font-size="11" text-anchor="middle">NOW</text>
+    <text x="200" y="344" class="s t" font-size="14" font-weight="700" text-anchor="middle">Data Platforms</text>
+
+    <rect x="330" y="196" width="220" height="58" rx="14" fill="#0A1715" stroke="#17352F"/>
+    <text x="440" y="219" class="m bt" font-size="11" text-anchor="middle">DEEPENING</text>
+    <text x="440" y="241" class="s t" font-size="14" font-weight="700" text-anchor="middle">Distributed Systems</text>
+
+    <rect x="585" y="100" width="222" height="58" rx="14" fill="#0A1715" stroke="#17352F"/>
+    <text x="696" y="123" class="m ot" font-size="11" text-anchor="middle">CURRENT EDGE</text>
+    <text x="696" y="145" class="s t" font-size="14" font-weight="700" text-anchor="middle">Performance Engineering</text>
+
+    <rect x="882" y="42" width="214" height="58" rx="14" fill="#0A1715" stroke="#17352F"/>
+    <text x="989" y="65" class="m gt" font-size="11" text-anchor="middle">NEXT LAYER</text>
+    <text x="989" y="87" class="s t" font-size="14" font-weight="700" text-anchor="middle">Parallel Data Systems</text>
+
+    <rect x="1100" y="-12" width="206" height="58" rx="14" fill="#0A1715" stroke="#FF9B4A"/>
+    <text x="1203" y="11" class="m ot" font-size="11" text-anchor="middle">LONGER ARC</text>
+    <text x="1203" y="33" class="s t" font-size="14" font-weight="700" text-anchor="middle">CUDA · RAPIDS · GPU</text>
+  </g>
+
+  <!-- field particles -->
+  <g fill="#5EC8FF" opacity=".65">
+    <circle cx="150" cy="55" r="1.2"/><circle cx="233" cy="102" r="1.7999999999999998"/><circle cx="316" cy="149" r="2.4"/><circle cx="399" cy="196" r="1.2"/><circle cx="482" cy="243" r="1.7999999999999998"/><circle cx="565" cy="70" r="2.4"/><circle cx="648" cy="117" r="1.2"/><circle cx="731" cy="164" r="1.7999999999999998"/><circle cx="814" cy="211" r="2.4"/><circle cx="897" cy="258" r="1.2"/><circle cx="980" cy="85" r="1.7999999999999998"/><circle cx="1063" cy="132" r="2.4"/><circle cx="1146" cy="179" r="1.2"/><circle cx="169" cy="226" r="1.7999999999999998"/><circle cx="252" cy="273" r="2.4"/><circle cx="335" cy="100" r="1.2"/><circle cx="418" cy="147" r="1.7999999999999998"/><circle cx="501" cy="194" r="2.4"/><circle cx="584" cy="241" r="1.2"/><circle cx="667" cy="68" r="1.7999999999999998"/><circle cx="750" cy="115" r="2.4"/><circle cx="833" cy="162" r="1.2"/><circle cx="916" cy="209" r="1.7999999999999998"/><circle cx="999" cy="256" r="2.4"/><circle cx="1082" cy="83" r="1.2"/><circle cx="1165" cy="130" r="1.7999999999999998"/><circle cx="188" cy="177" r="2.4"/><circle cx="271" cy="224" r="1.2"/><circle cx="354" cy="271" r="1.7999999999999998"/><circle cx="437" cy="98" r="2.4"/><circle cx="520" cy="145" r="1.2"/><circle cx="603" cy="192" r="1.7999999999999998"/><circle cx="686" cy="239" r="2.4"/><circle cx="769" cy="66" r="1.2"/><circle cx="852" cy="113" r="1.7999999999999998"/><circle cx="935" cy="160" r="2.4"/><circle cx="1018" cy="207" r="1.2"/><circle cx="1101" cy="254" r="1.7999999999999998"/><circle cx="1184" cy="81" r="2.4"/><circle cx="207" cy="128" r="1.2"/><circle cx="290" cy="175" r="1.7999999999999998"/><circle cx="373" cy="222" r="2.4"/><circle cx="456" cy="269" r="1.2"/><circle cx="539" cy="96" r="1.7999999999999998"/>
+  </g>
+  <g fill="#2EE6A7" opacity=".55">
+    <circle cx="190" cy="115" r="1"/><circle cx="303" cy="146" r="2"/><circle cx="416" cy="177" r="1"/><circle cx="529" cy="208" r="2"/><circle cx="642" cy="239" r="1"/><circle cx="755" cy="115" r="2"/><circle cx="868" cy="146" r="1"/><circle cx="981" cy="177" r="2"/><circle cx="1094" cy="208" r="1"/><circle cx="207" cy="239" r="2"/><circle cx="320" cy="115" r="1"/><circle cx="433" cy="146" r="2"/><circle cx="546" cy="177" r="1"/><circle cx="659" cy="208" r="2"/><circle cx="772" cy="239" r="1"/><circle cx="885" cy="115" r="2"/><circle cx="998" cy="146" r="1"/><circle cx="1111" cy="177" r="2"/><circle cx="224" cy="208" r="1"/><circle cx="337" cy="239" r="2"/><circle cx="450" cy="115" r="1"/><circle cx="563" cy="146" r="2"/><circle cx="676" cy="177" r="1"/><circle cx="789" cy="208" r="2"/><circle cx="902" cy="239" r="1"/><circle cx="1015" cy="115" r="2"/><circle cx="1128" cy="146" r="1"/><circle cx="241" cy="177" r="2"/><circle cx="354" cy="208" r="1"/><circle cx="467" cy="239" r="2"/><circle cx="580" cy="115" r="1"/><circle cx="693" cy="146" r="2"/>
+  </g>
+
+  <text x="84" y="385" class="m mt" font-size="11">SYSTEM DEPTH →</text>
+  <text x="1285" y="375" class="m mt" font-size="11" text-anchor="end">TIME →</text>
+</g>
+
+<!-- right narrative -->
+<g transform="translate(1190 165)">
+  <rect x="0" y="0" width="330" height="280" rx="20" fill="#091513" stroke="#17352F"/>
+  <text x="24" y="34" class="m gt" font-size="11">SIGNAL / 01</text>
+  <text x="24" y="67" class="s t" font-size="19" font-weight="700">Build</text>
+  <text x="24" y="90" class="s mt" font-size="13">Production data systems</text>
+  <text x="24" y="111" class="s mt" font-size="13">that are operable, explainable</text>
+  <text x="24" y="132" class="s mt" font-size="13">and measured.</text>
+  <line x1="24" y1="151" x2="304" y2="151" stroke="#17352F"/>
+  <text x="24" y="178" class="m ot" font-size="11">SIGNAL / 02</text>
+  <text x="24" y="211" class="s t" font-size="19" font-weight="700">Understand</text>
+  <text x="24" y="234" class="s mt" font-size="13">What the engine does</text>
+  <text x="24" y="255" class="s mt" font-size="13">between the boxes.</text>
+</g>
+</svg>

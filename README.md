@@ -1,14 +1,17 @@
 <div align="center">
-<img src="./assets/signal-field.svg" alt="Mansi Dhruv visual engineering workbench" width="100%" />
+<img src="./assets/profile-hero.svg" alt="Mansi Dhruv cinematic GitHub introduction and professional highlights" width="100%" />
 <p><a href="https://portfolio-mansi-eight.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/mansidhruv/">LinkedIn</a> · <a href="mailto:mansi.p.dhruv@gmail.com">Email</a></p>
 </div>
 
 ---
 
-## 01 / Professional Highlights
+## 01 / Who Am I
 
-<img src="./assets/achievements.svg" alt="Animated professional highlights with experience, recognition, education and production impact" width="100%" />
+<img src="./assets/whoami-prism.svg" alt="Space-time prism showing Mansi Dhruv's engineering trajectory" width="100%" />
 
+I Build Data Platforms Today, Go Deeper Into Distributed Systems And Performance Engineering, And Keep Moving Toward Accelerated Data Systems.
+
+## 02 / Contribution Field
 ## 02 / Contribution Field
 
 <img src="./assets/contribution-field.svg" alt="Animated contribution heatmap and GitHub activity field" width="100%" />
