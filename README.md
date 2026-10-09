@@ -30,19 +30,51 @@ A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
 
 ---
 
+## Measured Systems Benchmarks & Trade-Offs
+
+<img src="./assets/benchmarks.svg" alt="Production Engineering Benchmarks and Measured Decisions" width="100%" />
+
+- **I/O & File Pruning**: Liquid Clustering Reduced Bytes Scanned By **24%** Across Analytical Predicates, Measured Against Serverless Cluster Startup Overheads.
+- **Memory & Shuffle Optimization**: Mitigated High-Cardinality Skew Via AQE Dynamic Split & Adaptive Broadcast Switching, Eliminating **100GB+ Disk Spills**.
+- **Real-Time Stream Processing**: Engineered End-to-End Streaming Scoring With **40% Latency Acceleration** And **30% Compute Cost Reduction**.
+- **Metadata-Driven Cloud Migration**: Automated Migration Of **10+ TB** Financial Data To Redshift With Reproducible Terraform IaC And Zero-Loss Observability.
+
+---
+
 ## Distributed Engine & Query Execution Topology
 
 <img src="./assets/systems-map.svg" alt="Distributed Spark Internals and Query Engine Execution Topology" width="100%" />
 
 ---
 
-## Sentinel Lakehouse
+## Flagship Engineering: Sentinel Lakehouse
 
 <img src="./assets/sentinel-architecture.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
 **Incremental Ingestion · Data Quality · CDC · SCD1/SCD2 · Observability · Governance**
 
-<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Explore Sentinel →</a>
+<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Explore Sentinel Lakehouse Repository →</a>
+
+---
+
+## Systems Laboratories & Codebases
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h3>
+      <p><strong>Flagship Production Architecture</strong></p>
+      <p>Full Medallion Lakehouse engine on Databricks with Auto Loader incremental ingestion, Delta Change Data Feed (CDF), SCD Type 1 & Type 2 dimensional models, automated Great Expectations quarantine dead-letter gates, and Unity Catalog lineage.</p>
+      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>PySpark</code> · <code>Unity Catalog</code> · <code>pytest</code> · <code>CI/CD</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/MsMansiDhruv/gquery-engine-clone">Query Engine Laboratory</a></h3>
+      <p><strong>Systems Internals & Execution Exploration</strong></p>
+      <p>A specialized technical laboratory exploring SQL query parsing, relational execution trees, vectorized columnar batch processing, predicate pushdown algorithms, and in-memory operator performance.</p>
+      <p><code>Query Execution</code> · <code>Columnar Layout</code> · <code>Vectorized Kernels</code> · <code>Memory Planning</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 

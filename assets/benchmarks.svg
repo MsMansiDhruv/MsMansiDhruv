@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#081815" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <!-- Progress Bar Gradients -->
+    <linearGradient id="bar-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EE6A7" />
+      <stop offset="100%" stop-color="#5EC8FF" />
+    </linearGradient>
+
+    <linearGradient id="bar-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9B4A" />
+      <stop offset="100%" stop-color="#FFC085" />
+    </linearGradient>
+
+    <!-- Animations -->
+    <style>
+      @keyframes barExpand1 {
+        0% { width: 0%; }
+        100% { width: 76%; }
+      }
+      @keyframes barExpand2 {
+        0% { width: 0%; }
+        100% { width: 60%; }
+      }
+      @keyframes barExpand3 {
+        0% { width: 0%; }
+        100% { width: 88%; }
+      }
+      @keyframes barExpand4 {
+        0% { width: 0%; }
+        100% { width: 70%; }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .bar-anim-1 { animation: barExpand1 1.8s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-anim-2 { animation: barExpand2 1.8s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-anim-3 { animation: barExpand3 1.8s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .bar-anim-4 { animation: barExpand4 1.8s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+      .pulse-indicator { animation: pulseDot 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Frame Base -->
+  <rect width="960" height="380" fill="url(#bm-bg)" rx="16" />
+  <rect x="1" y="1" width="958" height="378" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="364" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Top Strip -->
+  <g transform="translate(36, 36)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">MEASURED SYSTEMS BENCHMARKS // PRODUCTION OPTIMIZATION DECISIONS</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">DATA-DRIVEN TRADE-OFF ENGINEERING</text>
+  </g>
+  <line x1="36" y1="52" x2="924" y2="52" stroke="#17352F" stroke-width="1" />
+
+  <!-- 4 Benchmark Metric Cards -->
+  <g transform="translate(36, 70)">
+
+    <!-- Card 1: Delta Lake Clustering vs Z-Order -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="430" height="115" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+      <circle cx="16" cy="18" r="4" fill="#2EE6A7" />
+      <text x="28" y="22" fill="#EAF4F0" font-size="11.5" font-weight="700">I/O &amp; File Pruning: Liquid Clustering</text>
+      <text x="415" y="22" text-anchor="end" fill="#2EE6A7" font-size="13" font-weight="800">-24% I/O</text>
+
+      <text x="14" y="44" fill="#91A8A2" font-size="9.5">Reduced bytes scanned by 24% across analytical query predicates.</text>
+      
+      <!-- Progress Bar Track -->
+      <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
+      <rect x="14" y="58" width="304" height="8" rx="4" fill="url(#bar-green)" />
+
+      <text x="14" y="86" fill="#5EC8FF" font-size="8.5" font-family="monospace">BENCHMARK: 100GB PARQUET SCAN · PREDICTIVE PRUNING ACTIVE</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="8.5" font-family="monospace">Trade-off: Evaluated against serverless cluster initialization latency.</text>
+    </g>
+
+    <!-- Card 2: Shuffle Spill & Skew Join Mitigation -->
+    <g transform="translate(458, 0)">
+      <rect x="0" y="0" width="430" height="115" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+      <circle cx="16" cy="18" r="4" fill="#5EC8FF" />
+      <text x="28" y="22" fill="#EAF4F0" font-size="11.5" font-weight="700">Memory &amp; Shuffle: Skew Join Optimization</text>
+      <text x="415" y="22" text-anchor="end" fill="#5EC8FF" font-size="13" font-weight="800">0 SPILL</text>
+
+      <text x="14" y="44" fill="#91A8A2" font-size="9.5">Eliminated 100GB+ disk spill via AQE adaptive split &amp; broadcast switching.</text>
+      
+      <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
+      <rect x="14" y="58" width="240" height="8" rx="4" fill="url(#bar-green)" />
+
+      <text x="14" y="86" fill="#5EC8FF" font-size="8.5" font-family="monospace">METRIC: JVM MEMORY RESIDENCY 100% · GC PAUSES ELIMINATED</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="8.5" font-family="monospace">Trade-off: Broadcast memory headroom vs network transfer bandwidth.</text>
+    </g>
+
+    <!-- Card 3: Real-Time Stream Scoring Acceleration (Acorns) -->
+    <g transform="translate(0, 130)">
+      <rect x="0" y="0" width="430" height="115" rx="8" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
+      <circle cx="16" cy="18" r="4" fill="#2EE6A7" />
+      <text x="28" y="22" fill="#2EE6A7" font-size="11.5" font-weight="700">Streaming Pipeline Time &amp; Cost Reduction</text>
+      <text x="415" y="22" text-anchor="end" fill="#2EE6A7" font-size="13" font-weight="800">-40% TIME</text>
+
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Accelerated end-to-end streaming scoring latency with 30% cost savings.</text>
+      
+      <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
+      <rect x="14" y="58" width="352" height="8" rx="4" fill="url(#bar-green)" />
+
+      <text x="14" y="86" fill="#2EE6A7" font-size="8.5" font-family="monospace">STACK: DELTA LIVE TABLES · KAFKA · KINESIS · SPARK STREAMING</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="8.5" font-family="monospace">Award: GEM Award for mission-critical production execution.</text>
+    </g>
+
+    <!-- Card 4: Enterprise Migration & Automation (Tata AMC) -->
+    <g transform="translate(458, 130)">
+      <rect x="0" y="0" width="430" height="115" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="16" cy="18" r="4" fill="#FF9B4A" />
+      <text x="28" y="22" fill="#FFC085" font-size="11.5" font-weight="700">Financial Data Migration: 10+ TB AWS Lakehouse</text>
+      <text x="415" y="22" text-anchor="end" fill="#FF9B4A" font-size="13" font-weight="800">-40% OPEX</text>
+
+      <text x="14" y="44" fill="#91A8A2" font-size="9.5">Automated metadata-driven Glue &amp; DMS pipelines from SQL Server to Redshift.</text>
+      
+      <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
+      <rect x="14" y="58" width="280" height="8" rx="4" fill="url(#bar-orange)" />
+
+      <text x="14" y="86" fill="#FFC085" font-size="8.5" font-family="monospace">SCALE: 10+ TB FINANCIAL RECORDS · REPRODUCIBLE TERRAFORM IAC</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="8.5" font-family="monospace">Result: Zero-loss migration with CloudWatch automated observability.</text>
+    </g>
+  </g>
+
+  <!-- Bottom Principle Rule -->
+  <g transform="translate(36, 335)">
+    <rect x="0" y="0" width="888" height="26" rx="4" fill="#071614" />
+    <text x="12" y="17" fill="#91A8A2" font-size="9.5" font-family="monospace">
+      CORE ENGINEERING DISCIPLINE: <tspan fill="#2EE6A7">EMPIRICAL BENCHMARKING OVER ASSUMPTIONS</tspan> · <tspan fill="#FF9B4A">COST &amp; LATENCY AWARE SYSTEMS</tspan>
+    </text>
+  </g>
+</svg>
