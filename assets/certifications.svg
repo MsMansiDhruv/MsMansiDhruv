@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="cert-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#081815" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <radialGradient id="cert-radar-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2EE6A7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#06100E" stop-opacity="0" />
+    </radialGradient>
+
+    <style>
+      @keyframes orbitPulse {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes badgeGlow {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; filter: drop-shadow(0 0 6px #2EE6A7); }
+      }
+      .orbiting-radar {
+        transform-origin: 220px 200px;
+        animation: orbitPulse 20s linear infinite;
+      }
+      .badge-card {
+        transition: transform 0.3s ease;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Frame -->
+  <rect width="960" height="380" fill="url(#cert-bg)" rx="16" />
+  <rect x="1" y="1" width="958" height="378" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="364" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Top Strip -->
+  <g transform="translate(36, 36)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">VERIFIED CREDENTIALS &amp; SYSTEMS MASTERY</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">AWS · DATABRICKS · SPARK · ACADEMIC MCA</text>
+  </g>
+  <line x1="36" y1="52" x2="924" y2="52" stroke="#17352F" stroke-width="1" />
+
+  <!-- Left: Animated Radar Constellation -->
+  <g transform="translate(20, 0)">
+    <circle cx="200" cy="205" r="110" fill="none" stroke="#17352F" stroke-width="1" stroke-dasharray="4 4" />
+    <circle cx="200" cy="205" r="75" fill="none" stroke="#17352F" stroke-width="1" />
+    <circle cx="200" cy="205" r="40" fill="none" stroke="#2EE6A7" stroke-width="1" stroke-opacity="0.5" />
+    
+    <!-- Crosshair Axes -->
+    <line x1="80" y1="205" x2="320" y2="205" stroke="#17352F" stroke-width="1" />
+    <line x1="200" y1="85" x2="200" y2="325" stroke="#17352F" stroke-width="1" />
+
+    <!-- Animated Radar Sweep Ray -->
+    <g class="orbiting-radar">
+      <line x1="200" y1="205" x2="200" y2="95" stroke="#2EE6A7" stroke-width="2" opacity="0.8" />
+      <polygon points="200,205 185,95 200,95" fill="#2EE6A7" opacity="0.15" />
+    </g>
+
+    <!-- Center Hub -->
+    <circle cx="200" cy="205" r="7" fill="#2EE6A7" />
+    <text x="200" y="228" text-anchor="middle" fill="#EAF4F0" font-size="10" font-weight="700">COMPETENCY</text>
+    <text x="200" y="240" text-anchor="middle" fill="#91A8A2" font-size="8.5" font-family="monospace">RADAR</text>
+  </g>
+
+  <!-- Right: 6 Verified Credential & Achievement Cards -->
+  <g transform="translate(380, 70)">
+
+    <!-- Row 1, Col 1: AWS Certified Cloud Practitioner -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="16" cy="20" r="4" fill="#FF9B4A" />
+      <text x="28" y="24" fill="#FFC085" font-size="11" font-weight="700">AWS Certified Cloud Practitioner</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">AWS Architecture, S3, Glue &amp; Redshift</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">ID: CLF-C01 · Cloud Platform</text>
+    </g>
+
+    <!-- Row 1, Col 2: Databricks ETL & Lakehouse -->
+    <g transform="translate(280, 0)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#0A1715" stroke="#2EE6A7" stroke-width="1.2" />
+      <circle cx="16" cy="20" r="4" fill="#2EE6A7" />
+      <text x="28" y="24" fill="#2EE6A7" font-size="11" font-weight="700">Databricks Lakehouse &amp; ETL</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Delta Live Tables &amp; Unity Catalog</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">Databricks Academy · Medallion</text>
+    </g>
+
+    <!-- Row 2, Col 1: Apache Spark Analytics -->
+    <g transform="translate(0, 88)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="16" cy="20" r="4" fill="#FF9B4A" />
+      <text x="28" y="24" fill="#FFC085" font-size="11" font-weight="700">Apache Spark Big Data Analytics</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Distributed Query, Partitioning &amp; RDD</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">PySpark &amp; Scala Optimization</text>
+    </g>
+
+    <!-- Row 2, Col 2: Master in Computer Applications (MCA) -->
+    <g transform="translate(280, 88)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1.2" />
+      <circle cx="16" cy="20" r="4" fill="#5EC8FF" />
+      <text x="28" y="24" fill="#5EC8FF" font-size="11" font-weight="700">Master in Computer Applications</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Master's Graduate · Systems Foundations</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">Advanced Computer Science &amp; DBs</text>
+    </g>
+
+    <!-- Row 3, Col 1: GEM Technical Leadership Award -->
+    <g transform="translate(0, 176)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#081A16" stroke="#2EE6A7" stroke-width="1.5" />
+      <circle cx="16" cy="20" r="4" fill="#2EE6A7" />
+      <text x="28" y="24" fill="#2EE6A7" font-size="11" font-weight="700">GEM Award — Technical Leadership</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Recognizing Mission-Critical Delivery</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">Acorns &amp; High-Scale Streaming</text>
+    </g>
+
+    <!-- Row 3, Col 2: Docker & Cloud DevOps -->
+    <g transform="translate(280, 176)">
+      <rect x="0" y="0" width="260" height="74" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
+      <circle cx="16" cy="20" r="4" fill="#91A8A2" />
+      <text x="28" y="24" fill="#EAF4F0" font-size="11" font-weight="700">Docker Essentials &amp; IaC</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="9.5">Terraform, Containers &amp; GitHub Actions</text>
+      <text x="14" y="60" fill="#91A8A2" font-size="8.5" font-family="monospace">Automated Production Deployments</text>
+    </g>
+  </g>
+
+  <!-- Bottom Strip -->
+  <g transform="translate(36, 342)">
+    <rect x="0" y="0" width="888" height="24" rx="4" fill="#071614" />
+    <text x="12" y="16" fill="#91A8A2" font-size="9.5" font-family="monospace">
+      VERIFIED DOMAINS: <tspan fill="#2EE6A7">CLOUD INFRASTRUCTURE (AWS)</tspan> · <tspan fill="#5EC8FF">LAKEHOUSE ENGINES (DATABRICKS/SPARK)</tspan> · <tspan fill="#FF9B4A">SYSTEMS LEADERSHIP</tspan>
+    </text>
+  </g>
+</svg>

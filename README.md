@@ -18,22 +18,21 @@ The Longer Arc Is Deliberate: **Data Platforms → Distributed Systems → Perfo
 
 ---
 
-## Proven Record & Trajectory Prism
+## Space-Time Trajectory Flux
 
-<img src="./assets/trajectory-prism.svg" alt="Space-Time Trajectory Prism showing 7-year production record and future direction" width="100%" />
+<img src="./assets/space-time-network.svg" alt="Space-Time Trajectory Continuum and Execution Flux Network" width="100%" />
 
-**7+ Years Building Production Data Systems · Master's Graduate · GEM Award Recipient**
-
-- **Production Scale & Platforms**: Architected multi-terabyte medallion lakehouses across AWS and Databricks with incremental Auto Loader ingestion, automated schema evolution, and Unity Catalog governance.
-- **Measured Performance Optimization**: Engineered 24% byte scan reductions through partition and clustering trade-off analysis, eliminated memory shuffle spills, and tuned distributed query execution.
-- **Data Integrity & CDC**: Built resilient pipelines utilizing Delta Change Data Feed, SCD Type 1 & 2 dimensional merges, and automated Great Expectations quarantine dead-letter gates.
-- **Future Direction**: Advancing from Spark internals and query execution into parallel computing, NVIDIA CUDA, and GPU-accelerated data processing (RAPIDS / cuDF).
+A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
+- **Foundations & Academic Core**: Master in Computer Applications (MCA), GEM Award For Technical Leadership, Python & SQL Modeling.
+- **Enterprise Cloud Migration**: Architected AWS Framework (Glue, Redshift, DMS, S3) For Financial Datasets (Tata AMC) Handling 10+ TB With 40% Automation Efficiency.
+- **High-Throughput Streaming**: Databricks, PySpark, Delta Live Tables & Kafka/Kinesis Real-Time Scoring (Acorns) Delivering 40% Pipeline Time Reduction & 30% Cost Savings.
+- **Accelerated Frontier**: Advancing Into Spark Catalyst Optimization, Off-Heap Tungsten Memory, And GPU Kernel Acceleration (NVIDIA CUDA & RAPIDS cuDF).
 
 ---
 
-## Systems Topology & Pipeline Flow
+## Distributed Engine & Query Execution Topology
 
-<img src="./assets/systems-map.svg" alt="Animated systems topology and DAG dependency network" width="100%" />
+<img src="./assets/systems-map.svg" alt="Distributed Spark Internals and Query Engine Execution Topology" width="100%" />
 
 ---
 
@@ -47,6 +46,12 @@ The Longer Arc Is Deliberate: **Data Platforms → Distributed Systems → Perfo
 
 ---
 
+## Verified Credentials & Mastery
+
+<img src="./assets/certifications.svg" alt="Verified Credentials and Certifications Radar" width="100%" />
+
+---
+
 ## Systems Stack
 
 <img src="./assets/stack.svg" alt="Simplified Core Production Toolchain" width="100%" />
@@ -54,7 +59,7 @@ The Longer Arc Is Deliberate: **Data Platforms → Distributed Systems → Perfo
 <p align="center">
   <img src="https://cdn.simpleicons.org/python/2EE6A7" height="26" alt="Python" />
   &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/amazonaws/FF9B4A" height="26" alt="AWS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="26" alt="AWS" />
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="26" alt="Databricks" />
   &nbsp;&nbsp;
