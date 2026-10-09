@@ -1,153 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 180" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
   <defs>
     <linearGradient id="stk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#06100E" />
-      <stop offset="50%" stop-color="#091815" />
+      <stop offset="50%" stop-color="#091916" />
       <stop offset="100%" stop-color="#06100E" />
     </linearGradient>
-
-    <radialGradient id="stack-glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#2EE6A7" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#06100E" stop-opacity="0" />
-    </radialGradient>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="960" height="400" fill="url(#stk-bg)" rx="16" />
-  <rect width="960" height="400" fill="url(#stack-glow)" rx="16" />
-
-  <!-- Frame Borders -->
-  <rect x="1" y="1" width="958" height="398" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
-  <rect x="8" y="8" width="944" height="384" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
-
-  <!-- Corner Ticks -->
-  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
-  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
-  <path d="M 16 372 L 16 384 L 28 384" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
-  <path d="M 944 372 L 944 384 L 932 384" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
-
-  <!-- Header Strip -->
-  <g transform="translate(36, 38)">
+  <!-- Frame -->
+  <rect width="960" height="180" fill="url(#stk-bg)" rx="14" />
+  <rect x="1" y="1" width="958" height="178" rx="13" fill="none" stroke="#17352F" stroke-width="1.5" />
+  
+  <!-- Header -->
+  <g transform="translate(32, 32)">
     <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
-    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">ENGINEERING TOOLCHAIN // PRODUCTION &amp; ACCELERATED SYSTEMS</text>
-    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">PARADIGM: LAKEHOUSE · DISTRIBUTED · GPU</text>
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">CORE PRODUCTION TOOLCHAIN</text>
+    <text x="896" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">HIGH-SIGNAL · MINIMAL NOISE</text>
   </g>
-  <line x1="36" y1="56" x2="924" y2="56" stroke="#17352F" stroke-width="1" />
+  <line x1="32" y1="48" x2="928" y2="48" stroke="#17352F" stroke-width="1" />
 
-  <!-- Tier 1: Core & Lakehouse Engines -->
-  <g transform="translate(36, 75)">
-    <!-- Label -->
-    <text x="0" y="18" fill="#2EE6A7" font-size="10.5" font-weight="700" letter-spacing="1">01. DISTRIBUTED ENGINES &amp; LAKEHOUSE</text>
+  <!-- Simplified 4-Category Toolchain Badges -->
+  <g transform="translate(32, 68)">
     
-    <g transform="translate(0, 30)">
-      <!-- Item: Apache Spark -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Spark</text>
-      </g>
-      <!-- Item: Databricks -->
-      <g transform="translate(180, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Databricks</text>
-      </g>
-      <!-- Item: Delta Lake -->
-      <g transform="translate(360, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Delta Lake</text>
-      </g>
-      <!-- Item: PySpark -->
-      <g transform="translate(540, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">PySpark / Python</text>
-      </g>
-      <!-- Item: Unity Catalog -->
-      <g transform="translate(720, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Unity Catalog</text>
-      </g>
+    <!-- Category 1: Distributed Data -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="210" height="84" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
+      <text x="14" y="22" fill="#2EE6A7" font-size="10" font-weight="700" letter-spacing="0.8">DISTRIBUTED &amp; LAKEHOUSE</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="11.5" font-weight="600">Apache Spark · PySpark</text>
+      <text x="14" y="64" fill="#91A8A2" font-size="11">Databricks · Delta Lake</text>
     </g>
-  </g>
 
-  <!-- Tier 2: Cloud Infrastructure & AWS -->
-  <g transform="translate(36, 175)">
-    <text x="0" y="18" fill="#5EC8FF" font-size="10.5" font-weight="700" letter-spacing="1">02. CLOUD PLATFORM &amp; ORCHESTRATION</text>
-    
-    <g transform="translate(0, 30)">
-      <!-- Item: AWS Ecosystem -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">AWS (S3 / Glue / Redshift)</text>
-      </g>
-      <!-- Item: Apache Kafka -->
-      <g transform="translate(180, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Kafka</text>
-      </g>
-      <!-- Item: Apache Airflow -->
-      <g transform="translate(360, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Airflow</text>
-      </g>
-      <!-- Item: Terraform -->
-      <g transform="translate(540, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Terraform (IaC)</text>
-      </g>
-      <!-- Item: Docker & CI/CD -->
-      <g transform="translate(720, 0)">
-        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Docker / GitHub Actions</text>
-      </g>
+    <!-- Category 2: Cloud Infrastructure -->
+    <g transform="translate(228, 0)">
+      <rect x="0" y="0" width="210" height="84" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
+      <text x="14" y="22" fill="#5EC8FF" font-size="10" font-weight="700" letter-spacing="0.8">CLOUD PLATFORM (AWS)</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="11.5" font-weight="600">S3 · Glue · Redshift · Lambda</text>
+      <text x="14" y="64" fill="#91A8A2" font-size="11">Athena · EC2 · IAM / VPC</text>
     </g>
-  </g>
 
-  <!-- Tier 3: Systems Languages & Accelerated Computing -->
-  <g transform="translate(36, 275)">
-    <text x="0" y="18" fill="#FF9B4A" font-size="10.5" font-weight="700" letter-spacing="1">03. SYSTEMS CORE &amp; ACCELERATED COMPUTING</text>
-    
-    <g transform="translate(0, 30)">
-      <!-- Item: Python & C++ -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Python · C++ · SQL · Bash</text>
-      </g>
-      <!-- Item: NVIDIA CUDA -->
-      <g transform="translate(225, 0)">
-        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
-        <text x="28" y="25" fill="#FFC085" font-size="11.5" font-weight="700">NVIDIA CUDA</text>
-      </g>
-      <!-- Item: RAPIDS / cuDF -->
-      <g transform="translate(450, 0)">
-        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
-        <text x="28" y="25" fill="#FFC085" font-size="11.5" font-weight="700">RAPIDS / cuDF (GPU)</text>
-      </g>
-      <!-- Item: PostgreSQL / MySQL -->
-      <g transform="translate(675, 0)">
-        <rect x="0" y="0" width="213" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
-        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
-        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">PostgreSQL · MySQL</text>
-      </g>
+    <!-- Category 3: Orchestration & IaC -->
+    <g transform="translate(456, 0)">
+      <rect x="0" y="0" width="210" height="84" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
+      <text x="14" y="22" fill="#2EE6A7" font-size="10" font-weight="700" letter-spacing="0.8">SYSTEMS &amp; CI/CD</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="11.5" font-weight="600">Terraform · Docker · Actions</text>
+      <text x="14" y="64" fill="#91A8A2" font-size="11">Kafka · Airflow · Unity Catalog</text>
     </g>
-  </g>
 
-  <!-- Bottom Strip -->
-  <g transform="translate(36, 362)">
-    <rect x="0" y="0" width="888" height="24" rx="4" fill="#071614" />
-    <text x="12" y="16" fill="#91A8A2" font-size="9.5" font-family="monospace">
-      FOCUS: <tspan fill="#2EE6A7">PRODUCTION RELIABILITY</tspan> · <tspan fill="#5EC8FF">MEASURED PERFORMANCE</tspan> · <tspan fill="#FF9B4A">ACCELERATED QUERY EXECUTION</tspan>
-    </text>
+    <!-- Category 4: Systems & Acceleration -->
+    <g transform="translate(684, 0)">
+      <rect x="0" y="0" width="212" height="84" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
+      <text x="14" y="22" fill="#FF9B4A" font-size="10" font-weight="700" letter-spacing="0.8">SYSTEMS &amp; ACCELERATION</text>
+      <text x="14" y="44" fill="#FFC085" font-size="11.5" font-weight="600">Python · C++ · SQL · Bash</text>
+      <text x="14" y="64" fill="#FF9B4A" font-size="11">NVIDIA CUDA · RAPIDS cuDF</text>
+    </g>
   </g>
 </svg>
