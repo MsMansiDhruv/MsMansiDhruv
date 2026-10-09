@@ -1,18 +1,216 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#071614"/></linearGradient>
-<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1D1A"/><stop offset="1" stop-color="#0A1715"/></linearGradient>
-<radialGradient id="glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".16"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
-<style>
-.s{font-family:Inter,Segoe UI,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}
-@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.85}}@keyframes flow{from{stroke-dashoffset:180}to{stroke-dashoffset:0}}
-@keyframes scan{0%{transform:translateX(-900px);opacity:0}25%{opacity:.22}75%{opacity:.22}100%{transform:translateX(900px);opacity:0}}
-</style></defs>
-<rect width="1600" height="400" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1598" height="398" rx="27" fill="none" stroke="#17352F"/>
-<text x="52" y="52" class="m gt" font-size="11">SYSTEMS MAP / NODE-LINK</text>
-<text x="52" y="79" class="s t" font-size="24" font-weight="700">One Pipeline. Many Dependencies.</text>
-<text x="52" y="103" class="s mt" font-size="13">A single relational view of how data moves through the systems I build.</text>
-<path d="M105 205 C 202.5 205, 202.5 120, 300 120" fill="none" stroke="#17352F" stroke-width="3"/><path d="M105 205 C 202.5 205, 202.5 120, 300 120" fill="none" stroke="#2EE6A7" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4s" begin="0s" repeatCount="indefinite"/></path><path d="M105 205 C 202.5 205, 202.5 290, 300 290" fill="none" stroke="#17352F" stroke-width="3"/><path d="M105 205 C 202.5 205, 202.5 290, 300 290" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.45s" begin="-0.25s" repeatCount="indefinite"/></path><path d="M300 120 C 410 120, 410 205, 520 205" fill="none" stroke="#17352F" stroke-width="3"/><path d="M300 120 C 410 120, 410 205, 520 205" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.9s" begin="-0.5s" repeatCount="indefinite"/></path><path d="M300 290 C 410 290, 410 205, 520 205" fill="none" stroke="#17352F" stroke-width="3"/><path d="M300 290 C 410 290, 410 205, 520 205" fill="none" stroke="#2EE6A7" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="5.35s" begin="-0.75s" repeatCount="indefinite"/></path><path d="M520 205 C 640 205, 640 120, 760 120" fill="none" stroke="#17352F" stroke-width="3"/><path d="M520 205 C 640 205, 640 120, 760 120" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4s" begin="-1s" repeatCount="indefinite"/></path><path d="M520 205 C 640 205, 640 290, 760 290" fill="none" stroke="#17352F" stroke-width="3"/><path d="M520 205 C 640 205, 640 290, 760 290" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.45s" begin="0s" repeatCount="indefinite"/></path><path d="M760 120 C 880 120, 880 120, 1000 120" fill="none" stroke="#17352F" stroke-width="3"/><path d="M760 120 C 880 120, 880 120, 1000 120" fill="none" stroke="#2EE6A7" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.9s" begin="-0.25s" repeatCount="indefinite"/></path><path d="M760 120 C 880 120, 880 290, 1000 290" fill="none" stroke="#17352F" stroke-width="3"/><path d="M760 120 C 880 120, 880 290, 1000 290" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="5.35s" begin="-0.5s" repeatCount="indefinite"/></path><path d="M760 290 C 880 290, 880 120, 1000 120" fill="none" stroke="#17352F" stroke-width="3"/><path d="M760 290 C 880 290, 880 120, 1000 120" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4s" begin="-0.75s" repeatCount="indefinite"/></path><path d="M760 290 C 880 290, 880 290, 1000 290" fill="none" stroke="#17352F" stroke-width="3"/><path d="M760 290 C 880 290, 880 290, 1000 290" fill="none" stroke="#2EE6A7" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.45s" begin="-1s" repeatCount="indefinite"/></path><path d="M1000 120 C 1122.5 120, 1122.5 205, 1245 205" fill="none" stroke="#17352F" stroke-width="3"/><path d="M1000 120 C 1122.5 120, 1122.5 205, 1245 205" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.9s" begin="0s" repeatCount="indefinite"/></path><path d="M1000 290 C 1122.5 290, 1122.5 205, 1245 205" fill="none" stroke="#17352F" stroke-width="3"/><path d="M1000 290 C 1122.5 290, 1122.5 205, 1245 205" fill="none" stroke="#FF9B4A" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="5.35s" begin="-0.25s" repeatCount="indefinite"/></path><path d="M1245 205 C 1347.5 205, 1347.5 205, 1450 205" fill="none" stroke="#17352F" stroke-width="3"/><path d="M1245 205 C 1347.5 205, 1347.5 205, 1450 205" fill="none" stroke="#2EE6A7" stroke-width="1.5" stroke-dasharray="7 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4s" begin="-0.5s" repeatCount="indefinite"/></path><g><circle cx="105" cy="205" r="10" fill="#06100E" stroke="#2EE6A7" stroke-width="2"/><text x="123" y="209" class="s t" font-size="14" font-weight="700">Source</text></g><g><circle cx="300" cy="120" r="10" fill="#06100E" stroke="#5EC8FF" stroke-width="2"/><text x="318" y="124" class="s t" font-size="14" font-weight="700">Ingest</text></g><g><circle cx="300" cy="290" r="10" fill="#06100E" stroke="#FF9B4A" stroke-width="2"/><text x="318" y="294" class="s t" font-size="14" font-weight="700">Quality</text></g><g><circle cx="520" cy="205" r="10" fill="#06100E" stroke="#2EE6A7" stroke-width="2"/><text x="538" y="209" class="s t" font-size="14" font-weight="700">Bronze</text></g><g><circle cx="760" cy="120" r="10" fill="#06100E" stroke="#5EC8FF" stroke-width="2"/><text x="778" y="124" class="s t" font-size="14" font-weight="700">Silver</text></g><g><circle cx="760" cy="290" r="10" fill="#06100E" stroke="#2EE6A7" stroke-width="2"/><text x="778" y="294" class="s t" font-size="14" font-weight="700">Gold</text></g><g><circle cx="1000" cy="120" r="10" fill="#06100E" stroke="#FF9B4A" stroke-width="2"/><text x="1018" y="124" class="s t" font-size="14" font-weight="700">Semantic</text></g><g><circle cx="1000" cy="290" r="10" fill="#06100E" stroke="#5EC8FF" stroke-width="2"/><text x="1018" y="294" class="s t" font-size="14" font-weight="700">Query</text></g><g><circle cx="1245" cy="205" r="10" fill="#06100E" stroke="#2EE6A7" stroke-width="2"/><text x="1263" y="209" class="s t" font-size="14" font-weight="700">Serve</text></g><g><circle cx="1450" cy="205" r="10" fill="#06100E" stroke="#FF9B4A" stroke-width="2"/><text x="1468" y="209" class="s t" font-size="14" font-weight="700">Insight</text></g>
-<g class="m mt" font-size="10"><text x="52" y="360">SOURCE</text><text x="276" y="360">INGEST / QUALITY</text><text x="494" y="360">STORAGE</text><text x="734" y="360">MODEL</text><text x="978" y="360">SEMANTIC / QUERY</text><text x="1224" y="360">SERVE</text><text x="1430" y="360">INSIGHT</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="sys-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#091815" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <!-- Edge Gradients -->
+    <linearGradient id="edge-green-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EE6A7" />
+      <stop offset="100%" stop-color="#5EC8FF" />
+    </linearGradient>
+
+    <linearGradient id="edge-cyan-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5EC8FF" />
+      <stop offset="100%" stop-color="#FF9B4A" />
+    </linearGradient>
+
+    <!-- Node Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Animation Keyframes -->
+    <style>
+      @keyframes edgePulse {
+        0% { stroke-dashoffset: 120; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes nodeRing {
+        0% { r: 5; opacity: 0.8; }
+        100% { r: 18; opacity: 0; }
+      }
+      .pulse-edge {
+        stroke-dasharray: 6 6;
+        animation: edgePulse 3s linear infinite;
+      }
+      .node-beacon {
+        animation: nodeRing 2.6s cubic-bezier(0.1, 0.8, 0.2, 1) infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="960" height="420" fill="url(#sys-bg)" rx="16" />
+  
+  <!-- Frame Borders -->
+  <rect x="1" y="1" width="958" height="418" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="404" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Corner Ticks -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 16 392 L 16 404 L 28 404" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 392 L 944 404 L 932 404" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+
+  <!-- Header Strip -->
+  <g transform="translate(36, 38)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">DEPENDENCY GRAPH // DISTRIBUTED TOPOLOGY</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">GRAPH: DIRECTED ACYCLIC (DAG) · CONCURRENCY: OPTIMIZED</text>
+  </g>
+  <line x1="36" y1="56" x2="924" y2="56" stroke="#17352F" stroke-width="1" />
+
+  <!-- Directed Graph Edges (Connecting Nodes) -->
+  <g transform="translate(0, 15)">
+    <!-- Base static guide lines -->
+    <path d="M 110 130 C 170 130, 170 160, 230 160" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 110 270 C 170 270, 170 240, 230 240" fill="none" stroke="#17352F" stroke-width="2" />
+    
+    <path d="M 230 160 C 290 160, 290 200, 360 200" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 230 240 C 290 240, 290 200, 360 200" fill="none" stroke="#17352F" stroke-width="2" />
+
+    <path d="M 360 200 C 430 200, 430 150, 500 150" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 360 200 C 430 200, 430 250, 500 250" fill="none" stroke="#17352F" stroke-width="2" />
+
+    <path d="M 500 150 C 570 150, 570 180, 640 180" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 500 250 C 570 250, 570 220, 640 220" fill="none" stroke="#17352F" stroke-width="2" />
+
+    <path d="M 640 180 C 710 180, 710 160, 780 160" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 640 220 C 710 220, 710 240, 780 240" fill="none" stroke="#17352F" stroke-width="2" />
+
+    <path d="M 780 160 C 830 160, 830 200, 870 200" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 780 240 C 830 240, 830 200, 870 200" fill="none" stroke="#17352F" stroke-width="2" />
+
+    <!-- Animated Flow Overlays -->
+    <path d="M 110 130 C 170 130, 170 160, 230 160" fill="none" stroke="url(#edge-green-cyan)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 110 270 C 170 270, 170 240, 230 240" fill="none" stroke="url(#edge-green-cyan)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 230 160 C 290 160, 290 200, 360 200" fill="none" stroke="url(#edge-green-cyan)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 230 240 C 290 240, 290 200, 360 200" fill="none" stroke="url(#edge-green-cyan)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 360 200 C 430 200, 430 150, 500 150" fill="none" stroke="url(#edge-cyan-orange)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 360 200 C 430 200, 430 250, 500 250" fill="none" stroke="url(#edge-cyan-orange)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 500 150 C 570 150, 570 180, 640 180" fill="none" stroke="url(#edge-cyan-orange)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 500 250 C 570 250, 570 220, 640 220" fill="none" stroke="url(#edge-cyan-orange)" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 640 180 C 710 180, 710 160, 780 160" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 640 220 C 710 220, 710 240, 780 240" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 780 160 C 830 160, 830 200, 870 200" fill="none" stroke="#FFC085" stroke-width="2.5" class="pulse-edge" />
+    <path d="M 780 240 C 830 240, 830 200, 870 200" fill="none" stroke="#FFC085" stroke-width="2.5" class="pulse-edge" />
+  </g>
+
+  <!-- Graph Node Cards -->
+  <!-- Layer 1: Sources -->
+  <g transform="translate(60, 145)">
+    <!-- Node A1: Kafka Streaming -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-22" width="100" height="44" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#2EE6A7" />
+      <text x="22" y="-4" fill="#EAF4F0" font-size="10" font-weight="700">EVENT LOG</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Kafka Streams</text>
+    </g>
+    <!-- Node A2: S3 Lake Ingest -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="-22" width="100" height="44" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#2EE6A7" />
+      <text x="22" y="-4" fill="#EAF4F0" font-size="10" font-weight="700">RAW DATA</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">S3 / Cloud Store</text>
+    </g>
+  </g>
+
+  <!-- Layer 2: Ingest & Discovery -->
+  <g transform="translate(180, 175)">
+    <!-- Node B1: Auto Loader / Ingest -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-22" width="105" height="44" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#2EE6A7" />
+      <text x="22" y="-4" fill="#2EE6A7" font-size="10" font-weight="700">AUTO LOADER</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Schema Inference</text>
+    </g>
+    <!-- Node B2: Schema Evolution -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="-22" width="105" height="44" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#2EE6A7" />
+      <text x="22" y="-4" fill="#2EE6A7" font-size="10" font-weight="700">SCHEMA EVOL.</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Contract Enforcer</text>
+    </g>
+  </g>
+
+  <!-- Layer 3: Central Engine / Bronze -->
+  <g transform="translate(310, 215)">
+    <rect x="0" y="-30" width="115" height="60" rx="8" fill="#0A1715" stroke="#5EC8FF" stroke-width="1.5" />
+    <circle cx="14" cy="-10" r="4" fill="#5EC8FF" />
+    <circle cx="14" cy="-10" r="4" fill="none" stroke="#5EC8FF" stroke-width="1" class="node-beacon" />
+    <text x="26" y="-6" fill="#5EC8FF" font-size="11" font-weight="700">BRONZE / CDC</text>
+    <text x="12" y="10" fill="#EAF4F0" font-size="8.5" font-family="monospace">Delta Change Feed</text>
+    <text x="12" y="22" fill="#91A8A2" font-size="8" font-family="monospace">Zero-Loss Audit</text>
+  </g>
+
+  <!-- Layer 4: Transformation / Silver & Gold -->
+  <g transform="translate(450, 165)">
+    <!-- Node D1: Silver Transform -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#5EC8FF" />
+      <text x="22" y="-4" fill="#5EC8FF" font-size="10" font-weight="700">SILVER CLEAN</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">SCD1 / SCD2 Merges</text>
+    </g>
+    <!-- Node D2: Performance Indexing -->
+    <g transform="translate(0, 100)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#5EC8FF" />
+      <text x="22" y="-4" fill="#5EC8FF" font-size="10" font-weight="700">CLUSTERING</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Liquid / Z-Order</text>
+    </g>
+  </g>
+
+  <!-- Layer 5: Gold & Semantic Engine -->
+  <g transform="translate(590, 195)">
+    <!-- Node E1: Gold Star Models -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#FF9B4A" />
+      <text x="22" y="-4" fill="#FFC085" font-size="10" font-weight="700">GOLD MARTS</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Dimensional Models</text>
+    </g>
+    <!-- Node E2: Unity Catalog -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#FF9B4A" />
+      <text x="22" y="-4" fill="#FFC085" font-size="10" font-weight="700">GOVERNANCE</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Unity Catalog Lineage</text>
+    </g>
+  </g>
+
+  <!-- Layer 6: Query Execution & Acceleration -->
+  <g transform="translate(730, 175)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#FF9B4A" />
+      <text x="22" y="-4" fill="#FFC085" font-size="10" font-weight="700">SPARK QUERY</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">Catalyst / AQE</text>
+    </g>
+    <g transform="translate(0, 80)">
+      <rect x="0" y="-22" width="110" height="44" rx="6" fill="#0B1D1A" stroke="#FFC085" stroke-width="1.2" />
+      <circle cx="12" cy="0" r="3.5" fill="#FFC085" />
+      <text x="22" y="-4" fill="#FFC085" font-size="10" font-weight="700">GPU ACCELERATED</text>
+      <text x="22" y="9" fill="#91A8A2" font-size="8" font-family="monospace">RAPIDS / CUDA Ops</text>
+    </g>
+  </g>
+
+  <!-- Layer 7: Final Insights Output -->
+  <g transform="translate(850, 215)">
+    <circle cx="20" cy="0" r="16" fill="#0A1715" stroke="#2EE6A7" stroke-width="2" />
+    <circle cx="20" cy="0" r="6" fill="#2EE6A7" />
+    <circle cx="20" cy="0" r="6" fill="none" stroke="#2EE6A7" stroke-width="1" class="node-beacon" />
+    <text x="20" y="32" text-anchor="middle" fill="#2EE6A7" font-size="10" font-weight="700">INSIGHT</text>
+  </g>
+
+  <!-- Bottom Principle Rule -->
+  <g transform="translate(36, 375)">
+    <rect x="0" y="0" width="888" height="30" rx="6" fill="#071614" stroke="#17352F" stroke-width="1" />
+    <text x="16" y="19" fill="#91A8A2" font-size="10" font-family="monospace">ARCHITECTURAL MENTAL MODEL: <tspan fill="#2EE6A7">SYSTEMS AS CONNECTED GRAPH DEPENDENCIES — NOT ISOLATED SILOS</tspan></text>
+  </g>
 </svg>

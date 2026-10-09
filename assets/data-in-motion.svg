@@ -1,19 +1,193 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="380" viewBox="0 0 1600 380">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#071614"/></linearGradient>
-<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1D1A"/><stop offset="1" stop-color="#0A1715"/></linearGradient>
-<radialGradient id="glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".16"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
-<style>
-.s{font-family:Inter,Segoe UI,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}
-@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.85}}@keyframes flow{from{stroke-dashoffset:180}to{stroke-dashoffset:0}}
-@keyframes scan{0%{transform:translateX(-900px);opacity:0}25%{opacity:.22}75%{opacity:.22}100%{transform:translateX(900px);opacity:0}}
-</style></defs>
-<rect width="1600" height="380" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1598" height="378" rx="27" fill="none" stroke="#17352F"/>
-<g class="m" font-size="11"><text x="48" y="50" class="gt">RAW</text><text x="302" y="50" class="gt">INGEST</text><text x="566" y="50" class="ot">QUALITY</text><text x="830" y="50" class="gt">MODEL</text><text x="1094" y="50" class="ot">SEMANTIC</text><text x="1380" y="50" class="gt">SERVE</text></g>
-<rect x="48" y="82" width="200" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="66" y="120" class="s t" font-size="21" font-weight="700">Sources</text><text x="66" y="149" class="m mt" font-size="11">Files · Tables</text><line x1="66" y1="174" x2="230" y2="174" stroke="#17352F"/><text x="66" y="200" class="m bt" font-size="10">SCHEMA</text><rect x="302" y="82" width="200" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="320" y="120" class="s t" font-size="21" font-weight="700">Ingestion</text><text x="320" y="149" class="m mt" font-size="11">Auto Loader</text><line x1="320" y1="174" x2="484" y2="174" stroke="#17352F"/><text x="320" y="200" class="m gt" font-size="10">INCREMENTAL</text><rect x="566" y="82" width="200" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="584" y="120" class="s t" font-size="21" font-weight="700">Quality</text><text x="584" y="149" class="m mt" font-size="11">DQ · CDC · Quarantine</text><line x1="584" y1="174" x2="748" y2="174" stroke="#17352F"/><text x="584" y="200" class="m bt" font-size="10">TRUST</text><rect x="830" y="82" width="200" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="848" y="120" class="s t" font-size="21" font-weight="700">Model</text><text x="848" y="149" class="m mt" font-size="11">Silver · Gold</text><line x1="848" y1="174" x2="1012" y2="174" stroke="#17352F"/><text x="848" y="200" class="m gt" font-size="10">DIMENSIONS</text><rect x="1094" y="82" width="220" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="1112" y="120" class="s t" font-size="21" font-weight="700">Semantic</text><text x="1112" y="149" class="m mt" font-size="11">Metrics · Context</text><line x1="1112" y1="174" x2="1296" y2="174" stroke="#17352F"/><text x="1112" y="200" class="m bt" font-size="10">MEANING</text><rect x="1380" y="82" width="170" height="150" rx="18" fill="#091513" stroke="#17352F"/><text x="1398" y="120" class="s t" font-size="21" font-weight="700">Serve</text><text x="1398" y="149" class="m mt" font-size="11">BI · API</text><line x1="1398" y1="174" x2="1532" y2="174" stroke="#17352F"/><text x="1398" y="200" class="m gt" font-size="10">ACTION</text>
-<path d="M248 157 C283 135 267 180 297 157" fill="none" stroke="#2EE6A7" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.5s" begin="0s" repeatCount="indefinite"/></path><circle cx="263" cy="153" r="4" fill="#2EE6A7"><animate attributeName="cx" values="256;288;256" dur="2.8s" repeatCount="indefinite"/></circle><path d="M502 157 C537 133 531 182 561 157" fill="none" stroke="#FF9B4A" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="4.9s" begin="-0.35s" repeatCount="indefinite"/></path><circle cx="517" cy="153" r="4" fill="#FF9B4A"><animate attributeName="cx" values="510;552;510" dur="2.9499999999999997s" repeatCount="indefinite"/></circle><path d="M766 157 C801 131 795 184 825 157" fill="none" stroke="#2EE6A7" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="5.3s" begin="-0.7s" repeatCount="indefinite"/></path><circle cx="781" cy="153" r="4" fill="#2EE6A7"><animate attributeName="cx" values="774;816;774" dur="3.0999999999999996s" repeatCount="indefinite"/></circle><path d="M1030 157 C1065 129 1059 186 1089 157" fill="none" stroke="#FF9B4A" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="5.7s" begin="0s" repeatCount="indefinite"/></path><circle cx="1045" cy="153" r="4" fill="#FF9B4A"><animate attributeName="cx" values="1038;1080;1038" dur="3.25s" repeatCount="indefinite"/></circle><path d="M1314 157 C1349 127 1345 188 1375 157" fill="none" stroke="#2EE6A7" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="180;0" dur="6.1s" begin="-0.35s" repeatCount="indefinite"/></path><circle cx="1329" cy="153" r="4" fill="#2EE6A7"><animate attributeName="cx" values="1322;1366;1322" dur="3.4s" repeatCount="indefinite"/></circle>
-<text x="48" y="304" class="s t" font-size="18" font-weight="700">The Pipeline Is The Product.</text>
-<text x="48" y="331" class="s mt" font-size="13">Schema evolves → data is validated → state is modeled → meaning is served.</text>
-<text x="1548" y="331" class="m ot" font-size="11" text-anchor="end">DATA → DECISIONS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="dim-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#091815" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <!-- Pipeline Ribbon Gradients -->
+    <linearGradient id="flow-primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EE6A7" stop-opacity="0.8" />
+      <stop offset="35%" stop-color="#5EC8FF" stop-opacity="0.85" />
+      <stop offset="70%" stop-color="#2EE6A7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FF9B4A" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="quarantine-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5EC8FF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FF9B4A" stop-opacity="0.8" />
+    </linearGradient>
+
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2EE6A7" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#2EE6A7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Animation Styles -->
+    <style>
+      @keyframes flowStroke {
+        0% { stroke-dashoffset: 320; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes packetTravel1 {
+        0% { offset-distance: 0%; opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { offset-distance: 100%; opacity: 0; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.08); opacity: 1; }
+      }
+      .stream-path {
+        stroke-dasharray: 8 6;
+        animation: flowStroke 4s linear infinite;
+      }
+      .stream-fast {
+        stroke-dasharray: 12 8;
+        animation: flowStroke 2.8s linear infinite;
+      }
+      .pulse-pill {
+        animation: pulseNode 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="960" height="380" fill="url(#dim-bg)" rx="16" />
+  
+  <!-- Frame & Technical Borders -->
+  <rect x="1" y="1" width="958" height="378" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="364" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Corner Ticks -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 16 352 L 16 364 L 28 364" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 352 L 944 364 L 932 364" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+
+  <!-- Top Title Strip -->
+  <g transform="translate(36, 38)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">END-TO-END PIPELINE TOPOLOGY // STREAMING &amp; BATCH CONTINUUM</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">FLOW: CONTINUOUS · INTEGRITY: CONTRACT-DRIVEN · CDC: ACTIVE</text>
+  </g>
+  <line x1="36" y1="56" x2="924" y2="56" stroke="#17352F" stroke-width="1" />
+
+  <!-- Flowing Ribbon Streamlines (Sankey / Pipeline) -->
+  <g transform="translate(0, 20)">
+    <!-- Base Ribbon Fills (Curved Bands) -->
+    <!-- Main Ingestion to Quality Stream -->
+    <path d="M 140 160 C 220 160, 240 160, 310 160" fill="none" stroke="#17352F" stroke-width="28" stroke-linecap="round" />
+    <path d="M 140 160 C 220 160, 240 160, 310 160" fill="none" stroke="url(#flow-primary)" stroke-width="4" class="stream-path" />
+
+    <!-- Stream splitting: Clean path to Silver -->
+    <path d="M 310 160 C 370 160, 400 135, 470 135" fill="none" stroke="#17352F" stroke-width="20" stroke-linecap="round" />
+    <path d="M 310 160 C 370 160, 400 135, 470 135" fill="none" stroke="url(#flow-primary)" stroke-width="3.5" class="stream-fast" />
+
+    <!-- Stream splitting: Quarantine Branch -->
+    <path d="M 310 160 C 370 160, 400 225, 470 225" fill="none" stroke="#17352F" stroke-width="12" stroke-linecap="round" />
+    <path d="M 310 160 C 370 160, 400 225, 470 225" fill="none" stroke="url(#quarantine-grad)" stroke-width="2.5" stroke-dasharray="6 4" class="stream-path" />
+
+    <!-- Silver to Gold Stream -->
+    <path d="M 470 135 C 540 135, 570 135, 630 135" fill="none" stroke="#17352F" stroke-width="20" stroke-linecap="round" />
+    <path d="M 470 135 C 540 135, 570 135, 630 135" fill="none" stroke="url(#flow-primary)" stroke-width="3.5" class="stream-fast" />
+
+    <!-- Gold to Semantic Models -->
+    <path d="M 630 135 C 690 135, 720 160, 780 160" fill="none" stroke="#17352F" stroke-width="18" stroke-linecap="round" />
+    <path d="M 630 135 C 690 135, 720 160, 780 160" fill="none" stroke="url(#flow-primary)" stroke-width="3" class="stream-fast" />
+
+    <!-- Quarantine Remediation Loopback / Alert -->
+    <path d="M 470 225 C 540 225, 570 225, 630 225" fill="none" stroke="#17352F" stroke-width="8" stroke-linecap="round" />
+    <path d="M 470 225 C 540 225, 570 225, 630 225" fill="none" stroke="#FF9B4A" stroke-width="2" stroke-dasharray="4 4" class="stream-path" />
+
+    <!-- Final Serving Outlets -->
+    <path d="M 780 160 C 830 160, 850 125, 890 125" fill="none" stroke="#2EE6A7" stroke-width="2.5" class="stream-path" />
+    <path d="M 780 160 C 830 160, 850 160, 890 160" fill="none" stroke="#5EC8FF" stroke-width="2.5" class="stream-path" />
+    <path d="M 780 160 C 830 160, 850 195, 890 195" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="stream-path" />
+  </g>
+
+  <!-- Pipeline Stage Nodes -->
+  <!-- Stage 1: Sources -->
+  <g transform="translate(60, 180)">
+    <rect x="0" y="-45" width="110" height="90" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.5" />
+    <circle cx="20" cy="-25" r="4" fill="#2EE6A7" />
+    <text x="32" y="-21" fill="#EAF4F0" font-size="12" font-weight="700">SOURCES</text>
+    
+    <text x="14" y="2" fill="#91A8A2" font-size="9" font-family="monospace">· KAFKA EVENTS</text>
+    <text x="14" y="16" fill="#91A8A2" font-size="9" font-family="monospace">· S3 BATCH / CDC</text>
+    <text x="14" y="30" fill="#91A8A2" font-size="9" font-family="monospace">· REST APIS</text>
+  </g>
+
+  <!-- Stage 2: Ingestion & Auto Loader -->
+  <g transform="translate(205, 180)">
+    <rect x="0" y="-40" width="105" height="80" rx="8" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
+    <circle cx="16" cy="-22" r="3.5" fill="#2EE6A7" />
+    <text x="26" y="-18" fill="#2EE6A7" font-size="11" font-weight="700">INGESTION</text>
+    
+    <text x="12" y="2" fill="#EAF4F0" font-size="9" font-family="monospace">Auto Loader</text>
+    <text x="12" y="16" fill="#91A8A2" font-size="9" font-family="monospace">Schema Evol.</text>
+    <text x="12" y="30" fill="#91A8A2" font-size="9" font-family="monospace">Bronze Delta</text>
+  </g>
+
+  <!-- Stage 3: Quality & Quarantine Gateway -->
+  <g transform="translate(345, 180)">
+    <rect x="0" y="-45" width="115" height="90" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.5" />
+    <circle cx="16" cy="-25" r="3.5" fill="#5EC8FF" />
+    <text x="26" y="-21" fill="#5EC8FF" font-size="11" font-weight="700">QUALITY &amp; CDC</text>
+    
+    <text x="12" y="-2" fill="#EAF4F0" font-size="9" font-family="monospace">Expectations</text>
+    <text x="12" y="12" fill="#2EE6A7" font-size="9" font-family="monospace">✓ Clean Flow</text>
+    <text x="12" y="26" fill="#FF9B4A" font-size="9" font-family="monospace">⚠ Quarantine</text>
+  </g>
+
+  <!-- Stage 4A: Silver Curated Layer -->
+  <g transform="translate(490, 155)">
+    <rect x="0" y="-25" width="110" height="50" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
+    <text x="12" y="-6" fill="#2EE6A7" font-size="11" font-weight="700">SILVER</text>
+    <text x="12" y="12" fill="#91A8A2" font-size="9" font-family="monospace">SCD1 / SCD2 · CDF</text>
+  </g>
+
+  <!-- Stage 4B: Quarantine Store -->
+  <g transform="translate(490, 245)">
+    <rect x="0" y="-20" width="110" height="40" rx="6" fill="#0A1715" stroke="#FF9B4A" stroke-width="1" stroke-dasharray="3 3" />
+    <text x="12" y="-3" fill="#FF9B4A" font-size="10" font-weight="700">QUARANTINE</text>
+    <text x="12" y="11" fill="#91A8A2" font-size="8" font-family="monospace">Dead-Letter Queue</text>
+  </g>
+
+  <!-- Stage 5: Gold Curated Models -->
+  <g transform="translate(635, 155)">
+    <rect x="0" y="-25" width="115" height="50" rx="6" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1" />
+    <text x="12" y="-6" fill="#5EC8FF" font-size="11" font-weight="700">GOLD / MARTS</text>
+    <text x="12" y="12" fill="#91A8A2" font-size="9" font-family="monospace">Star · Z-Order / Clust.</text>
+  </g>
+
+  <!-- Stage 6: Semantic & Serving -->
+  <g transform="translate(780, 180)">
+    <rect x="0" y="-45" width="120" height="90" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+    <circle cx="16" cy="-25" r="3.5" fill="#FF9B4A" />
+    <text x="26" y="-21" fill="#FFC085" font-size="11" font-weight="700">SEMANTIC &amp; SERVE</text>
+    
+    <text x="12" y="-2" fill="#EAF4F0" font-size="9" font-family="monospace">Lakehouse Direct</text>
+    <text x="12" y="12" fill="#91A8A2" font-size="9" font-family="monospace">BI Dashboards</text>
+    <text x="12" y="26" fill="#91A8A2" font-size="9" font-family="monospace">High-QPS APIs</text>
+  </g>
+
+  <!-- Bottom Technical Legend Strip -->
+  <g transform="translate(36, 335)">
+    <rect x="0" y="0" width="888" height="30" rx="6" fill="#071614" stroke="#17352F" stroke-width="1" />
+    <circle cx="20" cy="15" r="4" fill="#2EE6A7" />
+    <text x="32" y="19" fill="#91A8A2" font-size="10" font-family="monospace">RAW INGESTION</text>
+
+    <circle cx="200" cy="15" r="4" fill="#5EC8FF" />
+    <text x="212" y="19" fill="#91A8A2" font-size="10" font-family="monospace">SCHEMA EVOLUTION &amp; AUDIT</text>
+
+    <circle cx="440" cy="15" r="4" fill="#FF9B4A" />
+    <text x="452" y="19" fill="#91A8A2" font-size="10" font-family="monospace">QUARANTINE / DEAD LETTER</text>
+
+    <circle cx="700" cy="15" r="4" fill="#FFC085" />
+    <text x="712" y="19" fill="#91A8A2" font-size="10" font-family="monospace">SEMANTIC DATA DELIVERY</text>
+  </g>
 </svg>

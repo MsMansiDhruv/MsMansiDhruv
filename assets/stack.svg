@@ -1,6 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
-<defs><linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#0A1715"/></linearGradient></defs>
-<rect width="1200" height="110" rx="22" fill="url(#bg4)" stroke="#17352F"/>
-<g><rect x="55" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="80" cy="55" r="14" fill="none" stroke="#3776AB" stroke-width="2"/><text x="80" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#3776AB">PY</text><circle cx="102" cy="55" r="2.5" fill="#3776AB"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="0.4583333333333333s" repeatCount="indefinite"/></circle></g><g><rect x="150" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="175" cy="55" r="14" fill="none" stroke="#FF9B4A" stroke-width="2"/><text x="175" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#FF9B4A">AWS</text><circle cx="197" cy="55" r="2.5" fill="#FF9B4A"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="1.25s" repeatCount="indefinite"/></circle></g><g><rect x="245" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="270" cy="55" r="14" fill="none" stroke="#2EE6A7" stroke-width="2"/><text x="270" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#2EE6A7">DB</text><circle cx="292" cy="55" r="2.5" fill="#2EE6A7"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="2.0416666666666665s" repeatCount="indefinite"/></circle></g><g><rect x="340" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="365" cy="55" r="14" fill="none" stroke="#FF9B4A" stroke-width="2"/><text x="365" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#FF9B4A">SP</text><circle cx="387" cy="55" r="2.5" fill="#FF9B4A"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="2.8333333333333335s" repeatCount="indefinite"/></circle></g><g><rect x="435" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="460" cy="55" r="14" fill="none" stroke="#2EE6A7" stroke-width="2"/><text x="460" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#2EE6A7">TF</text><circle cx="482" cy="55" r="2.5" fill="#2EE6A7"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="3.625s" repeatCount="indefinite"/></circle></g><g><rect x="530" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="555" cy="55" r="14" fill="none" stroke="#5EC8FF" stroke-width="2"/><text x="555" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#5EC8FF">DK</text><circle cx="577" cy="55" r="2.5" fill="#5EC8FF"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="4.416666666666667s" repeatCount="indefinite"/></circle></g><g><rect x="625" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="650" cy="55" r="14" fill="none" stroke="#2EE6A7" stroke-width="2"/><text x="650" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#2EE6A7">AF</text><circle cx="672" cy="55" r="2.5" fill="#2EE6A7"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="5.208333333333333s" repeatCount="indefinite"/></circle></g><g><rect x="720" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="745" cy="55" r="14" fill="none" stroke="#FF9B4A" stroke-width="2"/><text x="745" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#FF9B4A">KF</text><circle cx="767" cy="55" r="2.5" fill="#FF9B4A"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="6s" repeatCount="indefinite"/></circle></g><g><rect x="815" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="840" cy="55" r="14" fill="none" stroke="#5EC8FF" stroke-width="2"/><text x="840" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#5EC8FF">PG</text><circle cx="862" cy="55" r="2.5" fill="#5EC8FF"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="6.791666666666667s" repeatCount="indefinite"/></circle></g><g><rect x="910" y="25" width="78" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="935" cy="55" r="14" fill="none" stroke="#2EE6A7" stroke-width="2"/><text x="935" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" font-weight="700" fill="#2EE6A7">C++</text><circle cx="957" cy="55" r="2.5" fill="#2EE6A7"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="7.583333333333333s" repeatCount="indefinite"/></circle></g><g><rect x="1020" y="25" width="120" height="60" rx="16" fill="#091513" stroke="#17352F"/><circle cx="1045" cy="55" r="14" fill="none" stroke="#FF9B4A" stroke-width="2"/><text x="1045" y="60" text-anchor="middle" font-family="ui-monospace,monospace" font-size="7" font-weight="700" fill="#FF9B4A">NVIDIA</text><circle cx="1109" cy="55" r="2.5" fill="#FF9B4A"><animate attributeName="opacity" values=".25;1;.25" dur="2.5s" begin="8.5s" repeatCount="indefinite"/></circle></g>
-<text x="25" y="102" font-family="ui-monospace,monospace" font-size="9" fill="#91A8A2">CORE · DATA / CLOUD / COMPUTE / ORCHESTRATION</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="stk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#091815" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <radialGradient id="stack-glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#2EE6A7" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#06100E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="400" fill="url(#stk-bg)" rx="16" />
+  <rect width="960" height="400" fill="url(#stack-glow)" rx="16" />
+
+  <!-- Frame Borders -->
+  <rect x="1" y="1" width="958" height="398" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="384" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Corner Ticks -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 16 372 L 16 384 L 28 384" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 372 L 944 384 L 932 384" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+
+  <!-- Header Strip -->
+  <g transform="translate(36, 38)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">ENGINEERING TOOLCHAIN // PRODUCTION &amp; ACCELERATED SYSTEMS</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">PARADIGM: LAKEHOUSE · DISTRIBUTED · GPU</text>
+  </g>
+  <line x1="36" y1="56" x2="924" y2="56" stroke="#17352F" stroke-width="1" />
+
+  <!-- Tier 1: Core & Lakehouse Engines -->
+  <g transform="translate(36, 75)">
+    <!-- Label -->
+    <text x="0" y="18" fill="#2EE6A7" font-size="10.5" font-weight="700" letter-spacing="1">01. DISTRIBUTED ENGINES &amp; LAKEHOUSE</text>
+    
+    <g transform="translate(0, 30)">
+      <!-- Item: Apache Spark -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Spark</text>
+      </g>
+      <!-- Item: Databricks -->
+      <g transform="translate(180, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Databricks</text>
+      </g>
+      <!-- Item: Delta Lake -->
+      <g transform="translate(360, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Delta Lake</text>
+      </g>
+      <!-- Item: PySpark -->
+      <g transform="translate(540, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">PySpark / Python</text>
+      </g>
+      <!-- Item: Unity Catalog -->
+      <g transform="translate(720, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Unity Catalog</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tier 2: Cloud Infrastructure & AWS -->
+  <g transform="translate(36, 175)">
+    <text x="0" y="18" fill="#5EC8FF" font-size="10.5" font-weight="700" letter-spacing="1">02. CLOUD PLATFORM &amp; ORCHESTRATION</text>
+    
+    <g transform="translate(0, 30)">
+      <!-- Item: AWS Ecosystem -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">AWS (S3 / Glue / Redshift)</text>
+      </g>
+      <!-- Item: Apache Kafka -->
+      <g transform="translate(180, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Kafka</text>
+      </g>
+      <!-- Item: Apache Airflow -->
+      <g transform="translate(360, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Apache Airflow</text>
+      </g>
+      <!-- Item: Terraform -->
+      <g transform="translate(540, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Terraform (IaC)</text>
+      </g>
+      <!-- Item: Docker & CI/CD -->
+      <g transform="translate(720, 0)">
+        <rect x="0" y="0" width="168" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Docker / GitHub Actions</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tier 3: Systems Languages & Accelerated Computing -->
+  <g transform="translate(36, 275)">
+    <text x="0" y="18" fill="#FF9B4A" font-size="10.5" font-weight="700" letter-spacing="1">03. SYSTEMS CORE &amp; ACCELERATED COMPUTING</text>
+    
+    <g transform="translate(0, 30)">
+      <!-- Item: Python & C++ -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#2EE6A7" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">Python · C++ · SQL · Bash</text>
+      </g>
+      <!-- Item: NVIDIA CUDA -->
+      <g transform="translate(225, 0)">
+        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
+        <text x="28" y="25" fill="#FFC085" font-size="11.5" font-weight="700">NVIDIA CUDA</text>
+      </g>
+      <!-- Item: RAPIDS / cuDF -->
+      <g transform="translate(450, 0)">
+        <rect x="0" y="0" width="210" height="42" rx="6" fill="#0B1D1A" stroke="#FF9B4A" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#FF9B4A" />
+        <text x="28" y="25" fill="#FFC085" font-size="11.5" font-weight="700">RAPIDS / cuDF (GPU)</text>
+      </g>
+      <!-- Item: PostgreSQL / MySQL -->
+      <g transform="translate(675, 0)">
+        <rect x="0" y="0" width="213" height="42" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+        <circle cx="16" cy="21" r="4" fill="#5EC8FF" />
+        <text x="28" y="25" fill="#EAF4F0" font-size="11.5" font-weight="700">PostgreSQL · MySQL</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Strip -->
+  <g transform="translate(36, 362)">
+    <rect x="0" y="0" width="888" height="24" rx="4" fill="#071614" />
+    <text x="12" y="16" fill="#91A8A2" font-size="9.5" font-family="monospace">
+      FOCUS: <tspan fill="#2EE6A7">PRODUCTION RELIABILITY</tspan> · <tspan fill="#5EC8FF">MEASURED PERFORMANCE</tspan> · <tspan fill="#FF9B4A">ACCELERATED QUERY EXECUTION</tspan>
+    </text>
+  </g>
 </svg>

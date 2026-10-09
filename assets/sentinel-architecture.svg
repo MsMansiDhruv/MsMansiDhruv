@@ -1,21 +1,248 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06100E"/><stop offset="1" stop-color="#071614"/></linearGradient>
-<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1D1A"/><stop offset="1" stop-color="#0A1715"/></linearGradient>
-<radialGradient id="glow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#2EE6A7" stop-opacity=".16"/><stop offset="1" stop-color="#2EE6A7" stop-opacity="0"/></radialGradient>
-<style>
-.s{font-family:Inter,Segoe UI,Arial,sans-serif}.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.t{fill:#EAF4F0}.mt{fill:#91A8A2}.gt{fill:#2EE6A7}.ot{fill:#FFC085}.bt{fill:#A9E0FF}
-@keyframes pulse{0%,100%{opacity:.15}50%{opacity:.85}}@keyframes flow{from{stroke-dashoffset:180}to{stroke-dashoffset:0}}
-@keyframes scan{0%{transform:translateX(-900px);opacity:0}25%{opacity:.22}75%{opacity:.22}100%{transform:translateX(900px);opacity:0}}
-</style></defs>
-<rect width="1600" height="330" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1598" height="328" rx="27" fill="none" stroke="#17352F"/>
-<text x="50" y="48" class="m gt" font-size="11">SENTINEL / DATA LAKEHOUSE</text>
-<text x="50" y="75" class="s t" font-size="24" font-weight="700">A Lakehouse Built Around Failure Visibility</text>
-<g class="s">
-<rect x="56" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#17352F"/><text x="74" y="135" class="t" font-size="18" font-weight="700">Sources</text><text x="74" y="160" class="m mt" font-size="10">files · tables</text><rect x="276" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#17352F"/><text x="294" y="135" class="t" font-size="18" font-weight="700">Bronze</text><text x="294" y="160" class="m mt" font-size="10">raw delta</text><rect x="496" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#FF9B4A"/><text x="514" y="135" class="t" font-size="18" font-weight="700">Quality</text><text x="514" y="160" class="m mt" font-size="10">DQ · quarantine</text><rect x="716" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#17352F"/><text x="734" y="135" class="t" font-size="18" font-weight="700">Silver</text><text x="734" y="160" class="m mt" font-size="10">clean delta</text><rect x="936" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#17352F"/><text x="954" y="135" class="t" font-size="18" font-weight="700">Gold</text><text x="954" y="160" class="m mt" font-size="10">marts</text><rect x="1156" y="100" width="170" height="86" rx="16" fill="#091513" stroke="#17352F"/><text x="1174" y="135" class="t" font-size="18" font-weight="700">Serve</text><text x="1174" y="160" class="m mt" font-size="10">BI · API</text>
-</g>
-<path d="M226 143 H268" fill="none" stroke="#2EE6A7" stroke-width="2.5" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="160;0" dur="4s" begin="0s" repeatCount="indefinite"/></path><path d="M446 143 H488" fill="none" stroke="#FF9B4A" stroke-width="2.5" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="160;0" dur="4.4s" begin="-0.3s" repeatCount="indefinite"/></path><path d="M666 143 H708" fill="none" stroke="#2EE6A7" stroke-width="2.5" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="160;0" dur="4.8s" begin="-0.6s" repeatCount="indefinite"/></path><path d="M886 143 H928" fill="none" stroke="#FF9B4A" stroke-width="2.5" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="160;0" dur="5.2s" begin="-0.8999999999999999s" repeatCount="indefinite"/></path><path d="M1106 143 H1148" fill="none" stroke="#2EE6A7" stroke-width="2.5" stroke-dasharray="7 11"><animate attributeName="stroke-dashoffset" values="160;0" dur="5.6s" begin="0s" repeatCount="indefinite"/></path>
-<g class="m" font-size="11"><text x="56" y="234" class="gt">CONTROL</text><text x="145" y="234" class="t">Schema Evolution · Data Quality · CDC · SCD1/SCD2</text><text x="746" y="234" class="ot">OPERATE</text><text x="820" y="234" class="t">Observability · Governance · Performance Trade-Offs</text></g>
-<text x="56" y="282" class="s mt" font-size="13">Databricks · Spark · Delta Lake · Lakeflow · Auto Loader · Unity Catalog</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="sen-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#091916" />
+      <stop offset="100%" stop-color="#06100E" />
+    </linearGradient>
+
+    <linearGradient id="bronze-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143029" />
+      <stop offset="100%" stop-color="#0A1E1A" />
+    </linearGradient>
+
+    <linearGradient id="silver-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11333F" />
+      <stop offset="100%" stop-color="#0B1F27" />
+    </linearGradient>
+
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D2914" />
+      <stop offset="100%" stop-color="#23170B" />
+    </linearGradient>
+
+    <linearGradient id="accent-stream" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EE6A7" />
+      <stop offset="50%" stop-color="#5EC8FF" />
+      <stop offset="100%" stop-color="#FF9B4A" />
+    </linearGradient>
+
+    <style>
+      @keyframes pipePulse {
+        0% { stroke-dashoffset: 160; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .pipe-flow {
+        stroke-dasharray: 8 6;
+        animation: pipePulse 4s linear infinite;
+      }
+      .alert-pulse {
+        animation: pipePulse 2.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="960" height="480" fill="url(#sen-bg)" rx="16" />
+  
+  <!-- Frame Borders -->
+  <rect x="1" y="1" width="958" height="478" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="464" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.5" />
+
+  <!-- Corner Ticks -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 16 452 L 16 464 L 28 464" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 452 L 944 464 L 932 464" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+
+  <!-- Top Title Strip -->
+  <g transform="translate(36, 38)">
+    <circle cx="4" cy="4" r="3" fill="#2EE6A7" />
+    <text x="16" y="8" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.5">FLAGSHIP ARCHITECTURE // SENTINEL MEDALLION LAKEHOUSE</text>
+    <text x="888" y="8" text-anchor="end" fill="#91A8A2" font-size="10" font-family="monospace">REPO: MsMansiDhruv/sentinel-lakehouse · UNITY CATALOG</text>
+  </g>
+  <line x1="36" y1="56" x2="924" y2="56" stroke="#17352F" stroke-width="1" />
+
+  <!-- Architecture Flow Columns -->
+  <!-- 1. INGESTION COLUMN -->
+  <g transform="translate(36, 80)">
+    <rect x="0" y="0" width="160" height="270" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+    <rect x="0" y="0" width="160" height="28" rx="8" fill="#0B1D1A" />
+    <text x="12" y="18" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="0.8">01. INGESTION</text>
+
+    <!-- Sub-cards -->
+    <g transform="translate(10, 42)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Auto Loader</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">CloudFiles Stream</text>
+    </g>
+
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Schema Evolution</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">addNewColumns / JSON</text>
+    </g>
+
+    <g transform="translate(10, 154)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Audit Metadata</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">_ingest_timestamp</text>
+    </g>
+
+    <g transform="translate(10, 210)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Declarative Pipe</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">Lakeflow / DLT DAG</text>
+    </g>
+  </g>
+
+  <!-- Arrow Ingestion -> Bronze -->
+  <line x1="196" y1="215" x2="224" y2="215" stroke="url(#accent-stream)" stroke-width="2.5" class="pipe-flow" />
+
+  <!-- 2. BRONZE LAYER -->
+  <g transform="translate(224, 80)">
+    <rect x="0" y="0" width="150" height="270" rx="8" fill="url(#bronze-grad)" stroke="#2EE6A7" stroke-width="1.2" />
+    <rect x="0" y="0" width="150" height="28" rx="8" fill="#143029" />
+    <text x="12" y="18" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="0.8">02. BRONZE DELTA</text>
+
+    <g transform="translate(10, 42)">
+      <rect x="0" y="0" width="130" height="60" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#2EE6A7" font-size="10" font-weight="700">Raw Append-Only</text>
+      <text x="10" y="34" fill="#EAF4F0" font-size="8.5" font-family="monospace">Delta Lake Format</text>
+      <text x="10" y="48" fill="#91A8A2" font-size="8" font-family="monospace">ACID Transactions</text>
+    </g>
+
+    <g transform="translate(10, 112)">
+      <rect x="0" y="0" width="130" height="60" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#2EE6A7" font-size="10" font-weight="700">Change Data Feed</text>
+      <text x="10" y="34" fill="#EAF4F0" font-size="8.5" font-family="monospace">table.enableCDF</text>
+      <text x="10" y="48" fill="#91A8A2" font-size="8" font-family="monospace">Row-Level History</text>
+    </g>
+
+    <g transform="translate(10, 182)">
+      <rect x="0" y="0" width="130" height="76" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#2EE6A7" font-size="10" font-weight="700">Integrity Gate</text>
+      <text x="10" y="34" fill="#EAF4F0" font-size="8.5" font-family="monospace">Expectations Rules</text>
+      <text x="10" y="48" fill="#5EC8FF" font-size="8" font-family="monospace">→ Pass to Silver</text>
+      <text x="10" y="62" fill="#FF9B4A" font-size="8" font-family="monospace">⚠ Quarantine Fail</text>
+    </g>
+  </g>
+
+  <!-- Connectors to Silver and Quarantine -->
+  <line x1="374" y1="160" x2="404" y2="160" stroke="#5EC8FF" stroke-width="2.5" class="pipe-flow" />
+  <path d="M 374 270 C 390 270, 390 320, 404 320" fill="none" stroke="#FF9B4A" stroke-width="2" class="alert-pulse" stroke-dasharray="4 4" />
+
+  <!-- 3. SILVER & QUARANTINE -->
+  <g transform="translate(404, 80)">
+    <!-- Silver Container -->
+    <rect x="0" y="0" width="160" height="175" rx="8" fill="url(#silver-grad)" stroke="#5EC8FF" stroke-width="1.2" />
+    <rect x="0" y="0" width="160" height="28" rx="8" fill="#11333F" />
+    <text x="12" y="18" fill="#5EC8FF" font-size="11" font-weight="700" letter-spacing="0.8">03. SILVER CLEAN</text>
+
+    <g transform="translate(10, 40)">
+      <rect x="0" y="0" width="140" height="54" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#5EC8FF" font-size="10" font-weight="700">CDC &amp; MERGE</text>
+      <text x="10" y="33" fill="#EAF4F0" font-size="8.5" font-family="monospace">SCD Type 1 (Upsert)</text>
+      <text x="10" y="46" fill="#91A8A2" font-size="8" font-family="monospace">SCD Type 2 (History)</text>
+    </g>
+
+    <g transform="translate(10, 102)">
+      <rect x="0" y="0" width="140" height="60" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#5EC8FF" font-size="10" font-weight="700">Standardized Schema</text>
+      <text x="10" y="33" fill="#EAF4F0" font-size="8.5" font-family="monospace">Deduplicated Entities</text>
+      <text x="10" y="47" fill="#91A8A2" font-size="8" font-family="monospace">Data Quality Validated</text>
+    </g>
+
+    <!-- Quarantine Dead-Letter Box -->
+    <g transform="translate(0, 190)">
+      <rect x="0" y="0" width="160" height="80" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+      <rect x="0" y="0" width="160" height="24" rx="8" fill="#23170B" />
+      <text x="10" y="16" fill="#FF9B4A" font-size="10" font-weight="700">QUARANTINE / DEAD-LETTER</text>
+      
+      <text x="10" y="42" fill="#EAF4F0" font-size="8.5" font-family="monospace">Expectation Failures</text>
+      <text x="10" y="56" fill="#91A8A2" font-size="8" font-family="monospace">Stored with Error Trace</text>
+      <text x="10" y="70" fill="#FFC085" font-size="8" font-family="monospace">Alerting &amp; Reprocessing</text>
+    </g>
+  </g>
+
+  <!-- Arrow Silver -> Gold -->
+  <line x1="564" y1="160" x2="594" y2="160" stroke="url(#accent-stream)" stroke-width="2.5" class="pipe-flow" />
+
+  <!-- 4. GOLD LAYER (ANALYTICS MARTS) -->
+  <g transform="translate(594, 80)">
+    <rect x="0" y="0" width="160" height="270" rx="8" fill="url(#gold-grad)" stroke="#FF9B4A" stroke-width="1.2" />
+    <rect x="0" y="0" width="160" height="28" rx="8" fill="#3D2914" />
+    <text x="12" y="18" fill="#FFC085" font-size="11" font-weight="700" letter-spacing="0.8">04. GOLD MARTS</text>
+
+    <g transform="translate(10, 42)">
+      <rect x="0" y="0" width="140" height="60" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#FFC085" font-size="10" font-weight="700">Dimensional Models</text>
+      <text x="10" y="34" fill="#EAF4F0" font-size="8.5" font-family="monospace">Star Schema Facts/Dims</text>
+      <text x="10" y="48" fill="#91A8A2" font-size="8" font-family="monospace">Aggregated Views</text>
+    </g>
+
+    <g transform="translate(10, 112)">
+      <rect x="0" y="0" width="140" height="60" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#FFC085" font-size="10" font-weight="700">Liquid Clustering</text>
+      <text x="10" y="34" fill="#2EE6A7" font-size="8.5" font-family="monospace">Z-Order &amp; Partitioning</text>
+      <text x="10" y="48" fill="#91A8A2" font-size="8" font-family="monospace">Pruning &amp; Compaction</text>
+    </g>
+
+    <g transform="translate(10, 182)">
+      <rect x="0" y="0" width="140" height="76" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#FFC085" font-size="10" font-weight="700">Serving &amp; APIs</text>
+      <text x="10" y="34" fill="#EAF4F0" font-size="8.5" font-family="monospace">Databricks SQL</text>
+      <text x="10" y="48" fill="#91A8A2" font-size="8" font-family="monospace">PowerBI / Tableau</text>
+      <text x="10" y="62" fill="#91A8A2" font-size="8" font-family="monospace">Real-Time Endpoints</text>
+    </g>
+  </g>
+
+  <!-- 5. GOVERNANCE & CI/CD BAR -->
+  <g transform="translate(764, 80)">
+    <rect x="0" y="0" width="160" height="270" rx="8" fill="#0A1715" stroke="#17352F" stroke-width="1.2" />
+    <rect x="0" y="0" width="160" height="28" rx="8" fill="#0B1D1A" />
+    <text x="12" y="18" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="0.8">05. GOVERNANCE</text>
+
+    <g transform="translate(10, 42)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Unity Catalog</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">Lineage &amp; RBAC</text>
+    </g>
+
+    <g transform="translate(10, 98)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">CI/CD Pipeline</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">GitHub Actions · pytest</text>
+    </g>
+
+    <g transform="translate(10, 154)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Observability</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">Latency &amp; SLA Monitors</text>
+    </g>
+
+    <g transform="translate(10, 210)">
+      <rect x="0" y="0" width="140" height="48" rx="5" fill="#06100E" stroke="#17352F" stroke-width="1" />
+      <text x="10" y="18" fill="#EAF4F0" font-size="10" font-weight="700">Infrastructure</text>
+      <text x="10" y="34" fill="#91A8A2" font-size="8.5" font-family="monospace">Terraform &amp; AWS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Engineering Benchmark Callout -->
+  <g transform="translate(36, 365)">
+    <rect x="0" y="0" width="888" height="85" rx="8" fill="#081A16" stroke="#2EE6A7" stroke-width="1.2" />
+    
+    <!-- Left badge -->
+    <rect x="16" y="16" width="180" height="24" rx="4" fill="#06100E" stroke="#FF9B4A" stroke-width="1" />
+    <circle cx="28" cy="28" r="3.5" fill="#FF9B4A" />
+    <text x="38" y="32" fill="#FFC085" font-size="10" font-weight="700" letter-spacing="0.5">BENCHMARKED RESULT</text>
+
+    <!-- Content -->
+    <text x="210" y="32" fill="#EAF4F0" font-size="12" font-weight="700">Clustering reduced bytes scanned by 24% — measured against runtime trade-offs for serverless compute.</text>
+    
+    <text x="18" y="62" fill="#91A8A2" font-size="10.5" font-family="monospace">
+      ENGINEERING TRADEOFF: <tspan fill="#2EE6A7">I/O REDUCTION VS. RUNTIME LATENCY</tspan> · <tspan fill="#5EC8FF">OPTIMIZED FOR SCALE &amp; COST PREDICTABILITY</tspan>
+    </text>
+  </g>
 </svg>
