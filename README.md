@@ -73,13 +73,13 @@ A live visual representation of **7+ years of production systems evolution**:
 
 ## GenAI & AI/BI Architecture: Sentinel-GenAI Studio
 
-<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness & Autonomous Agentic Lakehouse UI Screenshot" width="100%" />
+<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness and Lakehouse Observability UI" width="100%" />
 
-**Databricks Genie AI/BI · Mosaic AI Vector Search · Autonomous RCA · Compound Query Routing**
+**Databricks Genie AI/BI · Mosaic AI Vector Search · Incident RCA · Compound Query Routing**
 
 ### Core Production Pillars:
-- **Genie-Bench (Semantic Layer & Evaluation Harness)**: Automated compiler generating Unity Catalog table annotations, join graphs, and a safety-validated **Trusted SQL Catalog** with 100% intent classification and zero metric hallucinations.
-- **AutoHeal-DE (Autonomous Agentic Observability & RCA)**: Live Delta commit log analyzer detecting late-arriving partitions, bounding historical window blast radii, and generating surgical partition-pruned Delta `MERGE` statements without expensive full-table backfills.
+- **Genie-Bench (Semantic Layer & Evaluation Harness)**: Semantic metadata compiler generating Unity Catalog table annotations, join graphs, and trusted SQL definitions with SQLGlot AST equivalence matching.
+- **AutoHeal-DE (Pipeline Incident RCA & Healing)**: Live Delta commit log analyzer detecting late-arriving partitions, bounding historical window blast radii, and generating surgical partition-pruned Delta `MERGE` statements without expensive full-table backfills.
 - **Hybrid Compound Router**: Fuses structured Databricks SQL aggregations with unstructured Mosaic AI Vector Search chunks via Reciprocal Rank Fusion (RRF k=60) with numerical consistency guardrails.
 
 <a href="https://github.com/MsMansiDhruv/sentinel-lakehouse/blob/main/notebooks/14_sentinel_genai_hybrid_rag.ipynb">Explore Interactive Hybrid RAG & Genie Demo Notebook →</a>
@@ -105,16 +105,16 @@ A live visual representation of **7+ years of production systems evolution**:
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse#autoheal-de">AutoHeal-DE: Autonomous Agentic Lakehouse</a></h3>
+      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse#autoheal-de">AutoHeal-DE: Lakehouse Pipeline Self-Healing</a></h3>
       <p><strong>Self-Healing Pipelines &amp; Incident RCA</strong></p>
       <p>Zero-scan Delta commit log monitor detecting late-arriving partitions, bounding rolling-window blast radii, and executing surgical partition-pruned Delta MERGE reconciliations without costly full-table restatements.</p>
-      <p><code>Autonomous Agents</code> · <code>Delta Lake CDF</code> · <code>Commit Log Inspection</code> · <code>Surgical Reconciler</code></p>
+      <p><code>Delta Lake CDF</code> · <code>Commit Log Inspection</code> · <code>AST Query Rewriter</code> · <code>Surgical Reconciler</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse#genie-bench">Genie-Bench: Semantic Layer &amp; Eval Harness</a></h3>
       <p><strong>Databricks AI/BI &amp; Genie Space Quality Gate</strong></p>
-      <p>Automated semantic metadata compiler translating Unity Catalog tables, column metrics, and join graphs into Databricks Genie spaces with verified Trusted SQL golden queries, AST validation, and automated scorecards.</p>
-      <p><code>Databricks Genie</code> · <code>AI/BI Spaces</code> · <code>Trusted SQL</code> · <code>AST Validation</code> · <code>Scorecards</code></p>
+      <p>Automated semantic metadata compiler translating Unity Catalog tables, column metrics, and join graphs into Databricks Genie spaces with verified golden queries, SQLGlot AST validation, and automated scorecards.</p>
+      <p><code>Databricks Genie</code> · <code>AI/BI Spaces</code> · <code>SQLGlot AST</code> · <code>Unity Catalog DDL</code> · <code>Scorecards</code></p>
     </td>
   </tr>
 </table>
@@ -134,7 +134,7 @@ A live visual representation of **7+ years of production systems evolution**:
 <p align="center">
   <img src="https://cdn.simpleicons.org/python/2EE6A7" height="26" alt="Python" />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="26" alt="AWS" />
+  <img src="./assets/aws.svg" height="26" alt="AWS" />
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="26" alt="Databricks" />
   &nbsp;&nbsp;
