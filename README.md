@@ -12,9 +12,23 @@
 
 <img src="./assets/whoami.svg" alt="3D animated terrain surface plot of Mansi Dhruv's engineering focus" width="100%" />
 
-I Build Production Data Systems Across **AWS, Databricks, Spark And PySpark**. My Work Sits Between **Platform Engineering, Distributed Processing And Performance Engineering** — From Designing Pipelines To Understanding What The Engine Is Doing Underneath Them.
+I build production data systems across **AWS, Databricks, Spark, and PySpark**. My work sits between **platform engineering, distributed processing, and performance engineering** — from designing scalable pipelines to understanding what the engine is doing underneath them.
 
-The Longer Arc Is Deliberate: **Data Platforms → Distributed Systems → Performance → Accelerated Data Systems**, With **Semantic Data And GenAI** Becoming Another Layer Of The Stack.
+The longer arc is deliberate: **Data Platforms → Distributed Systems → Performance → Accelerated Data Systems**, with **semantic data and GenAI systems** becoming integral layers of the stack.
+
+---
+
+## Open Source & Engine Internals Contributions
+
+Active contributions to core data engines, table formats, and query frameworks:
+
+| Engine / Framework | Pull Request | Technical Focus & Scope | CI / Review Status |
+| :--- | :--- | :--- | :--- |
+| **NVIDIA cuDF Spark** | [#16688](https://github.com/NVIDIA/cudf-spark/pull/16688) | Spark Catalyst multi-digit patch versioning across build tooling, CI, and test matrices | Blossom CI Passed (30+ checks green), Greptile 5/5 |
+| **NVIDIA cuDF Spark** | [#16715](https://github.com/NVIDIA/cudf-spark/pull/16715) | `GpuCreateDataSourceTableAsSelectCommand` table drop on `saveAsTable` overwrite (SPARK-60387) | Greptile 5/5, Signoff Passed, Upstream Synced |
+| **Apache Iceberg** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Reference snapshot ID invariant validation during branch snapshot expiration (#4200) | 20/20 CI checks passed, in maintainer queue |
+| **Ibis Project** | [#12211](https://github.com/ibis-project/ibis/pull/12211) | Decimal mean type promotion (`float64`) and product precision/scale calculation (#12209) | Semantic Release passed, DCO signed |
+| **Databricks dbt** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | Relation string literal escaping for metadata queries against catalogs and schemas (#1747) | 100% PR Test Coverage, 8/8 CI checks passed |
 
 ---
 
@@ -22,11 +36,11 @@ The Longer Arc Is Deliberate: **Data Platforms → Distributed Systems → Perfo
 
 <img src="./assets/space-time-network.svg" alt="Space-Time Trajectory Continuum and Execution Flux Network" width="100%" />
 
-A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
-- **Foundations & Academic Core**: Master in Computer Applications (MCA), GEM Award For Technical Leadership, Python & SQL Modeling.
-- **Enterprise Cloud Migration**: Architected AWS Framework (Glue, Redshift, DMS, S3) For Financial Datasets (Tata AMC) Handling 10+ TB With 40% Automation Efficiency.
-- **High-Throughput Streaming**: Databricks, PySpark, Delta Live Tables & Kafka/Kinesis Real-Time Scoring (Acorns) Delivering 40% Pipeline Time Reduction & 30% Cost Savings.
-- **Accelerated Frontier**: Advancing Into Spark Catalyst Optimization, Off-Heap Tungsten Memory, And GPU Kernel Acceleration (NVIDIA CUDA & RAPIDS cuDF).
+A live visual representation of **7+ years of production systems evolution**:
+- **Foundations & Academic Core**: Master in Computer Applications (MCA), GEM Award for technical leadership, Python & SQL modeling.
+- **Enterprise Cloud Migration**: Architected AWS framework (Glue, Redshift, DMS, S3) for financial datasets (Tata AMC) handling 10+ TB with 40% automation efficiency.
+- **High-Throughput Streaming**: Databricks, PySpark, Delta Live Tables & Kafka/Kinesis real-time scoring (Acorns) delivering 40% pipeline time reduction and 30% compute cost savings.
+- **Accelerated Frontier**: Advancing into Spark Catalyst optimization, off-heap Tungsten memory, and GPU kernel acceleration (NVIDIA CUDA & RAPIDS cuDF).
 
 ---
 
@@ -34,10 +48,10 @@ A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
 
 <img src="./assets/benchmarks.svg" alt="Production Engineering Benchmarks and Measured Decisions" width="100%" />
 
-- **I/O & File Pruning**: Liquid Clustering Reduced Bytes Scanned By **24%** Across Analytical Predicates, Measured Against Serverless Cluster Startup Overheads.
-- **Memory & Shuffle Optimization**: Mitigated High-Cardinality Skew Via AQE Dynamic Split & Adaptive Broadcast Switching, Eliminating **100GB+ Disk Spills**.
-- **Real-Time Stream Processing**: Engineered End-to-End Streaming Scoring With **40% Latency Acceleration** And **30% Compute Cost Reduction**.
-- **Metadata-Driven Cloud Migration**: Automated Migration Of **10+ TB** Financial Data To Redshift With Reproducible Terraform IaC And Zero-Loss Observability.
+- **I/O & File Pruning**: Liquid clustering reduced bytes scanned by **24%** across analytical predicates, measured against serverless cluster startup overheads.
+- **Memory & Shuffle Optimization**: Mitigated high-cardinality skew via AQE dynamic split and adaptive broadcast switching, eliminating **100GB+ disk spills**.
+- **Real-Time Stream Processing**: Engineered end-to-end streaming scoring with **40% latency acceleration** and **30% compute cost reduction**.
+- **Metadata-Driven Cloud Migration**: Automated migration of **10+ TB** financial data to Redshift with reproducible Terraform IaC and zero-loss observability.
 
 ---
 
@@ -62,13 +76,13 @@ A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h3>
+      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h3>
       <p><strong>Flagship Production Architecture</strong></p>
       <p>Full Medallion Lakehouse engine on Databricks with Auto Loader incremental ingestion, Delta Change Data Feed (CDF), SCD Type 1 & Type 2 dimensional models, automated Great Expectations quarantine dead-letter gates, and Unity Catalog lineage.</p>
       <p><code>Databricks</code> · <code>Delta Lake</code> · <code>PySpark</code> · <code>Unity Catalog</code> · <code>pytest</code> · <code>CI/CD</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/MsMansiDhruv/gquery-engine-clone">Query Engine Laboratory</a></h3>
+      <h3><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">Query Engine Laboratory</a></h3>
       <p><strong>Systems Internals & Execution Exploration</strong></p>
       <p>A specialized technical laboratory exploring SQL query parsing, relational execution trees, vectorized columnar batch processing, predicate pushdown algorithms, and in-memory operator performance.</p>
       <p><code>Query Execution</code> · <code>Columnar Layout</code> · <code>Vectorized Kernels</code> · <code>Memory Planning</code></p>
@@ -116,6 +130,6 @@ A Live Visual Representation Of **7+ Years Of Production Systems Evolution**:
 
 ## Vision / Let's Collaborate
 
-I Am Interested In Problems Where **Data, Systems, Performance And Intelligence** Meet — Especially **Data Platforms, Spark And Query Execution, Performance Experiments, Semantic Data, GenAI Workflows And GPU-Accelerated Data Systems**.
+I am interested in problems where **data, systems, performance, and intelligence** meet — especially **data platforms, Spark and query execution, performance experiments, semantic data, GenAI workflows, and GPU-accelerated data systems**.
 
-<a href="mailto:mansi.p.dhruv@gmail.com">Let's Build Something Worth Measuring →</a>
+<a href="mailto:mansi.p.dhruv@gmail.com">Let's build something worth measuring →</a>
