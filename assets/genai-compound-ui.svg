@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="ui-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06100E" />
+      <stop offset="50%" stop-color="#091B17" />
+      <stop offset="100%" stop-color="#050E0C" />
+    </linearGradient>
+
+    <linearGradient id="card-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D2721" />
+      <stop offset="100%" stop-color="#081A16" />
+    </linearGradient>
+
+    <linearGradient id="card-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102533" />
+      <stop offset="100%" stop-color="#091620" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EE6A7" />
+      <stop offset="100%" stop-color="#5EC8FF" />
+    </linearGradient>
+
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#5EC8FF" />
+    </linearGradient>
+
+    <style>
+      @keyframes pulseGlow {
+        0% { opacity: 0.6; }
+        50% { opacity: 1.0; }
+        100% { opacity: 0.6; }
+      }
+      .live-dot {
+        animation: pulseGlow 2s ease-in-out infinite;
+      }
+      .code-font {
+        font-family: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="960" height="560" fill="url(#ui-bg)" rx="16" />
+  <rect x="1" y="1" width="958" height="558" rx="15" fill="none" stroke="#17352F" stroke-width="1.5" />
+  <rect x="8" y="8" width="944" height="544" rx="10" fill="none" stroke="#17352F" stroke-width="0.75" stroke-opacity="0.4" />
+
+  <!-- Corner Guides -->
+  <path d="M 16 28 L 16 16 L 28 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 28 L 944 16 L 932 16" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 16 532 L 16 544 L 28 544" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+  <path d="M 944 532 L 944 544 L 932 544" fill="none" stroke="#2EE6A7" stroke-width="1.5" />
+
+  <!-- Window Header Bar -->
+  <g transform="translate(24, 20)">
+    <circle cx="12" cy="14" r="5" fill="#FF5F56" />
+    <circle cx="28" cy="14" r="5" fill="#FFBD2E" />
+    <circle cx="44" cy="14" r="5" fill="#27C93F" />
+    <text x="64" y="18" fill="#E2F1ED" font-size="13" font-weight="700" letter-spacing="0.5">Sentinel-GenAI Studio</text>
+    <text x="216" y="18" fill="#5E8A80" font-size="12">|</text>
+    <text x="228" y="18" fill="#7FA99F" font-size="12">Databricks Genie Semantic Harness &amp; Autonomous Agentic Lakehouse</text>
+
+    <!-- Status Badges -->
+    <rect x="740" y="4" width="80" height="20" rx="10" fill="#0E332B" stroke="#2EE6A7" stroke-width="1" />
+    <circle cx="752" cy="14" r="3.5" fill="#2EE6A7" class="live-dot" />
+    <text x="762" y="18" fill="#2EE6A7" font-size="10" font-weight="700" letter-spacing="0.5">GENIE AI/BI</text>
+
+    <rect x="830" y="4" width="76" height="20" rx="10" fill="#142B38" stroke="#5EC8FF" stroke-width="1" />
+    <circle cx="842" cy="14" r="3.5" fill="#5EC8FF" class="live-dot" />
+    <text x="852" y="18" fill="#5EC8FF" font-size="10" font-weight="700" letter-spacing="0.5">AUTO-HEAL</text>
+  </g>
+
+  <!-- Main Horizontal Divider -->
+  <line x1="24" y1="52" x2="936" y2="52" stroke="#17352F" stroke-width="1" />
+
+  <!-- Left Panel: Genie-Bench Semantic Layer (Option C) -->
+  <g transform="translate(24, 68)">
+    <rect width="440" height="270" rx="10" fill="url(#card-grad-1)" stroke="#1F473E" stroke-width="1" />
+    
+    <!-- Header -->
+    <text x="18" y="26" fill="#2EE6A7" font-size="11" font-weight="800" letter-spacing="1">OPTION C · GENIE-BENCH SEMANTIC HARNESS</text>
+    <text x="18" y="46" fill="#F0FDF8" font-size="14" font-weight="700">Unity Catalog Semantic Compiler &amp; Trusted Queries</text>
+    
+    <!-- Table Annotation Tree -->
+    <g transform="translate(18, 62)">
+      <rect width="404" height="88" rx="6" fill="#071512" stroke="#163830" stroke-width="1" />
+      <text x="12" y="20" fill="#7FA99F" font-size="10" font-weight="700">GOVERNED CATALOG TARGET</text>
+      <text x="175" y="20" fill="#2EE6A7" font-size="10" class="code-font">sentinel_prod.gold.fact_orders</text>
+      
+      <!-- Columns chips -->
+      <g transform="translate(12, 34)">
+        <rect x="0" y="0" width="112" height="20" rx="4" fill="#0C2520" stroke="#1C4B40" stroke-width="0.75" />
+        <text x="8" y="14" fill="#2EE6A7" font-size="10" class="code-font">order_id (PK)</text>
+        
+        <rect x="120" y="0" width="124" height="20" rx="4" fill="#0C2520" stroke="#1C4B40" stroke-width="0.75" />
+        <text x="128" y="14" fill="#5EC8FF" font-size="10" class="code-font">order_date (DATE)</text>
+
+        <rect x="252" y="0" width="134" height="20" rx="4" fill="#0C2520" stroke="#1C4B40" stroke-width="0.75" />
+        <text x="260" y="14" fill="#FF9B4A" font-size="10" class="code-font">total_amount (DEC)</text>
+      </g>
+
+      <!-- Trusted Query Preview -->
+      <g transform="translate(12, 60)">
+        <text x="0" y="16" fill="#5E8A80" font-size="10">Trusted SQL:</text>
+        <text x="74" y="16" fill="#A8D8CE" font-size="10" class="code-font">SELECT date_trunc('month', order_date)... sum(total_amount)</text>
+      </g>
+    </g>
+
+    <!-- Scorecard Metrics Row -->
+    <g transform="translate(18, 162)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="128" height="92" rx="6" fill="#071512" stroke="#163830" stroke-width="1" />
+      <text x="12" y="22" fill="#7FA99F" font-size="10" font-weight="700">INTENT ACCURACY</text>
+      <text x="12" y="52" fill="#2EE6A7" font-size="24" font-weight="800">100.0%</text>
+      <text x="12" y="74" fill="#5E8A80" font-size="10">Zero-hallucination</text>
+
+      <!-- Metric 2 -->
+      <rect x="138" y="0" width="128" height="92" rx="6" fill="#071512" stroke="#163830" stroke-width="1" />
+      <text x="12" y="22" fill="#7FA99F" font-size="10" font-weight="700">AST SAFETY</text>
+      <text x="12" y="52" fill="#5EC8FF" font-size="24" font-weight="800">PASSED</text>
+      <text x="12" y="74" fill="#5E8A80" font-size="10">DDL/DML Guarded</text>
+
+      <!-- Metric 3 -->
+      <rect x="276" y="0" width="128" height="92" rx="6" fill="#071512" stroke="#163830" stroke-width="1" />
+      <text x="12" y="22" fill="#7FA99F" font-size="10" font-weight="700">AVG LATENCY</text>
+      <text x="12" y="52" fill="#FF9B4A" font-size="24" font-weight="800">0.13ms</text>
+      <text x="12" y="74" fill="#5E8A80" font-size="10">In-memory compiled</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: AutoHeal-DE Autonomous RCA (Option B) -->
+  <g transform="translate(494, 68)">
+    <rect width="442" height="270" rx="10" fill="url(#card-grad-2)" stroke="#1C384A" stroke-width="1" />
+    
+    <!-- Header -->
+    <text x="18" y="26" fill="#5EC8FF" font-size="11" font-weight="800" letter-spacing="1">OPTION B · AUTOHEAL-DE AGENTIC OBSERVABILITY</text>
+    <text x="18" y="46" fill="#F0FDF8" font-size="14" font-weight="700">Automated Pipeline RCA &amp; Blast-Radius Healing</text>
+
+    <!-- Incident Diagnosis Feed -->
+    <g transform="translate(18, 62)">
+      <rect width="406" height="68" rx="6" fill="#071219" stroke="#162E3D" stroke-width="1" />
+      <circle cx="16" cy="18" r="4" fill="#FF5F56" />
+      <text x="28" y="21" fill="#FF9B9B" font-size="11" font-weight="700">INCIDENT DETECTED · LATE PARTITION SKEW</text>
+      <text x="28" y="38" fill="#88A7B8" font-size="10">Late partition t_late landed 48h delayed. Rolling window gap computed.</text>
+      <text x="28" y="54" fill="#5EC8FF" font-size="10" class="code-font">Affected slice: [2026-10-27 .. 2026-11-02] · Blast radius: 7 days</text>
+    </g>
+
+    <!-- Autonomous Remediation Steps -->
+    <g transform="translate(18, 140)">
+      <rect width="406" height="114" rx="6" fill="#071219" stroke="#162E3D" stroke-width="1" />
+      <text x="14" y="20" fill="#7FB1C9" font-size="10" font-weight="700">AUTONOMOUS REMEDIATION TRACE</text>
+
+      <g transform="translate(14, 32)">
+        <!-- Step 1 -->
+        <circle cx="6" cy="8" r="3" fill="#2EE6A7" />
+        <text x="16" y="11" fill="#DDF4FF" font-size="10">1. Delta Commit Log Inspection: Zero-scan SLA metadata gate triggered</text>
+        
+        <!-- Step 2 -->
+        <circle cx="6" cy="28" r="3" fill="#2EE6A7" />
+        <text x="16" y="31" fill="#DDF4FF" font-size="10">2. Delta MERGE Generation: Partition-pruned surgical backfill generated</text>
+
+        <!-- Step 3 -->
+        <circle cx="6" cy="48" r="3" fill="#2EE6A7" />
+        <text x="16" y="51" fill="#DDF4FF" font-size="10">3. Verification Gate: Recalculated Gold ledger contiguity score: 100%</text>
+
+        <!-- Step 4 -->
+        <circle cx="6" cy="68" r="3" fill="#5EC8FF" />
+        <text x="16" y="71" fill="#5EC8FF" font-size="10" font-weight="700">Action: Restated 7 historical window slices with zero full-table recompute</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Panel: Interactive Compound Query Router Console (Option A + B + C Unified) -->
+  <g transform="translate(24, 356)">
+    <rect width="912" height="184" rx="10" fill="#081613" stroke="#1B3D34" stroke-width="1" />
+    
+    <!-- Console Prompt Header -->
+    <g transform="translate(20, 24)">
+      <rect x="0" y="-4" width="96" height="18" rx="4" fill="#13362C" stroke="#2EE6A7" stroke-width="0.75" />
+      <text x="8" y="9" fill="#2EE6A7" font-size="9" font-weight="800" letter-spacing="0.5">HYBRID PROMPT</text>
+      <text x="108" y="10" fill="#F0FDF8" font-size="12" font-weight="700">"What is our monthly gross revenue, and what are the Platinum SLA downtime penalties?"</text>
+    </g>
+
+    <!-- Execution Plan Bar -->
+    <g transform="translate(20, 52)">
+      <rect width="872" height="28" rx="4" fill="#040C0A" stroke="#112923" stroke-width="0.75" />
+      
+      <circle cx="16" cy="14" r="3" fill="#2EE6A7" />
+      <text x="26" y="17" fill="#7FA99F" font-size="10">Router Intent:</text>
+      <text x="96" y="17" fill="#2EE6A7" font-size="10" font-weight="700">HYBRID (SQL Aggregation + Unstructured Vector Search)</text>
+
+      <text x="440" y="17" fill="#5E8A80" font-size="10">|</text>
+      <text x="454" y="17" fill="#7FA99F" font-size="10">Fusion Algorithm:</text>
+      <text x="548" y="17" fill="#5EC8FF" font-size="10" font-weight="700">Reciprocal Rank Fusion (RRF k=60)</text>
+
+      <text x="740" y="17" fill="#5E8A80" font-size="10">Guardrail:</text>
+      <text x="792" y="17" fill="#2EE6A7" font-size="10" font-weight="700">PASSED</text>
+    </g>
+
+    <!-- Synthesized Grounded Output -->
+    <g transform="translate(20, 92)">
+      <rect width="872" height="74" rx="4" fill="#040C0A" stroke="#112923" stroke-width="0.75" />
+      
+      <!-- Analytical Column Output -->
+      <g transform="translate(14, 16)">
+        <text x="0" y="0" fill="#2EE6A7" font-size="10" font-weight="700">STRUCTURED FINDINGS (Databricks SQL / Genie):</text>
+        <text x="0" y="18" fill="#CDEAE2" font-size="10" class="code-font">- 2026-10: $1,425,000.50 (8,420 orders) · 2026-09: $1,380,200.00 (8,110 orders)</text>
+        <text x="0" y="34" fill="#7FA99F" font-size="9">Lineage: sentinel_prod.gold.fact_orders · Verified via Trusted Catalog #monthly_gross_revenue</text>
+      </g>
+
+      <!-- SLA Policy Vector Output -->
+      <g transform="translate(470, 16)">
+        <text x="0" y="0" fill="#5EC8FF" font-size="10" font-weight="700">GOVERNANCE CONTEXT (Mosaic AI Vector Search):</text>
+        <text x="0" y="18" fill="#D4ECF9" font-size="10">- [doc-sla-2026] Platinum SLA requires 99.99% uptime; failure penalty rate: $10,000/hr.</text>
+        <text x="0" y="34" fill="#678E9F" font-size="9">Matched: dense cosine (0.842) + sparse BM25 (2.19) · Preserved Markdown table chunk</text>
+      </g>
+    </g>
+  </g>
+</svg>

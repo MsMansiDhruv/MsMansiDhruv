@@ -61,7 +61,7 @@ A live visual representation of **7+ years of production systems evolution**:
 
 ---
 
-## Flagship Engineering: Sentinel Lakehouse
+## Flagship Engineering: Sentinel Lakehouse & Compound GenAI Engine
 
 <img src="./assets/sentinel-architecture.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
 
@@ -71,21 +71,50 @@ A live visual representation of **7+ years of production systems evolution**:
 
 ---
 
+## GenAI & AI/BI Architecture: Sentinel-GenAI Studio
+
+<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness & Autonomous Agentic Lakehouse UI Screenshot" width="100%" />
+
+**Databricks Genie AI/BI · Mosaic AI Vector Search · Autonomous RCA · Compound Query Routing**
+
+### Core Production Pillars:
+- **Genie-Bench (Semantic Layer & Evaluation Harness)**: Automated compiler generating Unity Catalog table annotations, join graphs, and a safety-validated **Trusted SQL Catalog** with 100% intent classification and zero metric hallucinations.
+- **AutoHeal-DE (Autonomous Agentic Observability & RCA)**: Live Delta commit log analyzer detecting late-arriving partitions, bounding historical window blast radii, and generating surgical partition-pruned Delta `MERGE` statements without expensive full-table backfills.
+- **Hybrid Compound Router**: Fuses structured Databricks SQL aggregations with unstructured Mosaic AI Vector Search chunks via Reciprocal Rank Fusion (RRF k=60) with numerical consistency guardrails.
+
+<a href="https://github.com/MsMansiDhruv/sentinel-lakehouse/blob/main/notebooks/14_sentinel_genai_hybrid_rag.ipynb">Explore Interactive Hybrid RAG & Genie Demo Notebook →</a>
+
+---
+
 ## Systems Laboratories & Codebases
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h3>
+      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse &amp; Sentinel-GenAI</a></h3>
       <p><strong>Flagship Production Architecture</strong></p>
-      <p>Full Medallion Lakehouse engine on Databricks with Auto Loader incremental ingestion, Delta Change Data Feed (CDF), SCD Type 1 & Type 2 dimensional models, automated Great Expectations quarantine dead-letter gates, and Unity Catalog lineage.</p>
-      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>PySpark</code> · <code>Unity Catalog</code> · <code>pytest</code> · <code>CI/CD</code></p>
+      <p>Full Medallion Lakehouse engine on Databricks with Auto Loader incremental ingestion, Delta Change Data Feed (CDF), SCD Type 1 &amp; Type 2 dimensional models, automated Great Expectations quarantine dead-letter gates, Unity Catalog lineage, and the Sentinel-GenAI hybrid RAG engine.</p>
+      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>PySpark</code> · <code>Unity Catalog</code> · <code>Mosaic AI</code> · <code>pytest</code> · <code>CI/CD</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">Query Engine Laboratory</a></h3>
-      <p><strong>Systems Internals & Execution Exploration</strong></p>
+      <p><strong>Systems Internals &amp; Execution Exploration</strong></p>
       <p>A specialized technical laboratory exploring SQL query parsing, relational execution trees, vectorized columnar batch processing, predicate pushdown algorithms, and in-memory operator performance.</p>
       <p><code>Query Execution</code> · <code>Columnar Layout</code> · <code>Vectorized Kernels</code> · <code>Memory Planning</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse#autoheal-de">AutoHeal-DE: Autonomous Agentic Lakehouse</a></h3>
+      <p><strong>Self-Healing Pipelines &amp; Incident RCA</strong></p>
+      <p>Zero-scan Delta commit log monitor detecting late-arriving partitions, bounding rolling-window blast radii, and executing surgical partition-pruned Delta MERGE reconciliations without costly full-table restatements.</p>
+      <p><code>Autonomous Agents</code> · <code>Delta Lake CDF</code> · <code>Commit Log Inspection</code> · <code>Surgical Reconciler</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse#genie-bench">Genie-Bench: Semantic Layer &amp; Eval Harness</a></h3>
+      <p><strong>Databricks AI/BI &amp; Genie Space Quality Gate</strong></p>
+      <p>Automated semantic metadata compiler translating Unity Catalog tables, column metrics, and join graphs into Databricks Genie spaces with verified Trusted SQL golden queries, AST validation, and automated scorecards.</p>
+      <p><code>Databricks Genie</code> · <code>AI/BI Spaces</code> · <code>Trusted SQL</code> · <code>AST Validation</code> · <code>Scorecards</code></p>
     </td>
   </tr>
 </table>
