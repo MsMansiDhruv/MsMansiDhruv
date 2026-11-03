@@ -99,7 +99,7 @@ A live visual representation of **7+ years of production systems evolution**:
     <td width="50%" valign="top">
       <h3><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h3>
       <p><strong>Databricks DLT &amp; PySpark Optimization Engine</strong></p>
-      <p>Production optimization framework for Databricks. Statically audits PySpark code for UDF socket serialization and withColumn plan bloat, monitors Auto Loader stream backpressure, enforces DLT quarantine routing, and emits surgical Delta MERGE restatements.</p>
+      <p>Open-source static AST optimizer for Databricks. Audits PySpark code for UDF IPC serialization and Catalyst plan bloat, monitors Auto Loader stream backpressure, enforces zero-loss DLT quarantine routing, generates AQE skew join salting, audits Delta compaction debt, and produces partition-pruned Delta MERGE restatements.</p>
       <p><code>PySpark Catalyst</code> · <code>Delta Live Tables</code> · <code>Auto Loader</code> · <code>AST Diagnostics</code> · <code>PyPI</code></p>
     </td>
   </tr>
