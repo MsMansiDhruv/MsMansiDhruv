@@ -97,6 +97,14 @@ A live visual representation of **7+ years of production systems evolution**:
       <p><code>Databricks</code> · <code>Delta Lake</code> · <code>PySpark</code> · <code>Unity Catalog</code> · <code>Mosaic AI</code> · <code>pytest</code> · <code>CI/CD</code></p>
     </td>
     <td width="50%" valign="top">
+      <h3><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h3>
+      <p><strong>Databricks DLT &amp; PySpark Optimization Engine</strong></p>
+      <p>Production optimization framework for Databricks. Statically audits PySpark code for UDF socket serialization and withColumn plan bloat, monitors Auto Loader stream backpressure, enforces DLT quarantine routing, and emits surgical Delta MERGE restatements.</p>
+      <p><code>PySpark Catalyst</code> · <code>Delta Live Tables</code> · <code>Auto Loader</code> · <code>AST Diagnostics</code> · <code>PyPI</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">Query Engine Laboratory</a></h3>
       <p><strong>Systems Internals &amp; Execution Exploration</strong></p>
       <p>A specialized technical laboratory exploring SQL query parsing, relational execution trees, vectorized columnar batch processing, predicate pushdown algorithms, and in-memory operator performance.</p>
