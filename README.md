@@ -100,7 +100,7 @@ A live visual representation of **7+ years of production systems evolution**:
       <h3><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h3>
       <p>
         <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=3776AB&label=PyPI&logo=pypi&logoColor=white" alt="PyPI version" /></a>
-        <a href="https://github.com/MsMansiDhruv/dlt-doctor/releases/tag/v0.4.0"><img src="https://img.shields.io/badge/Release-v0.4.0-10B981?logo=github&logoColor=white" alt="GitHub release" /></a>
+        <a href="https://github.com/MsMansiDhruv/dlt-doctor/releases/tag/v0.4.1"><img src="https://img.shields.io/badge/Release-v0.4.1-10B981?logo=github&logoColor=white" alt="GitHub release" /></a>
         <a href="https://github.com/marketplace/actions/dlt-doctor"><img src="https://img.shields.io/badge/Action-Marketplace-blue?logo=githubactions&logoColor=white" alt="Marketplace" /></a>
       </p>
       <p><strong>Databricks DLT &amp; PySpark Optimization Engine</strong></p>
