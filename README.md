@@ -100,11 +100,12 @@ A live visual representation of **7+ years of production systems evolution**:
       <h3><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h3>
       <p>
         <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=3776AB&label=PyPI&logo=pypi&logoColor=white" alt="PyPI version" /></a>
-        <a href="https://github.com/MsMansiDhruv/dlt-doctor/releases/tag/v0.4.1"><img src="https://img.shields.io/badge/Release-v0.4.1-10B981?logo=github&logoColor=white" alt="GitHub release" /></a>
+        <a href="https://github.com/MsMansiDhruv/dlt-doctor/releases/tag/v0.4.2"><img src="https://img.shields.io/badge/Release-v0.4.2-10B981?logo=github&logoColor=white" alt="GitHub release" /></a>
+        <a href="https://msmansidhruv.github.io/dlt-doctor/"><img src="https://img.shields.io/badge/Docs-MkDocs-526CFE?logo=materialformkdocs&logoColor=white" alt="Documentation" /></a>
         <a href="https://github.com/marketplace/actions/dlt-doctor"><img src="https://img.shields.io/badge/Action-Marketplace-blue?logo=githubactions&logoColor=white" alt="Marketplace" /></a>
       </p>
       <p><strong>Databricks DLT &amp; PySpark Optimization Engine</strong></p>
-      <p>Open-source static AST optimizer and quality engine for Databricks. Features 11 diagnostic engines: Catalyst plan bloat auditing, zero-loss quarantine streams, bounded late-partition MERGE restatement, Unity Catalog migration, Liquid Clustering advisory, and DBU cost forecasting.</p>
+      <p>Open-source static AST optimizer and quality engine for Databricks. Features 12 diagnostic engines: Catalyst plan bloat auditing, zero-loss quarantine streams, bounded late-partition MERGE restatement, Unity Catalog migration, Liquid Clustering advisory, live workspace telemetry, and DBU cost forecasting.</p>
       <p><code>pip install dlt-doctor</code> · <code>PySpark Catalyst</code> · <code>Delta Live Tables</code> · <code>Auto Loader</code> · <code>GitHub Action</code></p>
     </td>
   </tr>
