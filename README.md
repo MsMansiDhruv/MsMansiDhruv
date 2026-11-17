@@ -37,21 +37,6 @@
 
 ---
 
-### Production Telemetry & Engineering
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/perf-benchmarks.gif" alt="Measured Production Telemetry Benchmark Graph" width="100%" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="./assets/code_snippet_ast_matcher.png" alt="SQLGlot AST Equivalence Test & Pytest Run" width="100%" />
-    </td>
-  </tr>
-</table>
-
----
-
 ### Flagship Systems
 
 <table>
@@ -77,6 +62,10 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="./assets/code_snippet_ast_matcher.png" alt="SQLGlot AST Equivalence Test & Pytest Run" width="85%" />
+</p>
 
 ---
 
@@ -105,10 +94,6 @@ flowchart LR
 ---
 
 ### Certifications, Credentials & Honors
-
-<img src="./assets/credentials-emblems.svg" alt="Achievement Medallions: Anthropic MCP, Databricks Genie & Spark, NASA Open Science, AWS, SG Analytics GEM, GHCI" width="100%" />
-
-<br/><br/>
 
 <p>
   <a href="https://academy.claude.com/verify/8322df364fb4d1f0609198a5e7823602"><img src="https://img.shields.io/badge/Anthropic-MCP:_Advanced_Topics_(Oct_2026)-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic MCP Advanced Topics" /></a>
