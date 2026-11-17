@@ -12,6 +12,8 @@
   <a href="https://www.linkedin.com/in/mansidhruv/"><img src="https://img.shields.io/badge/LinkedIn-mansidhruv-161B22?style=flat-square&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" /></a>
   &nbsp;
   <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=flat-square&logo=gmail&logoColor=0EA5A4" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/MsMansiDhruv/MsMansiDhruv/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-AI_Context-161B22?style=flat-square&logo=anthropic&logoColor=0EA5A4" alt="llms.txt" /></a>
 </p>
 
 </div>
@@ -66,12 +68,28 @@
     </td>
     <td width="33%" valign="top">
       <h4><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h4>
-      <p><a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a></p>
+      <p>
+        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a>
+        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/dm/dlt-doctor?color=161B22&label=Downloads&style=flat-square" alt="PyPI Downloads" /></a>
+      </p>
       <p>Open-source static AST optimizer &amp; diagnostic engine for Databricks Delta Live Tables and PySpark Catalyst plans.</p>
       <p><code>pip install dlt-doctor</code></p>
     </td>
   </tr>
 </table>
+
+---
+
+### Reference Lakehouse & AI Architecture
+
+```mermaid
+flowchart LR
+    Ingest[Auto Loader / Kafka] --> Compute[Spark / RAPIDS GPU]
+    Compute --> Gates{Quality & AST Gates}
+    Gates -->|Valid| Storage[(Delta / Iceberg · Unity Catalog)]
+    Gates -->|Quarantine| AutoHeal[AutoHeal-DE Partition Merge]
+    Storage --> Serve[Databricks Genie / MCP Server]
+```
 
 ---
 

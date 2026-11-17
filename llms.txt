@@ -1,0 +1,36 @@
+# Mansi Dhruv
+
+> Lead Data Engineer & Solution Architect with 7+ years of production experience building cloud lakehouses, distributed data engines, and GPU-accelerated pipelines across AWS, Databricks, Apache Spark, Delta Lake, and Apache Iceberg.
+
+## Core Identity & Philosophy
+- **Role**: Lead Data Engineer & Solution Architect
+- **Principle**: Complexity -> Operability ("I build reliable data platforms — from raw inputs to decisions teams can trust.")
+- **Portfolio**: https://portfolio-mansi-eight.vercel.app/
+- **LinkedIn**: https://www.linkedin.com/in/mansidhruv/
+- **GitHub**: https://github.com/MsMansiDhruv
+
+## Upstream Open Source Contributions
+- **NVIDIA/cudf-spark**: GPU-accelerated Apache Spark SQL execution (`GpuCreateDataSourceTableAsSelectCommand` overwrite semantics, `TaskContext` pre-completion listeners, `GpuTaskMetrics` retention, driverless broadcast metric assertions, Spark Catalyst versioning).
+- **apache/iceberg-python**: Snapshot ID invariant validation during branch snapshot expiration (`#4265`).
+- **delta-io/delta-rs**: Tuple filter support in Python write, update, and delete predicates (`#5028`).
+- **databricks/dbt-databricks**: `delta.dataSkippingStatsColumns` for snapshot tables (`#1767`), environment variable query tags (`#1766`), Unity Catalog relation literal escaping (`#1758`).
+- **ibis-project/ibis**: PostgreSQL read-only schema inspection (`#12214`), Decimal mean type promotion & precision/scale (`#12211`).
+
+## Flagship Systems & Tooling
+- **Sentinel Lakehouse** (`https://github.com/MsMansiDhruv/sentinel-lakehouse`): Production Medallion Lakehouse on Databricks with Auto Loader, Delta CDF, SCD1/SCD2, Great Expectations quarantine gates, offline `sqlglot` AST evaluation (~85ms CI), and AutoHeal-DE partition recovery.
+- **dlt-doctor** (`https://github.com/MsMansiDhruv/dlt-doctor`, PyPI: `pip install dlt-doctor`): Static AST optimizer and diagnostic engine for Databricks Delta Live Tables and PySpark Catalyst plans.
+- **GQuery Relational Engine** (`https://github.com/MsMansiDhruv/gquery-engine-clone`): In-memory vectorized columnar query execution engine (`ColumnVector`, `RecordBatch`, bitmask filtering, rule-based predicate pushdown).
+
+## Measured Production Impact
+- **Streaming Latency**: -40% end-to-end latency reduction (Databricks DLT + Kafka/Kinesis).
+- **Compute Cost**: -30% DBU reduction via workload separation and auto-scaling.
+- **Storage I/O**: -24% bytes scanned via Delta Lake Liquid Clustering.
+- **Memory & Shuffle**: Eliminated 100GB+ disk spills via AQE dynamic skew splitting.
+- **CI/CD SQL Evaluation**: Reduced eval latency from ~150s cluster runs to ~85ms offline AST verification.
+
+## Certifications & Leadership Recognition
+- **Anthropic**: Claude Academy — Model Context Protocol (MCP): Advanced Topics (Oct 2026); Introduction to Model Context Protocol (Oct 2026).
+- **Databricks**: Genie Code Foundations (Nov 2026); Genie One & Genie Agents Foundations (Nov 2026); Advanced Techniques with Spark Declarative Pipeline (Jun 2026); Databricks Performance Optimization (Jun 2026).
+- **NASA**: Open Science Essentials (Nov 2026).
+- **AWS**: AWS Certified Cloud Practitioner (CLF).
+- **Awards**: SG Analytics Value-able Award (2024); SG Analytics GEM Leadership Award (2023); Grace Hopper Celebration India (GHCI-18) Scholar; ACM-W National Hackathon Special Mention; AESICS MCA Merit Scholarship.
