@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="100%" style="background:#06100E; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="100%" style="background:#06100E; font-family:'Outfit', 'Space Grotesk', 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;">
   <defs>
     <!-- Gradients -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -98,10 +98,10 @@
     <!-- Status Beacon -->
     <circle cx="0" cy="0" r="4" fill="#2EE6A7" />
     <circle cx="0" cy="0" r="4" fill="none" stroke="#2EE6A7" class="beacon" />
-    <text x="14" y="4" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1.8">SYSTEM STATUS // PRODUCTION ACTIVE</text>
+    <text x="14" y="4" fill="#2EE6A7" font-size="13.5" font-weight="700" letter-spacing="1.8">SYSTEM STATUS // PRODUCTION ACTIVE</text>
     
     <!-- Coordinate Metadata -->
-    <text x="880" y="4" text-anchor="end" fill="#91A8A2" font-size="11" font-family="monospace" letter-spacing="1.2">AWS CERTIFIED · 7+ YRS PRODUCTION · LEAD DATA ENGINEER</text>
+    <text x="880" y="4" text-anchor="end" fill="#91A8A2" font-size="13.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" letter-spacing="1.2">AWS CERTIFIED · 7+ YRS PRODUCTION · LEAD DATA ENGINEER</text>
   </g>
 
   <!-- Divider Rule -->
@@ -109,31 +109,31 @@
 
   <!-- Main Hero Title & Identity -->
   <g transform="translate(40, 128)">
-    <text x="0" y="0" fill="#EAF4F0" font-size="44" font-weight="800" letter-spacing="2.5">MANSI DHRUV</text>
+    <text x="0" y="0" fill="#EAF4F0" font-size="48" font-weight="800" letter-spacing="2.5">MANSI DHRUV</text>
     
     <g transform="translate(0, 36)">
-      <rect x="0" y="-18" width="410" height="28" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
-      <text x="12" y="1" fill="#2EE6A7" font-size="14" font-weight="600" letter-spacing="1.2">Lead Data Engineer · Solution Architect</text>
+      <rect x="0" y="-19" width="440" height="32" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
+      <text x="12" y="1" fill="#2EE6A7" font-size="16" font-weight="600" letter-spacing="1.2">Lead Data Engineer · Solution Architect</text>
     </g>
 
     <!-- Key Metrics Pill Group -->
     <g transform="translate(0, 78)">
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="148" height="26" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
+        <rect x="0" y="0" width="178" height="28" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
         <circle cx="12" cy="13" r="3" fill="#2EE6A7" />
-        <text x="24" y="17" fill="#EAF4F0" font-size="11" font-weight="600" letter-spacing="0.5">7+ Years Experience</text>
+        <text x="24" y="17" fill="#EAF4F0" font-size="13.5" font-weight="600" letter-spacing="0.5">7+ Years Experience</text>
       </g>
       
-      <g transform="translate(158, 0)">
-        <rect x="0" y="0" width="138" height="26" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
+      <g transform="translate(188, 0)">
+        <rect x="0" y="0" width="158" height="28" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
         <circle cx="12" cy="13" r="3" fill="#5EC8FF" />
-        <text x="24" y="17" fill="#EAF4F0" font-size="11" font-weight="600" letter-spacing="0.5">Master's Degree</text>
+        <text x="24" y="17" fill="#EAF4F0" font-size="13.5" font-weight="600" letter-spacing="0.5">Master's Degree</text>
       </g>
 
-      <g transform="translate(306, 0)">
-        <rect x="0" y="0" width="168" height="26" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
+      <g transform="translate(356, 0)">
+        <rect x="0" y="0" width="194" height="28" rx="4" fill="#0B1D1A" stroke="#17352F" stroke-width="1" />
         <circle cx="12" cy="13" r="3" fill="#FF9B4A" />
-        <text x="24" y="17" fill="#EAF4F0" font-size="11" font-weight="600" letter-spacing="0.5">Systems Architecture</text>
+        <text x="24" y="17" fill="#EAF4F0" font-size="13.5" font-weight="600" letter-spacing="0.5">Systems Architecture</text>
       </g>
     </g>
   </g>
@@ -151,16 +151,16 @@
 
     <!-- Trajectory nodes in orbit -->
     <circle cx="60" cy="-45" r="4" fill="#2EE6A7" />
-    <text x="50" y="-55" fill="#91A8A2" font-size="9" font-family="monospace">AWS/SPARK</text>
+    <text x="50" y="-55" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">AWS/SPARK</text>
 
     <circle cx="180" cy="-30" r="4" fill="#5EC8FF" />
-    <text x="175" y="-40" fill="#91A8A2" font-size="9" font-family="monospace">DATABRICKS</text>
+    <text x="175" y="-40" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">DATABRICKS</text>
 
     <circle cx="160" cy="50" r="4" fill="#FF9B4A" />
-    <text x="155" y="66" fill="#91A8A2" font-size="9" font-family="monospace">CUDA/RAPIDS</text>
+    <text x="155" y="66" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">CUDA/RAPIDS</text>
 
     <circle cx="70" cy="40" r="4" fill="#2EE6A7" />
-    <text x="35" y="55" fill="#91A8A2" font-size="9" font-family="monospace">LAKEHOUSE</text>
+    <text x="35" y="55" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">LAKEHOUSE</text>
 
     <!-- Core Center Signal -->
     <circle cx="120" cy="0" r="6" fill="#2EE6A7" />
@@ -177,39 +177,39 @@
     <line x1="180" y1="27" x2="840" y2="27" stroke="url(#traj-grad)" stroke-width="2" class="flow-line" />
 
     <!-- Trajectory Title Label -->
-    <text x="16" y="22" fill="#91A8A2" font-size="10" font-weight="700" letter-spacing="1.2">TRAJECTORY</text>
-    <text x="16" y="38" fill="#2EE6A7" font-size="11" font-weight="700" letter-spacing="1">ARC</text>
+    <text x="16" y="22" fill="#91A8A2" font-size="12.5" font-weight="700" letter-spacing="1.2">TRAJECTORY</text>
+    <text x="16" y="38" fill="#2EE6A7" font-size="13.5" font-weight="700" letter-spacing="1">ARC</text>
 
     <!-- Step 1 -->
     <g transform="translate(180, 27)">
       <circle cx="0" cy="0" r="6" fill="#2EE6A7" />
       <circle cx="0" cy="0" r="2.5" fill="#06100E" />
-      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="11" font-weight="700" letter-spacing="0.5">Data Platforms</text>
-      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="9" font-family="monospace">AWS · Lakehouses</text>
+      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="13.5" font-weight="700" letter-spacing="0.5">Data Platforms</text>
+      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">AWS · Lakehouses</text>
     </g>
 
     <!-- Step 2 -->
     <g transform="translate(400, 27)">
       <circle cx="0" cy="0" r="6" fill="#5EC8FF" />
       <circle cx="0" cy="0" r="2.5" fill="#06100E" />
-      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="11" font-weight="700" letter-spacing="0.5">Distributed Systems</text>
-      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="9" font-family="monospace">Spark · Partitioning</text>
+      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="13.5" font-weight="700" letter-spacing="0.5">Distributed Systems</text>
+      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Spark · Partitioning</text>
     </g>
 
     <!-- Step 3 -->
     <g transform="translate(620, 27)">
       <circle cx="0" cy="0" r="6" fill="#FF9B4A" />
       <circle cx="0" cy="0" r="2.5" fill="#06100E" />
-      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="11" font-weight="700" letter-spacing="0.5">Performance</text>
-      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="9" font-family="monospace">Query &amp; Memory Tuning</text>
+      <text x="0" y="-14" text-anchor="middle" fill="#EAF4F0" font-size="13.5" font-weight="700" letter-spacing="0.5">Performance</text>
+      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Query &amp; Memory Tuning</text>
     </g>
 
     <!-- Step 4 -->
     <g transform="translate(830, 27)">
       <circle cx="0" cy="0" r="7" fill="#FFC085" stroke="#FF9B4A" stroke-width="2" />
       <circle cx="0" cy="0" r="3" fill="#06100E" />
-      <text x="0" y="-14" text-anchor="middle" fill="#FFC085" font-size="11" font-weight="700" letter-spacing="0.5">Accelerated Systems</text>
-      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="9" font-family="monospace">CUDA · RAPIDS GPU</text>
+      <text x="0" y="-14" text-anchor="middle" fill="#FFC085" font-size="13.5" font-weight="700" letter-spacing="0.5">Accelerated Systems</text>
+      <text x="0" y="18" text-anchor="middle" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">CUDA · RAPIDS GPU</text>
     </g>
   </g>
 </svg>
