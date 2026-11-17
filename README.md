@@ -18,7 +18,7 @@
 
 ---
 
-### 🌐 Upstream Open Source & Engine Internals
+### Upstream Open Source & Engine Internals
 
 | Engine / Framework | Pull Request | Technical Scope | CI / Review Status |
 | :--- | :---: | :--- | :--- |
@@ -30,7 +30,7 @@
 
 ---
 
-### 📊 Production Telemetry & Verifiable Engineering
+### Production Telemetry & Verifiable Engineering
 
 <table>
   <tr>
@@ -45,7 +45,7 @@
 
 ---
 
-### ⚡ Flagship Systems & Production Tooling
+### Flagship Systems
 
 <table>
   <tr>
@@ -68,30 +68,20 @@
   </tr>
 </table>
 
-<details>
-<summary><strong>📐 Expand Architecture Diagrams &amp; Distributed Execution Blueprints</strong></summary>
-<br/>
-<img src="./assets/sentinel-architecture.svg" alt="Sentinel Lakehouse Architecture" width="100%" />
-<br/><br/>
-<img src="./assets/systems-map.svg" alt="Distributed Spark &amp; Query Execution Topology" width="100%" />
-<br/><br/>
-<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Hybrid RAG &amp; Genie Harness" width="100%" />
-</details>
-
 ---
 
-### 🏛️ Verified Credentials & Leadership Recognition
+### Verified Credentials & Leadership Recognition
 
 <p>
-  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-161B22?style=for-the-badge&logo=amazonaws&logoColor=0EA5A4" alt="AWS Certified" /></a>
+  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-161B22?style=for-the-badge&logo=award&logoColor=0EA5A4" alt="GEM Award" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-2EE6A7?style=for-the-badge&logo=award&logoColor=black" alt="GEM Award" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-161B22?style=for-the-badge&logo=award&logoColor=0EA5A4" alt="Value-able Award" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-FF9B4A?style=for-the-badge&logo=award&logoColor=black" alt="Value-able Award" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-161B22?style=for-the-badge&logo=star&logoColor=0EA5A4" alt="GHCI Scholar" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-5EC8FF?style=for-the-badge&logo=star&logoColor=black" alt="GHCI Scholar" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/MCA-Merit_Scholarship_Recipient-161B22?style=for-the-badge&logo=graduationcap&logoColor=0EA5A4" alt="MCA Merit Scholar" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/MCA-Merit_Scholarship_Recipient-0EA5A4?style=for-the-badge&logo=graduationcap&logoColor=white" alt="MCA Merit Scholar" /></a>
 </p>
 
 <details>
@@ -110,21 +100,27 @@
 ---
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/python/8B949E" height="22" alt="Python" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/databricks/0EA5A4" height="22" alt="Databricks" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachespark/8B949E" height="22" alt="Apache Spark" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/terraform/8B949E" height="22" alt="Terraform" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/8B949E" height="22" alt="Docker" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachekafka/8B949E" height="22" alt="Apache Kafka" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql/8B949E" height="22" alt="PostgreSQL" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/nvidia/0EA5A4" height="22" alt="NVIDIA" />
+  <img src="https://cdn.simpleicons.org/python/2EE6A7" height="26" alt="Python" />
+  &nbsp;&nbsp;
+  <img src="./assets/aws.svg" height="26" alt="AWS" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="26" alt="Databricks" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachespark/FF9B4A" height="26" alt="Apache Spark" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/terraform/2EE6A7" height="26" alt="Terraform" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/FF9B4A" height="26" alt="Docker" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apacheairflow/2EE6A7" height="26" alt="Apache Airflow" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachekafka/FF9B4A" height="26" alt="Apache Kafka" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/2EE6A7" height="26" alt="PostgreSQL" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/cplusplus/2EE6A7" height="26" alt="C++" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nvidia/FF9B4A" height="26" alt="NVIDIA" />
 </p>
 
 <div align="center">
