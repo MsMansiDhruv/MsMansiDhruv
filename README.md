@@ -20,13 +20,18 @@
 
 ### Upstream Open Source & Engine Internals
 
-| Engine / Framework | Pull Request | Technical Scope | CI / Review Status |
+<!-- OSS_PRS:START -->
+| Engine / Repository | Pull Request | Technical Scope | Status |
 | :--- | :---: | :--- | :--- |
-| **NVIDIA cuDF Spark** | [#16688](https://github.com/NVIDIA/cudf-spark/pull/16688) | Spark Catalyst multi-digit patch versioning across build tooling & CI | Blossom CI Passed (30+ checks) · Greptile 5/5 |
-| **NVIDIA cuDF Spark** | [#16715](https://github.com/NVIDIA/cudf-spark/pull/16715) | `GpuCreateDataSourceTableAsSelectCommand` table drop on overwrite (`SPARK-60387`) | Greptile 5/5 · Signed-off · Upstream Synced |
-| **Apache Iceberg** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Snapshot ID invariant validation during branch expiration (`#4200`) | 20/20 CI Checks Passed |
-| **Ibis Project** | [#12211](https://github.com/ibis-project/ibis/pull/12211) | Decimal mean type promotion (`float64`) & precision/scale (`#12209`) | Semantic Release Passed · DCO Signed |
-| **Databricks dbt** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | Relation string literal escaping for Unity Catalog queries (`#1747`) | 100% Test Coverage · 8/8 CI Passed |
+| **NVIDIA/cudf-spark** | [#16938](https://github.com/NVIDIA/cudf-spark/pull/16938) | Implement TaskContext.addTaskPreCompletionListener in MockTaskContext [redu... | Open (In Review) · 2026-11-17 |
+| **NVIDIA/cudf-spark** | [#16880](https://github.com/NVIDIA/cudf-spark/pull/16880) | Retain task GpuTaskMetrics in SemaphoreTaskInfo for completeTask [reduced-it] | Open (In Review) · 2026-11-16 |
+| **databricks/dbt-databricks** | [#1767](https://github.com/databricks/dbt-databricks/pull/1767) | feat: supplement delta.dataSkippingStatsColumns for snapshot tables (#1481) | Open (In Review) · 2026-11-16 |
+| **ibis-project/ibis** | [#12214](https://github.com/ibis-project/ibis/pull/12214) | fix(postgres): read query schema without temporary view DDL for read-only s... | Open (In Review) · 2026-11-16 |
+| **apache/iceberg-python** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Fix: assert ref snapshot id requirements during snapshot expiration (#4200) | Open (In Review) · 2026-11-12 |
+| **delta-io/delta-rs** | [#5028](https://github.com/delta-io/delta-rs/pull/5028) | feat(python): support tuple filters in write, update, and delete predicates... | Open (In Review) · 2026-11-08 |
+| **databricks/dbt-databricks** | [#1766](https://github.com/databricks/dbt-databricks/pull/1766) | feat: allow passing query tags via environment variables (#1454) | Open (In Review) · 2026-11-06 |
+| **ibis-project/ibis** | [#12211](https://github.com/ibis-project/ibis/pull/12211) | fix(expr): type decimal mean as float64 and decimal product with combined s... | Open (In Review) · 2026-11-03 |
+<!-- OSS_PRS:END -->
 
 ---
 
@@ -67,6 +72,17 @@
     </td>
   </tr>
 </table>
+
+---
+
+### Recent Architecture Notes & Case Studies
+
+<!-- ARCH_NOTES:START -->
+- **[Legacy Data Modernization](https://portfolio-mansi-eight.vercel.app/projects/project-amc-datalake-solution)** (`2025-03`) — Cloud-native lake, Glue ETL, and Redshift analytics — confidential asset-management client
+- **[Productionizing an ML-Driven Allocation Engine](https://portfolio-mansi-eight.vercel.app/projects/brain-mvp)** (`2025-02`) — End-to-end ML allocation — eligibility, classification, and production serving on AWS
+- **[Automated Web Intelligence Pipeline](https://portfolio-mansi-eight.vercel.app/projects/automated-intelligence-pipeline)** (`2025-01`) — Crawlers, extraction, deduplication, and DS model integration on AWS — confidential client
+- **[From OLAP to Workload-Specific Architecture](https://portfolio-mansi-eight.vercel.app/projects/olap-workload-architecture)** (`2024-12`) — Production migration — Redshift cost signal, engine benchmarks, workload separation
+<!-- ARCH_NOTES:END -->
 
 ---
 
