@@ -84,18 +84,9 @@
   <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/MCA-Merit_Scholarship_Recipient-0EA5A4?style=for-the-badge&logo=graduationcap&logoColor=white" alt="MCA Merit Scholar" /></a>
 </p>
 
-<details>
-<summary><sub>View Specialized Data &amp; Cloud Coursework (LinkedIn Archive)</sub></summary>
-<br/>
-
-* **Big Data Analytics using Spark** — edX
-* **Building Your First ETL Pipeline Using Azure Databricks** — Pluralsight
-* **Set up PySpark for Data Analysis** — Pluralsight
-* **SQL for Data Analysis and Data Science** — [Verified Certificate](https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/)
-* **Docker Essentials** — [Verified Certificate](https://www.udemy.com/certificate/UC-XNDH2JI1/)
-* **Machine Learning Using Python** — [Verified Certificate](https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/)
-
-</details>
+**Specialized Data & Cloud Certifications**
+* **Big Data Analytics using Spark** — edX · **Azure Databricks ETL Pipeline** — Pluralsight · **PySpark for Data Analysis** — Pluralsight
+* **SQL for Data Analysis & Data Science** ([Verified](https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/)) · **Docker Essentials** ([Verified](https://www.udemy.com/certificate/UC-XNDH2JI1/)) · **Machine Learning Using Python** ([Verified](https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/))
 
 ---
 
