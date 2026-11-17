@@ -30,7 +30,7 @@
 
 ---
 
-### Production Telemetry & Verifiable Engineering
+### Production Telemetry & Engineering
 
 <table>
   <tr>
@@ -70,56 +70,54 @@
 
 ---
 
-### AI, Lakehouse & Cloud Certifications (Verified)
+### Certifications, Credentials & Honors
+
+<img src="./assets/credentials-emblems.svg" alt="Achievement Medallions: Anthropic MCP, Databricks Genie & Spark, NASA Open Science, AWS, SG Analytics GEM, GHCI" width="100%" />
+
+<br/><br/>
 
 <p>
-  <a href="https://academy.claude.com/verify/8322df364fb4d1f0609198a5e7823602"><img src="https://img.shields.io/badge/Anthropic-MCP:_Advanced_Topics_(Oct_2026)-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic MCP Advanced Topics" /></a>
+  <a href="https://academy.claude.com/verify/8322df364fb4d1f0609198a5e7823602"><img src="https://img.shields.io/badge/Anthropic-MCP:_Advanced_Topics_(Oct_2026)-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic MCP Advanced Topics" /></a>
   &nbsp;
-  <a href="https://academy.claude.com/verify/0d63295bdb3096e5c2e1141d55d645cc"><img src="https://img.shields.io/badge/Anthropic-Intro_to_MCP_(Oct_2026)-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Intro to MCP" /></a>
+  <a href="https://academy.claude.com/verify/0d63295bdb3096e5c2e1141d55d645cc"><img src="https://img.shields.io/badge/Anthropic-Intro_to_MCP_(Oct_2026)-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic Intro to MCP" /></a>
   &nbsp;
-  <a href="https://credentials.databricks.com/f5bffd1a-99c8-4fd6-bb44-8f36255e6c39"><img src="https://img.shields.io/badge/Databricks-Genie_Code_Foundations_(Nov_2026)-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Genie Code Foundations" /></a>
+  <a href="https://credentials.databricks.com/f5bffd1a-99c8-4fd6-bb44-8f36255e6c39"><img src="https://img.shields.io/badge/Databricks-Genie_Code_Foundations_(Nov_2026)-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks Genie Code Foundations" /></a>
   &nbsp;
-  <a href="https://credentials.databricks.com/0743a9e5-302b-4ba1-ba56-8b536f0957d8"><img src="https://img.shields.io/badge/Databricks-Genie_One_%26_Agents_(Nov_2026)-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Genie One & Agents" /></a>
+  <a href="https://credentials.databricks.com/0743a9e5-302b-4ba1-ba56-8b536f0957d8"><img src="https://img.shields.io/badge/Databricks-Genie_One_%26_Agents_(Nov_2026)-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks Genie One & Agents" /></a>
   &nbsp;
-  <a href="https://credentials.databricks.com/e7b0c79e-fd02-452c-972f-c8e5a66b9fed"><img src="https://img.shields.io/badge/Databricks-Spark_Declarative_Pipeline_(Jun_2026)-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Spark Declarative Pipeline" /></a>
+  <a href="https://credentials.databricks.com/e7b0c79e-fd02-452c-972f-c8e5a66b9fed"><img src="https://img.shields.io/badge/Databricks-Spark_Declarative_Pipeline_(Jun_2026)-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks Spark Declarative Pipeline" /></a>
   &nbsp;
-  <a href="https://credentials.databricks.com/43bfffd4-8e37-4d58-afe1-0a79250a4906"><img src="https://img.shields.io/badge/Databricks-Performance_Optimization_(Jun_2026)-FF3621?style=for-the-badge&logo=databricks&logoColor=white" alt="Databricks Performance Optimization" /></a>
+  <a href="https://credentials.databricks.com/43bfffd4-8e37-4d58-afe1-0a79250a4906"><img src="https://img.shields.io/badge/Databricks-Performance_Optimization_(Jun_2026)-FF3621?style=flat-square&logo=databricks&logoColor=white" alt="Databricks Performance Optimization" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/overlay/Certifications/1626116210/treasury/?profileId=ACoAABZywEoB0TXDu6A5bImQpa8-QAw0aa-GDMg"><img src="https://img.shields.io/badge/NASA-Open_Science_Essentials_(Nov_2026)-0B3D91?style=for-the-badge&logo=nasa&logoColor=white" alt="NASA Open Science Essentials" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/overlay/Certifications/1626116210/treasury/?profileId=ACoAABZywEoB0TXDu6A5bImQpa8-QAw0aa-GDMg"><img src="https://img.shields.io/badge/NASA-Open_Science_Essentials_(Nov_2026)-0B3D91?style=flat-square&logo=nasa&logoColor=white" alt="NASA Open Science Essentials" /></a>
   &nbsp;
-  <a href="https://aw.certmetrics.com/amazon/en/public/verification.aspx"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner_(CLF)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>
+  <a href="https://aw.certmetrics.com/amazon/en/public/verification.aspx"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner_(CLF)-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>
 </p>
 
-### Leadership Honors & Awards
-
 <p>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-FF9B4A?style=for-the-badge&logo=award&logoColor=black" alt="Value-able Award" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-161B22?style=flat-square&logo=award&logoColor=FF9B4A" alt="Value-able Award" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-2EE6A7?style=for-the-badge&logo=award&logoColor=black" alt="GEM Award" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-161B22?style=flat-square&logo=award&logoColor=2EE6A7" alt="GEM Award" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-5EC8FF?style=for-the-badge&logo=star&logoColor=black" alt="GHCI Scholar" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-161B22?style=flat-square&logo=star&logoColor=5EC8FF" alt="GHCI Scholar" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/ACM--W-Innovative_Project_Mention-0EA5A4?style=for-the-badge" alt="ACM-W Mention" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/ACM--W-Innovative_Project_Mention-161B22?style=flat-square" alt="ACM-W Mention" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/AESICS-MCA_Merit_Scholarship-0EA5A4?style=for-the-badge&logo=graduationcap&logoColor=white" alt="MCA Merit Scholar" /></a>
-</p>
-
-### Foundational & Engineering Coursework
-
-<p>
-  <a href="https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/"><img src="https://img.shields.io/badge/SQL_for_Data_Analysis_%26_Science-Udemy_2024-0EA5A4?style=flat-square&logo=postgresql&logoColor=white" alt="SQL for Data Analysis" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/AESICS-MCA_Merit_Scholarship-161B22?style=flat-square&logo=graduationcap&logoColor=0EA5A4" alt="MCA Merit Scholar" /></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Azure_Databricks_ETL_Pipeline-Pluralsight_2022-161B22?style=flat-square&logo=databricks&logoColor=2EE6A7" alt="Azure Databricks ETL" />
+  <a href="https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/"><img src="https://img.shields.io/badge/SQL_for_Data_Analysis_%26_Science-Udemy_2024-161B22?style=flat-square&logo=postgresql&logoColor=0EA5A4" alt="SQL for Data Analysis" /></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/PySpark_for_Data_Analysis-Pluralsight_2022-161B22?style=flat-square&logo=apachespark&logoColor=FF9B4A" alt="PySpark for Data Analysis" />
+  <img src="https://img.shields.io/badge/Azure_Databricks_ETL-Pluralsight_2022-161B22?style=flat-square&logo=databricks&logoColor=2EE6A7" alt="Azure Databricks ETL" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Big_Data_Analytics_using_Spark-edX_2021-161B22?style=flat-square&logo=edx&logoColor=5EC8FF" alt="Big Data Analytics using Spark" />
+  <img src="https://img.shields.io/badge/PySpark_Data_Analysis-Pluralsight_2022-161B22?style=flat-square&logo=apachespark&logoColor=FF9B4A" alt="PySpark for Data Analysis" />
   &nbsp;
-  <a href="https://www.udemy.com/certificate/UC-d2d52e37-7982-400c-b78b-4a8833641cf9/"><img src="https://img.shields.io/badge/Data_Structures_with_Python-Udemy_2021-161B22?style=flat-square&logo=python&logoColor=2EE6A7" alt="Data Structures with Python" /></a>
+  <img src="https://img.shields.io/badge/Big_Data_Analytics_Spark-edX_2021-161B22?style=flat-square&logo=edx&logoColor=5EC8FF" alt="Big Data Analytics using Spark" />
   &nbsp;
-  <a href="https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/"><img src="https://img.shields.io/badge/Machine_Learning_Using_Python-Udemy_2020-161B22?style=flat-square&logo=scikitlearn&logoColor=2EE6A7" alt="Machine Learning Using Python" /></a>
+  <a href="https://www.udemy.com/certificate/UC-d2d52e37-7982-400c-b78b-4a8833641cf9/"><img src="https://img.shields.io/badge/Data_Structures_Python-Udemy_2021-161B22?style=flat-square&logo=python&logoColor=2EE6A7" alt="Data Structures with Python" /></a>
   &nbsp;
-  <a href="https://www.udemy.com/certificate/UC-88749a3a-c8ea-4b5a-8b80-b0323a3dddc7/"><img src="https://img.shields.io/badge/Django_2.2_Web_Development-Udemy_2020-161B22?style=flat-square&logo=django&logoColor=8B949E" alt="Django 2.2" /></a>
+  <a href="https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/"><img src="https://img.shields.io/badge/ML_Using_Python-Udemy_2020-161B22?style=flat-square&logo=scikitlearn&logoColor=2EE6A7" alt="Machine Learning Using Python" /></a>
+  &nbsp;
+  <a href="https://www.udemy.com/certificate/UC-88749a3a-c8ea-4b5a-8b80-b0323a3dddc7/"><img src="https://img.shields.io/badge/Django_2.2-Udemy_2020-161B22?style=flat-square&logo=django&logoColor=8B949E" alt="Django 2.2" /></a>
   &nbsp;
   <a href="https://www.udemy.com/certificate/UC-XNDH2JI1/"><img src="https://img.shields.io/badge/Docker_Essentials-Udemy_2019-161B22?style=flat-square&logo=docker&logoColor=5EC8FF" alt="Docker Essentials" /></a>
   &nbsp;
