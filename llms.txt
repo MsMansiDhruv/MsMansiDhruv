@@ -18,7 +18,7 @@
 
 ## Flagship Systems & Tooling
 - **Sentinel Lakehouse** (`https://github.com/MsMansiDhruv/sentinel-lakehouse`): Production Medallion Lakehouse on Databricks with Auto Loader, Delta CDF, SCD1/SCD2, Great Expectations quarantine gates, offline `sqlglot` AST evaluation (~85ms CI), and AutoHeal-DE partition recovery.
-- **dlt-doctor** (`https://github.com/MsMansiDhruv/dlt-doctor`, PyPI: `pip install dlt-doctor`): Static AST optimizer and diagnostic engine for Databricks Delta Live Tables and PySpark Catalyst plans.
+- **dlt-doctor** (`https://github.com/MsMansiDhruv/dlt-doctor`, PyPI: `pip install dlt-doctor`): Static AST optimizer, diagnostic engine, and built-in Model Context Protocol (MCP) stdio server (`dlt-doctor mcp`) for Databricks Delta Live Tables and PySpark Catalyst plans.
 - **GQuery Relational Engine** (`https://github.com/MsMansiDhruv/gquery-engine-clone`): In-memory vectorized columnar query execution engine (`ColumnVector`, `RecordBatch`, bitmask filtering, rule-based predicate pushdown).
 
 ## Measured Production Impact

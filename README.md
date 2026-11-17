@@ -55,8 +55,8 @@
         <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a>
         <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/dm/dlt-doctor?color=161B22&label=Downloads&style=flat-square" alt="PyPI Downloads" /></a>
       </p>
-      <p>Open-source static AST optimizer &amp; diagnostic engine for Databricks Delta Live Tables and PySpark Catalyst plans.</p>
-      <p><code>pip install dlt-doctor</code></p>
+      <p>Open-source static AST optimizer, diagnostic engine, and built-in <strong>MCP server</strong> (<code>dlt-doctor mcp</code>) for Databricks DLT and PySpark Catalyst plans.</p>
+      <p><code>pip install dlt-doctor</code> · <code>MCP</code></p>
     </td>
   </tr>
 </table>
