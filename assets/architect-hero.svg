@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" height="100%" style="background: transparent; font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#111822" />
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5A4" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2" />
+    </linearGradient>
+    <pattern id="subtle-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#30363D" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Native GitHub Dark Slate Card -->
+  <rect x="1" y="1" width="958" height="248" rx="12" fill="url(#bg)" stroke="#21262D" stroke-width="1.5" />
+  <rect x="1" y="1" width="958" height="248" rx="12" fill="url(#subtle-dots)" />
+
+  <!-- Subtle Left Accent Bar -->
+  <rect x="1" y="28" width="3" height="194" rx="1.5" fill="#0EA5A4" />
+
+  <!-- Top Kicker -->
+  <text x="36" y="46" fill="#0EA5A4" font-size="12" font-weight="600" font-family="'JetBrains Mono', Consolas, monospace" letter-spacing="1.5">LEAD DATA ENGINEER  ·  SOLUTION ARCHITECT</text>
+
+  <!-- Main Name -->
+  <text x="36" y="92" fill="#F0F6FC" font-size="36" font-weight="700" letter-spacing="-0.8">Mansi Dhruv</text>
+
+  <!-- Core Positioning Quote -->
+  <text x="36" y="128" fill="#C9D1D9" font-size="15.5" font-weight="400">I build reliable data platforms — from raw inputs to decisions teams can trust.</text>
+  <text x="36" y="152" fill="#8B949E" font-size="13.5" font-weight="400">7+ years across AWS, Databricks, Apache Spark, Delta Lake, and GPU-accelerated pipelines.</text>
+
+  <!-- Divider -->
+  <line x1="36" y1="180" x2="600" y2="180" stroke="#21262D" stroke-width="1" />
+
+  <!-- Clean Minimalist Pillar Tags -->
+  <g transform="translate(36, 206)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#8B949E">
+    <text x="0" y="0" fill="#0EA5A4">●</text>
+    <text x="14" y="0" fill="#C9D1D9">Cloud Lakehouses</text>
+
+    <text x="155" y="0" fill="#38BDF8">●</text>
+    <text x="169" y="0" fill="#C9D1D9">Distributed Engines</text>
+
+    <text x="330" y="0" fill="#0EA5A4">●</text>
+    <text x="344" y="0" fill="#C9D1D9">OSS Contributor (NVIDIA / Iceberg)</text>
+  </g>
+
+  <!-- Right Side: Minimalist Architectural Pipeline Diagram -->
+  <g transform="translate(650, 42)">
+    <rect x="0" y="0" width="274" height="172" rx="8" fill="#090D12" stroke="#21262D" stroke-width="1" />
+    <text x="16" y="24" fill="#8B949E" font-size="10.5" font-family="'JetBrains Mono', Consolas, monospace" letter-spacing="1">ARCHITECTURE TOPOLOGY</text>
+    <line x1="16" y1="34" x2="258" y2="34" stroke="#21262D" stroke-width="1" />
+
+    <!-- Layer 1 -->
+    <rect x="16" y="46" width="242" height="28" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <circle cx="30" cy="60" r="3.5" fill="#0EA5A4" />
+    <text x="42" y="64" fill="#E6EDF3" font-size="11.5" font-family="'JetBrains Mono', Consolas, monospace">Ingest: Auto Loader · Kafka</text>
+
+    <!-- Connector -->
+    <line x1="137" y1="74" x2="137" y2="86" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Layer 2 -->
+    <rect x="16" y="86" width="242" height="28" rx="5" fill="#161B22" stroke="#0EA5A4" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="30" cy="100" r="3.5" fill="#38BDF8" />
+    <text x="42" y="104" fill="#E6EDF3" font-size="11.5" font-family="'JetBrains Mono', Consolas, monospace">Compute: Spark · Rapids GPU</text>
+
+    <!-- Connector -->
+    <line x1="137" y1="114" x2="137" y2="126" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Layer 3 -->
+    <rect x="16" y="126" width="242" height="28" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <circle cx="30" cy="140" r="3.5" fill="#0EA5A4" />
+    <text x="42" y="144" fill="#E6EDF3" font-size="11.5" font-family="'JetBrains Mono', Consolas, monospace">Store: Delta · Iceberg · UC</text>
+  </g>
+</svg>

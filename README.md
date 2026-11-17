@@ -1,153 +1,132 @@
 <div align="center">
 
-<img src="./assets/profile-field.svg" alt="Mansi Dhruv — Lead Data Engineer & Solution Architect" width="100%" />
+<img src="./assets/architect-hero.svg" alt="Mansi Dhruv — Lead Data Engineer & Solution Architect" width="100%" />
 
 <br/>
 
 <p align="center">
-  <a href="https://portfolio-mansi-eight.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mansidhruv.com-0EA5A4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://portfolio-mansi-eight.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mansidhruv.com-0EA5A4?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/"><img src="https://img.shields.io/badge/LinkedIn-mansidhruv-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://portfolio-mansi-eight.vercel.app/projects"><img src="https://img.shields.io/badge/Case_Studies-Architecture-161B22?style=flat-square&logo=readthedocs&logoColor=0EA5A4" alt="Case Studies" /></a>
   &nbsp;
-  <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-182325?style=for-the-badge&logo=gmail&logoColor=2EE6A7" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/"><img src="https://img.shields.io/badge/LinkedIn-mansidhruv-161B22?style=flat-square&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=flat-square&logo=gmail&logoColor=0EA5A4" alt="Email" /></a>
 </p>
 
 </div>
 
 ---
 
-## Who Am I
+### 🌐 Upstream Open Source & Engine Internals
 
-> ### *"I build reliable data platforms — from raw inputs to decisions teams can trust."*
-
-<img src="./assets/trajectory.gif" alt="Engineering Trajectory Animation" width="100%" />
-
-<img src="./assets/data-in-motion.svg" alt="Real-time Data Systems in Motion" width="100%" />
-
----
-
-## Live Performance & Telemetry Graphs
-
-<img src="./assets/perf-benchmarks.gif" alt="Measured Production Telemetry Benchmark Graph" width="100%" />
-
-<img src="./assets/benchmarks.svg" alt="Production Engineering Benchmarks and Trade-Offs" width="100%" />
-
----
-
-## Systems Topography & Execution Engine
-
-<img src="./assets/whoami.svg" alt="3D System Topography: Compute & Scale Surface" width="100%" />
-
-<img src="./assets/systems-map.svg" alt="Distributed Spark Internals and Query Engine Execution Topology" width="100%" />
-
----
-
-## Upstream Open Source Contributions
-
-| Engine / Framework | Pull Request | Scope | Status |
+| Engine / Framework | Pull Request | Technical Scope | CI / Review Status |
 | :--- | :---: | :--- | :--- |
-| **NVIDIA cuDF Spark** | [#16688](https://github.com/NVIDIA/cudf-spark/pull/16688) | Spark Catalyst multi-digit patch versioning across build tooling & CI | Blossom CI Passed (30+ checks), Greptile 5/5 |
-| **NVIDIA cuDF Spark** | [#16715](https://github.com/NVIDIA/cudf-spark/pull/16715) | `GpuCreateDataSourceTableAsSelectCommand` table drop on overwrite (SPARK-60387) | Greptile 5/5, Signed-off, Upstream Synced |
-| **Apache Iceberg** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Snapshot ID invariant validation during branch expiration (#4200) | 20/20 CI Checks Passed |
-| **Ibis Project** | [#12211](https://github.com/ibis-project/ibis/pull/12211) | Decimal mean type promotion (`float64`) & precision/scale (#12209) | Semantic Release Passed, DCO Signed |
-| **Databricks dbt** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | Relation string literal escaping for Unity Catalog queries (#1747) | 100% Test Coverage, 8/8 CI Passed |
+| **NVIDIA cuDF Spark** | [#16688](https://github.com/NVIDIA/cudf-spark/pull/16688) | Spark Catalyst multi-digit patch versioning across build tooling & CI | Blossom CI Passed (30+ checks) · Greptile 5/5 |
+| **NVIDIA cuDF Spark** | [#16715](https://github.com/NVIDIA/cudf-spark/pull/16715) | `GpuCreateDataSourceTableAsSelectCommand` table drop on overwrite (`SPARK-60387`) | Greptile 5/5 · Signed-off · Upstream Synced |
+| **Apache Iceberg** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Snapshot ID invariant validation during branch expiration (`#4200`) | 20/20 CI Checks Passed |
+| **Ibis Project** | [#12211](https://github.com/ibis-project/ibis/pull/12211) | Decimal mean type promotion (`float64`) & precision/scale (`#12209`) | Semantic Release Passed · DCO Signed |
+| **Databricks dbt** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | Relation string literal escaping for Unity Catalog queries (`#1747`) | 100% Test Coverage · 8/8 CI Passed |
 
 ---
 
-## Flagship Blueprints: Sentinel Lakehouse & GenAI
-
-<img src="./assets/sentinel-architecture.svg" alt="Animated Sentinel Lakehouse architecture" width="100%" />
-
-<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness" width="100%" />
+### 📊 Production Telemetry & Verifiable Engineering
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h3>
-      <p>Medallion Lakehouse on Databricks with Auto Loader, Delta CDF, SCD1/2, Great Expectations gates, Genie AST Eval (~85ms), and AutoHeal-DE.</p>
-      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>sqlglot</code></p>
+    <td width="50%" valign="top">
+      <img src="./assets/perf-benchmarks.gif" alt="Measured Production Telemetry Benchmark Graph" width="100%" />
     </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">GQuery Engine</a></h3>
-      <p>In-memory vectorized columnar query execution engine (<code>RecordBatch</code>, bitmask filters, predicate pushdown).</p>
-      <p><code>Columnar</code> · <code>Vectorized</code> · <code>Optimizer</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h3>
-      <p>
-        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&logo=pypi&logoColor=white" alt="PyPI" /></a>
-      </p>
-      <p>Static AST optimizer &amp; diagnostic engine for Databricks Delta Live Tables &amp; PySpark Catalyst plans.</p>
-      <p><code>pip install dlt-doctor</code></p>
+    <td width="50%" valign="top">
+      <img src="./assets/code_snippet_ast_matcher.png" alt="SQLGlot AST Equivalence Test & Pytest Run" width="100%" />
     </td>
   </tr>
 </table>
 
 ---
 
-## LinkedIn Certifications, Badges & Honors
+### ⚡ Flagship Systems & Production Tooling
 
-<img src="./assets/certifications.svg" alt="Verified Credentials and Certifications Radar" width="100%" />
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h4>
+      <p>Medallion Lakehouse on Databricks featuring Auto Loader, Delta CDF, SCD1/SCD2, Great Expectations quarantine gates, offline SQLGlot AST eval (~85ms), and AutoHeal-DE partition recovery.</p>
+      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>sqlglot</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">GQuery Relational Engine</a></h4>
+      <p>In-memory vectorized columnar query execution engine exploring contiguous <code>ColumnVector</code> chunks, <code>RecordBatch</code> iteration, bitmask filters, and rule-based pushdown.</p>
+      <p><code>Columnar</code> · <code>Vectorized</code> · <code>Optimizer</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h4>
+      <p><a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a></p>
+      <p>Open-source static AST optimizer &amp; diagnostic engine for Databricks Delta Live Tables and PySpark Catalyst plans.</p>
+      <p><code>pip install dlt-doctor</code></p>
+    </td>
+  </tr>
+</table>
 
-### 🎓 Verified Certifications
-
-<p>
-  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner_(2023)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Cloud Practitioner" /></a>
-  <a href="https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/"><img src="https://img.shields.io/badge/SQL-Data_Analysis_&_Science_(2024)-0EA5A4?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL for Data Analysis" /></a>
-  <img src="https://img.shields.io/badge/Pluralsight-Azure_Databricks_ETL_(2022)-F15B2A?style=for-the-badge&logo=databricks&logoColor=white" alt="Azure Databricks ETL" />
-  <img src="https://img.shields.io/badge/Pluralsight-PySpark_Data_Analysis_(2022)-F15B2A?style=for-the-badge&logo=apachespark&logoColor=white" alt="PySpark for Data Analysis" />
-  <img src="https://img.shields.io/badge/edX-Big_Data_Analytics_with_Spark_(2021)-02262B?style=for-the-badge&logo=edx&logoColor=white" alt="Big Data Analytics using Spark" />
-  <img src="https://img.shields.io/badge/Python-Data_Structures_(2021)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Data Structures with Python" />
-  <a href="https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/"><img src="https://img.shields.io/badge/ML-Machine_Learning_Using_Python_(2020)-2EE6A7?style=for-the-badge&logo=scikitlearn&logoColor=black" alt="Machine Learning Using Python" /></a>
-  <img src="https://img.shields.io/badge/Django_2.2-Web_Development_(2020)-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django 2.2" />
-  <a href="https://www.udemy.com/certificate/UC-XNDH2JI1/"><img src="https://img.shields.io/badge/Docker-Essentials_(2019)-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Essentials" /></a>
-  <img src="https://img.shields.io/badge/Node.js-Backend_Systems_(2018)-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node JS" />
-  <a href="https://www.udemy.com/certificate/UC-X0AU2IFK/"><img src="https://img.shields.io/badge/Big_Data-Training_(2018)-5EC8FF?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Big Data Training" /></a>
-  <img src="https://img.shields.io/badge/AI-Website_Creation_(2018)-182325?style=for-the-badge&logo=openai&logoColor=white" alt="AI Website Creation" />
-</p>
-
-### 🏆 Honors & Awards
-
-<p>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(Jul_2024)-FF9B4A?style=for-the-badge&logo=award&logoColor=black" alt="Value-able Award" /></a>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Award_(Mar_2023)-2EE6A7?style=for-the-badge&logo=star&logoColor=black" alt="GEM Award" /></a>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/AESICS-Full_Year_Merit_Scholarship_(2019)-5EC8FF?style=for-the-badge" alt="Merit Scholarship" /></a>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/ACM--W_National_Hackathon-Innovative_Project_Mention_(2018)-0EA5A4?style=for-the-badge" alt="ACM-W Hackathon" /></a>
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Student_Scholar_(2018)-DC8FC7?style=for-the-badge" alt="GHCI-18 Scholar" /></a>
-</p>
+<details>
+<summary><strong>📐 Expand Architecture Diagrams &amp; Distributed Execution Blueprints</strong></summary>
+<br/>
+<img src="./assets/sentinel-architecture.svg" alt="Sentinel Lakehouse Architecture" width="100%" />
+<br/><br/>
+<img src="./assets/systems-map.svg" alt="Distributed Spark &amp; Query Execution Topology" width="100%" />
+<br/><br/>
+<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Hybrid RAG &amp; Genie Harness" width="100%" />
+</details>
 
 ---
 
-## Systems Stack
+### 🏛️ Verified Credentials & Leadership Recognition
 
-<img src="./assets/stack.svg" alt="Simplified Core Production Toolchain" width="100%" />
+<p>
+  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-161B22?style=for-the-badge&logo=amazonaws&logoColor=0EA5A4" alt="AWS Certified" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-161B22?style=for-the-badge&logo=award&logoColor=0EA5A4" alt="GEM Award" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-161B22?style=for-the-badge&logo=award&logoColor=0EA5A4" alt="Value-able Award" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-161B22?style=for-the-badge&logo=star&logoColor=0EA5A4" alt="GHCI Scholar" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/MCA-Merit_Scholarship_Recipient-161B22?style=for-the-badge&logo=graduationcap&logoColor=0EA5A4" alt="MCA Merit Scholar" /></a>
+</p>
+
+<details>
+<summary><sub>View Specialized Data &amp; Cloud Coursework (LinkedIn Archive)</sub></summary>
+<br/>
+
+* **Big Data Analytics using Spark** — edX
+* **Building Your First ETL Pipeline Using Azure Databricks** — Pluralsight
+* **Set up PySpark for Data Analysis** — Pluralsight
+* **SQL for Data Analysis and Data Science** — [Verified Certificate](https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/)
+* **Docker Essentials** — [Verified Certificate](https://www.udemy.com/certificate/UC-XNDH2JI1/)
+* **Machine Learning Using Python** — [Verified Certificate](https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/)
+
+</details>
+
+---
 
 <p align="center">
-  <img src="https://cdn.simpleicons.org/python/2EE6A7" height="30" alt="Python" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="./assets/aws.svg" height="30" alt="AWS" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="30" alt="Databricks" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachespark/FF9B4A" height="30" alt="Apache Spark" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/terraform/2EE6A7" height="30" alt="Terraform" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/FF9B4A" height="30" alt="Docker" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apacheairflow/2EE6A7" height="30" alt="Apache Airflow" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachekafka/FF9B4A" height="30" alt="Apache Kafka" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql/2EE6A7" height="30" alt="PostgreSQL" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/cplusplus/2EE6A7" height="30" alt="C++" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/nvidia/FF9B4A" height="30" alt="NVIDIA" />
+  <img src="https://cdn.simpleicons.org/python/8B949E" height="22" alt="Python" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/databricks/0EA5A4" height="22" alt="Databricks" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachespark/8B949E" height="22" alt="Apache Spark" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/terraform/8B949E" height="22" alt="Terraform" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/8B949E" height="22" alt="Docker" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachekafka/8B949E" height="22" alt="Apache Kafka" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/8B949E" height="22" alt="PostgreSQL" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nvidia/0EA5A4" height="22" alt="NVIDIA" />
 </p>
 
----
-
 <div align="center">
-  <sub>Complexity → operability &nbsp;·&nbsp; <a href="https://portfolio-mansi-eight.vercel.app/">portfolio-mansi-eight.vercel.app</a> &nbsp;·&nbsp; Mansi Dhruv</sub>
+  <sub>Complexity → operability &nbsp;·&nbsp; <a href="https://portfolio-mansi-eight.vercel.app/">portfolio-mansi-eight.vercel.app</a></sub>
 </div>
