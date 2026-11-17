@@ -12,8 +12,6 @@
   <a href="https://www.linkedin.com/in/mansidhruv/"><img src="https://img.shields.io/badge/LinkedIn-mansidhruv-161B22?style=flat-square&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" /></a>
   &nbsp;
   <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=flat-square&logo=gmail&logoColor=0EA5A4" alt="Email" /></a>
-  &nbsp;
-  <a href="https://github.com/MsMansiDhruv/MsMansiDhruv/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-AI_Context-161B22?style=flat-square&logo=anthropic&logoColor=0EA5A4" alt="llms.txt" /></a>
 </p>
 
 </div>
