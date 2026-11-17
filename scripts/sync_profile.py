@@ -87,8 +87,13 @@ def fetch_architecture_notes(limit: int = 4) -> str:
     matches = pattern.findall(js_src)
     lines = []
     for slug, title, desc, date in matches[:limit]:
+        clean_desc = (
+            desc.replace(" — confidential asset-management client", "")
+            .replace(" — confidential client", "")
+            .strip()
+        )
         lines.append(
-            f"- **[{title}]({PORTFOLIO_URL}/projects/{slug})** (`{date}`) — {desc}"
+            f"- **[{title}]({PORTFOLIO_URL}/projects/{slug})** (`{date}`) — {clean_desc}"
         )
 
     # Also check content/posts for non-example markdown posts
