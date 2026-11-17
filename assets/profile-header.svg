@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 260" width="100%" height="100%" style="background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3B3E" />
+      <stop offset="50%" stop-color="#182325" />
+      <stop offset="100%" stop-color="#141D1F" />
+    </linearGradient>
+    <linearGradient id="teal-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5A4" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Container -->
+  <rect x="1" y="1" width="938" height="258" rx="12" fill="#0B0F10" stroke="url(#card-border)" stroke-width="1.5" />
+
+  <!-- Top Window Header Bar -->
+  <rect x="1" y="1" width="938" height="38" rx="12" fill="#111618" />
+  <!-- Overwrite bottom rounded corners of the header bar -->
+  <rect x="1" y="26" width="938" height="13" fill="#111618" />
+  <line x1="1" y1="39" x2="939" y2="39" stroke="#1F282A" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="24" cy="20" r="5" fill="#FF5F56" />
+  <circle cx="40" cy="20" r="5" fill="#FFBD2E" />
+  <circle cx="56" cy="20" r="5" fill="#27C93F" />
+
+  <!-- Center Breadcrumb -->
+  <text x="470" y="24" text-anchor="middle" fill="#7E8B8E" font-size="12" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" letter-spacing="0.3">mansidhruv.com  /  systems-architecture  /  production-platform</text>
+
+  <!-- Status Indicator Right -->
+  <circle cx="880" cy="20" r="3.5" fill="#0EA5A4" />
+  <text x="892" y="24" fill="#0EA5A4" font-size="11" font-weight="600" font-family="'JetBrains Mono', monospace">STABLE</text>
+
+  <!-- Main Identity Content -->
+  <!-- Name -->
+  <text x="36" y="88" fill="#F1F5F9" font-size="30" font-weight="700" letter-spacing="-0.5">Mansi Dhruv</text>
+
+  <!-- Role & Domains -->
+  <text x="36" y="116" fill="#0EA5A4" font-size="14" font-weight="600" font-family="'JetBrains Mono', monospace" letter-spacing="0.5">LEAD DATA ENGINEER  ·  DATA PLATFORMS  ·  CLOUD ARCHITECTURE</text>
+
+  <!-- Philosophy & Mission Statement -->
+  <text x="36" y="152" fill="#E2E8F0" font-size="15" font-weight="400">"I build reliable data platforms — from raw inputs to decisions teams can trust."</text>
+  
+  <text x="36" y="176" fill="#8C999C" font-size="13.5" font-weight="400">Most of my work starts as a migration or cost bottleneck and turns into an architecture problem. I like the second part.</text>
+
+  <!-- Divider Line -->
+  <line x1="36" y1="202" x2="904" y2="202" stroke="#1A2426" stroke-width="1" />
+
+  <!-- Monospace Metadata Badges at Bottom -->
+  <g transform="translate(36, 226)">
+    <!-- Badge 1 -->
+    <rect x="0" y="-14" width="132" height="24" rx="4" fill="#131B1D" stroke="#223033" stroke-width="1" />
+    <text x="66" y="2" text-anchor="middle" fill="#8C999C" font-size="11" font-family="'JetBrains Mono', monospace">AWS CERTIFIED</text>
+
+    <!-- Badge 2 -->
+    <rect x="142" y="-14" width="160" height="24" rx="4" fill="#131B1D" stroke="#223033" stroke-width="1" />
+    <text x="222" y="2" text-anchor="middle" fill="#8C999C" font-size="11" font-family="'JetBrains Mono', monospace">7+ YRS PRODUCTION</text>
+
+    <!-- Badge 3 -->
+    <rect x="312" y="-14" width="205" height="24" rx="4" fill="#131B1D" stroke="#223033" stroke-width="1" />
+    <text x="414.5" y="2" text-anchor="middle" fill="#8C999C" font-size="11" font-family="'JetBrains Mono', monospace">DATABRICKS  ·  PYSPARK</text>
+
+    <!-- Badge 4 -->
+    <rect x="527" y="-14" width="185" height="24" rx="4" fill="#131B1D" stroke="#223033" stroke-width="1" />
+    <text x="619.5" y="2" text-anchor="middle" fill="#8C999C" font-size="11" font-family="'JetBrains Mono', monospace">DELTA LAKE  ·  TERRAFORM</text>
+
+    <!-- Right Signature Motif -->
+    <text x="868" y="2" text-anchor="end" fill="#58676A" font-size="11.5" font-family="'JetBrains Mono', monospace">complexity → operability</text>
+  </g>
+</svg>
