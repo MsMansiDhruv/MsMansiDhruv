@@ -63,10 +63,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="./assets/code_snippet_ast_matcher.png" alt="SQLGlot AST Equivalence Test & Pytest Run" width="85%" />
-</p>
-
 ---
 
 ### Reference Lakehouse & AI Architecture
