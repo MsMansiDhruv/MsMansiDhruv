@@ -70,23 +70,47 @@
 
 ---
 
-### Verified Credentials & Leadership Recognition
+### Leadership Honors & Primary Credentials
 
 <p>
-  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-2EE6A7?style=for-the-badge&logo=award&logoColor=black" alt="GEM Award" /></a>
+  <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/"><img src="https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner_(2023)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-FF9B4A?style=for-the-badge&logo=award&logoColor=black" alt="Value-able Award" /></a>
   &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-2EE6A7?style=for-the-badge&logo=award&logoColor=black" alt="GEM Award" /></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/GHCI--18-Grace_Hopper_Scholar-5EC8FF?style=for-the-badge&logo=star&logoColor=black" alt="GHCI Scholar" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/MCA-Merit_Scholarship_Recipient-0EA5A4?style=for-the-badge&logo=graduationcap&logoColor=white" alt="MCA Merit Scholar" /></a>
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/ACM--W-Innovative_Project_Mention-0EA5A4?style=for-the-badge" alt="ACM-W Mention" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/AESICS-MCA_Merit_Scholarship-0EA5A4?style=for-the-badge&logo=graduationcap&logoColor=white" alt="MCA Merit Scholar" /></a>
 </p>
 
-**Specialized Data & Cloud Certifications**
-* **Big Data Analytics using Spark** — edX · **Azure Databricks ETL Pipeline** — Pluralsight · **PySpark for Data Analysis** — Pluralsight
-* **SQL for Data Analysis & Data Science** ([Verified](https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/)) · **Docker Essentials** ([Verified](https://www.udemy.com/certificate/UC-XNDH2JI1/)) · **Machine Learning Using Python** ([Verified](https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/))
+### Technical Certifications
+
+<p>
+  <a href="https://www.udemy.com/certificate/UC-a6a6cbcf-d2b6-4b93-925e-0bcf1e777205/"><img src="https://img.shields.io/badge/SQL_for_Data_Analysis_%26_Science-Udemy_2024-0EA5A4?style=flat-square&logo=postgresql&logoColor=white" alt="SQL for Data Analysis" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Azure_Databricks_ETL_Pipeline-Pluralsight_2022-161B22?style=flat-square&logo=databricks&logoColor=2EE6A7" alt="Azure Databricks ETL" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/PySpark_for_Data_Analysis-Pluralsight_2022-161B22?style=flat-square&logo=apachespark&logoColor=FF9B4A" alt="PySpark for Data Analysis" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Big_Data_Analytics_using_Spark-edX_2021-161B22?style=flat-square&logo=edx&logoColor=5EC8FF" alt="Big Data Analytics using Spark" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Data_Structures_with_Python-Udemy_2021-161B22?style=flat-square&logo=python&logoColor=2EE6A7" alt="Data Structures with Python" />
+  &nbsp;
+  <a href="https://www.udemy.com/certificate/UC-98742817-dfc1-415d-be88-c70c692ff871/"><img src="https://img.shields.io/badge/Machine_Learning_Using_Python-Udemy_2020-161B22?style=flat-square&logo=scikitlearn&logoColor=2EE6A7" alt="Machine Learning Using Python" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Django_2.2_Web_Development-Udemy_2020-161B22?style=flat-square&logo=django&logoColor=8B949E" alt="Django 2.2" />
+  &nbsp;
+  <a href="https://www.udemy.com/certificate/UC-XNDH2JI1/"><img src="https://img.shields.io/badge/Docker_Essentials-Udemy_2019-161B22?style=flat-square&logo=docker&logoColor=5EC8FF" alt="Docker Essentials" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Node.js-Udemy_2018-161B22?style=flat-square&logo=nodedotjs&logoColor=8B949E" alt="Node JS" />
+  &nbsp;
+  <a href="https://www.udemy.com/certificate/UC-X0AU2IFK/"><img src="https://img.shields.io/badge/Big_Data_Training-Udemy_2018-161B22?style=flat-square&logo=apachehadoop&logoColor=5EC8FF" alt="Big Data Training" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/AI_Website_Creation-Udemy_2018-161B22?style=flat-square&logo=openai&logoColor=8B949E" alt="AI Website Creation" />
+</p>
 
 ---
 
