@@ -23,8 +23,8 @@
 <!-- OSS_PRS:START -->
 | Engine / Repository | Pull Request | Technical Scope | Status |
 | :--- | :---: | :--- | :--- |
-| **NVIDIA/cudf-spark** | [#16938](https://github.com/NVIDIA/cudf-spark/pull/16938) | Implement TaskContext.addTaskPreCompletionListener in MockTaskContext [redu... | Open (In Review) · 2026-11-17 |
-| **NVIDIA/cudf-spark** | [#16880](https://github.com/NVIDIA/cudf-spark/pull/16880) | Retain task GpuTaskMetrics in SemaphoreTaskInfo for completeTask [reduced-it] | Open (In Review) · 2026-11-16 |
+| **NVIDIA/cudf-spark** | [#16863](https://github.com/NVIDIA/cudf-spark/pull/16863) | Fix buffer and resource leaks on multithreaded file reader cancellation [re... | Open (In Review) · 2026-11-19 |
+| **NVIDIA/cudf-spark** | [#16881](https://github.com/NVIDIA/cudf-spark/pull/16881) | Fix multithreaded read when maxNumFilesParallel is below task file count [r... | Open (In Review) · 2026-11-19 |
 | **databricks/dbt-databricks** | [#1767](https://github.com/databricks/dbt-databricks/pull/1767) | feat: supplement delta.dataSkippingStatsColumns for snapshot tables (#1481) | Open (In Review) · 2026-11-16 |
 | **ibis-project/ibis** | [#12214](https://github.com/ibis-project/ibis/pull/12214) | fix(postgres): read query schema without temporary view DDL for read-only s... | Open (In Review) · 2026-11-16 |
 | **apache/iceberg-python** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Fix: assert ref snapshot id requirements during snapshot expiration (#4200) | Open (In Review) · 2026-11-12 |
