@@ -23,8 +23,8 @@
 <!-- OSS_PRS:START -->
 | Engine / Repository | Pull Request | Technical Scope | Status |
 | :--- | :---: | :--- | :--- |
-| **NVIDIA/cudf-spark** | [#16938](https://github.com/NVIDIA/cudf-spark/pull/16938) | Implement TaskContext.addTaskPreCompletionListener in MockTaskContext [redu... | Open (In Review) · 2026-11-23 |
-| **punkpeye/awesome-mcp-servers** | [#20359](https://github.com/punkpeye/awesome-mcp-servers/pull/20359) | Add MsMansiDhruv/dlt-doctor to Data Platforms 🤖🤖🤖 | Open (In Review) · 2026-11-22 |
+| **NVIDIA/cudf-spark** | [#16938](https://github.com/NVIDIA/cudf-spark/pull/16938) | Implement TaskContext.addTaskPreCompletionListener in MockTaskContext [redu... | Merged · 2026-11-24 |
+| **punkpeye/awesome-mcp-servers** | [#20359](https://github.com/punkpeye/awesome-mcp-servers/pull/20359) | Add MsMansiDhruv/dlt-doctor to Data Platforms 🤖🤖🤖 | Open (In Review) · 2026-11-23 |
 | **databricks/dbt-databricks** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | fix: escape relation string literals in metadata queries (#1747) | Open (In Review) · 2026-11-22 |
 | **databricks/dbt-databricks** | [#1787](https://github.com/databricks/dbt-databricks/pull/1787) | feat: support databricks_tags and liquid clustering for seeds (#1783) | Open (In Review) · 2026-11-22 |
 | **NVIDIA/cudf-spark** | [#16838](https://github.com/NVIDIA/cudf-spark/pull/16838) | Distribute zero-column batches in GpuRoundRobinPartitioning across partitio... | Open (In Review) · 2026-11-21 |
