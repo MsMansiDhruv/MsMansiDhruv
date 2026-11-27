@@ -11,10 +11,109 @@
   &nbsp;
   <a href="https://www.linkedin.com/in/mansidhruv/"><img src="https://img.shields.io/badge/LinkedIn-mansidhruv-161B22?style=flat-square&logo=linkedin&logoColor=0EA5A4" alt="LinkedIn" /></a>
   &nbsp;
+  <a href="https://glama.ai/mcp/servers/MsMansiDhruv/dlt-doctor"><img src="https://img.shields.io/badge/Glama_MCP-Grade_A_(100%25)-2EE6A7?style=flat-square&logo=anthropic&logoColor=white" alt="Glama MCP Grade A" /></a>
+  &nbsp;
+  <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/badge/PyPI-dlt--doctor-0EA5A4?style=flat-square&logo=pypi&logoColor=white" alt="PyPI dlt-doctor" /></a>
+  &nbsp;
   <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=flat-square&logo=gmail&logoColor=0EA5A4" alt="Email" /></a>
 </p>
 
 </div>
+
+---
+
+### Executive Profile & Engineering Arc
+
+<img src="./assets/whoami.svg" alt="3D System Topography / Compute & Scale Surface wireframe" width="100%" />
+
+I design and productionize large-scale data platforms across **Databricks, Apache Spark, Delta Lake, and AWS**. My engineering spans **platform architecture, query engine internals, and hardware acceleration**—from architecting multi-terabyte medallion lakehouses with zero silent data drops to eliminating streaming state-store leaks and Catalyst plan bloat before deployment.
+
+The trajectory is deliberate: **Cloud Lakehouses → Distributed Query Engines → Performance Optimization → Accelerated GPU Computing (RAPIDS cuDF)**, with **Compound AI, Databricks Genie Semantic Layers, and Model Context Protocol (MCP)** forming the operational intelligence layer.
+
+---
+
+### Developer Metrics & Activity
+
+<div align="center">
+  <a href="https://github.com/MsMansiDhruv">
+    <img src="https://github-readme-stats.vercel.app/api?username=MsMansiDhruv&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2EE6A7&text_color=C9D1D9&icon_color=0EA5A4" alt="Mansi Dhruv GitHub Stats" height="165" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/MsMansiDhruv">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MsMansiDhruv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2EE6A7&text_color=C9D1D9" alt="Top Languages" height="165" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/contributions.svg" alt="Mansi Dhruv Contribution Activity Map" width="100%" />
+</div>
+
+---
+
+### Measured Systems Benchmarks & Trade-Offs
+
+<img src="./assets/benchmarks.svg" alt="Production Engineering Benchmarks and Measured Decisions" width="100%" />
+
+- **I/O & Predictive File Pruning**: Liquid clustering reduced bytes scanned by **24%** across analytical predicates, measured against serverless cluster startup overheads.
+- **Memory & Shuffle Optimization**: Mitigated high-cardinality skew via AQE dynamic partition splitting and adaptive broadcast switching, eliminating **100GB+ disk spills**.
+- **Real-Time Stream Processing**: Engineered end-to-end streaming scoring with **40% latency acceleration** and **30% compute cost reduction** on Databricks Delta Live Tables.
+- **Metadata-Driven Cloud Migration**: Automated migration of **10+ TB** financial data to AWS Redshift/Lakehouse with reproducible Terraform IaC and zero-loss observability.
+
+---
+
+### Distributed Execution Topology // Spark Internals & GPU Offload
+
+<img src="./assets/systems-map.svg" alt="Distributed Spark Internals and Query Engine Execution Topology" width="100%" />
+
+---
+
+### Flagship Systems & Laboratories
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h4>
+      <p>
+        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a>
+        <a href="https://glama.ai/mcp/servers/MsMansiDhruv/dlt-doctor"><img src="https://img.shields.io/badge/Glama-Grade_A-2EE6A7?style=flat-square" alt="Glama MCP" /></a>
+      </p>
+      <p>Offline static AST analysis engine, optimizer, and native <strong>Model Context Protocol (MCP)</strong> server for Databricks Delta Live Tables, Lakeflow, and PySpark Catalyst plans.</p>
+      <p><code>uvx dlt-doctor analyze .</code> · <code>MCP</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h4>
+      <p>
+        <img src="https://img.shields.io/badge/Architecture-Medallion-0EA5A4?style=flat-square" alt="Medallion" />
+        <img src="https://img.shields.io/badge/Databricks-Unity_Catalog-FF3621?style=flat-square" alt="Unity Catalog" />
+      </p>
+      <p>Production lakehouse featuring Auto Loader, Delta CDF, SCD1/SCD2, Great Expectations quarantine gates, offline SQLGlot AST eval, and <strong>AutoHeal-DE</strong> partition recovery.</p>
+      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>sqlglot</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">GQuery Relational Engine</a></h4>
+      <p>
+        <img src="https://img.shields.io/badge/Execution-Vectorized-5EC8FF?style=flat-square" alt="Vectorized" />
+        <img src="https://img.shields.io/badge/Memory-Columnar-2EE6A7?style=flat-square" alt="Columnar" />
+      </p>
+      <p>In-memory vectorized columnar query engine exploring contiguous <code>ColumnVector</code> chunks, <code>RecordBatch</code> iteration, bitmask filters, and pushdown optimizations.</p>
+      <p><code>Columnar</code> · <code>Vectorized</code> · <code>C++ / Python</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### GenAI & AI/BI Architecture: Sentinel-GenAI Studio
+
+<img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness & Autonomous Agentic Lakehouse UI Screenshot" width="100%" />
+
+**Databricks Genie AI/BI · Mosaic AI Vector Search · Autonomous RCA · Compound Query Routing**
+
+- **Genie-Bench (Semantic Layer & Evaluation Harness)**: Automated compiler generating Unity Catalog table annotations, join graphs, and a safety-validated **Trusted SQL Catalog** with 100% intent classification and zero metric hallucinations.
+- **AutoHeal-DE (Autonomous Agentic Observability & RCA)**: Live Delta commit log analyzer detecting late-arriving partitions, bounding historical window blast radii, and generating surgical partition-pruned Delta `MERGE` statements without expensive full-table backfills.
+- **Hybrid Compound Router**: Fuses structured Databricks SQL aggregations with unstructured Mosaic AI Vector Search chunks via Reciprocal Rank Fusion (RRF k=60) with numerical consistency guardrails.
 
 ---
 
@@ -32,47 +131,6 @@
 | **apache/iceberg-python** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Fix: assert ref snapshot id requirements during snapshot expiration (#4200) | Open (In Review) · 2026-11-21 |
 | **ibis-project/ibis** | [#12214](https://github.com/ibis-project/ibis/pull/12214) | fix(postgres): read query schema without temporary view DDL for read-only s... | Open (In Review) · 2026-11-16 |
 <!-- OSS_PRS:END -->
-
----
-
-### Flagship Systems
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/MsMansiDhruv/sentinel-lakehouse">Sentinel Lakehouse</a></h4>
-      <p>Medallion Lakehouse on Databricks featuring Auto Loader, Delta CDF, SCD1/SCD2, Great Expectations quarantine gates, offline SQLGlot AST eval (~85ms), and AutoHeal-DE partition recovery.</p>
-      <p><code>Databricks</code> · <code>Delta Lake</code> · <code>sqlglot</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/MsMansiDhruv/gquery-engine-clone">GQuery Relational Engine</a></h4>
-      <p>In-memory vectorized columnar query execution engine exploring contiguous <code>ColumnVector</code> chunks, <code>RecordBatch</code> iteration, bitmask filters, and rule-based pushdown.</p>
-      <p><code>Columnar</code> · <code>Vectorized</code> · <code>Optimizer</code></p>
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://github.com/MsMansiDhruv/dlt-doctor">dlt-doctor</a></h4>
-      <p>
-        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/v/dlt-doctor?color=0EA5A4&label=PyPI&style=flat-square" alt="PyPI" /></a>
-        <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/pypi/dm/dlt-doctor?color=161B22&label=Downloads&style=flat-square" alt="PyPI Downloads" /></a>
-      </p>
-      <p>Open-source static AST optimizer, diagnostic engine, and built-in <strong>MCP server</strong> (<code>dlt-doctor mcp</code>) for Databricks DLT and PySpark Catalyst plans.</p>
-      <p><code>pip install dlt-doctor</code> · <code>MCP</code></p>
-    </td>
-  </tr>
-</table>
-
----
-
-### Reference Lakehouse & AI Architecture
-
-```mermaid
-flowchart LR
-    Ingest[Auto Loader / Kafka] --> Compute[Spark / RAPIDS GPU]
-    Compute --> Gates{Quality & AST Gates}
-    Gates -->|Valid| Storage[(Delta / Iceberg · Unity Catalog)]
-    Gates -->|Quarantine| AutoHeal[AutoHeal-DE Partition Merge]
-    Storage --> Serve[Databricks Genie / MCP Server]
-```
 
 ---
 
@@ -143,30 +201,34 @@ flowchart LR
 
 ---
 
+### Core Technology Stack & Systems Tooling
+
 <p align="center">
-  <img src="https://cdn.simpleicons.org/python/2EE6A7" height="26" alt="Python" />
-  &nbsp;&nbsp;
-  <img src="./assets/aws.svg" height="26" alt="AWS" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="26" alt="Databricks" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachespark/FF9B4A" height="26" alt="Apache Spark" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/terraform/2EE6A7" height="26" alt="Terraform" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/FF9B4A" height="26" alt="Docker" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apacheairflow/2EE6A7" height="26" alt="Apache Airflow" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/apachekafka/FF9B4A" height="26" alt="Apache Kafka" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql/2EE6A7" height="26" alt="PostgreSQL" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/cplusplus/2EE6A7" height="26" alt="C++" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/nvidia/FF9B4A" height="26" alt="NVIDIA" />
+  <img src="https://cdn.simpleicons.org/python/2EE6A7" height="28" alt="Python" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="./assets/aws.svg" height="28" alt="AWS" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/databricks/2EE6A7" height="28" alt="Databricks" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachespark/FF9B4A" height="28" alt="Apache Spark" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/terraform/2EE6A7" height="28" alt="Terraform" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/FF9B4A" height="28" alt="Docker" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apacheairflow/2EE6A7" height="28" alt="Apache Airflow" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/apachekafka/FF9B4A" height="28" alt="Apache Kafka" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/2EE6A7" height="28" alt="PostgreSQL" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/duckdb/FFF000" height="28" alt="DuckDB" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/cplusplus/2EE6A7" height="28" alt="C++" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nvidia/76B900" height="28" alt="NVIDIA RAPIDS" />
 </p>
 
 <div align="center">
-  <sub>Complexity → operability &nbsp;·&nbsp; <a href="https://portfolio-mansi-eight.vercel.app/">portfolio-mansi-eight.vercel.app</a></sub>
+  <sub>Data Platforms · Distributed Query Engines · Performance Architecture &nbsp;·&nbsp; <a href="https://portfolio-mansi-eight.vercel.app/">portfolio-mansi-eight.vercel.app</a></sub>
 </div>
