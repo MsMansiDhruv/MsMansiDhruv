@@ -101,32 +101,32 @@
     <g transform="translate(0, 130)">
       <rect x="0" y="0" width="430" height="115" rx="8" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1.2" />
       <circle cx="16" cy="18" r="4" fill="#2EE6A7" />
-      <text x="28" y="22" fill="#2EE6A7" font-size="14" font-weight="700">Streaming Pipeline Time &amp; Cost Reduction</text>
-      <text x="415" y="22" text-anchor="end" fill="#2EE6A7" font-size="15" font-weight="800">-40% TIME</text>
+      <text x="28" y="22" fill="#2EE6A7" font-size="13.5" font-weight="700">Streaming Pipeline Latency &amp; Cost</text>
+      <text x="415" y="22" text-anchor="end" fill="#2EE6A7" font-size="14" font-weight="800">-40% TIME</text>
 
-      <text x="14" y="44" fill="#EAF4F0" font-size="12">Accelerated end-to-end streaming scoring latency with 30% cost savings.</text>
+      <text x="14" y="44" fill="#EAF4F0" font-size="11.5">Accelerated end-to-end streaming scoring latency with 30% cost savings.</text>
       
       <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
       <rect x="14" y="58" width="352" height="8" rx="4" fill="url(#bar-green)" />
 
-      <text x="14" y="86" fill="#2EE6A7" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">STACK: DELTA LIVE TABLES · KAFKA · KINESIS · SPARK STREAMING</text>
-      <text x="14" y="100" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Award: GEM Award for mission-critical production execution.</text>
+      <text x="14" y="86" fill="#2EE6A7" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">STACK: DELTA LIVE TABLES · KAFKA · KINESIS · SPARK STREAMING</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Award: GEM Award for mission-critical production execution.</text>
     </g>
 
     <!-- Card 4: Enterprise Migration & Automation (Tata AMC) -->
     <g transform="translate(458, 130)">
       <rect x="0" y="0" width="430" height="115" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
       <circle cx="16" cy="18" r="4" fill="#FF9B4A" />
-      <text x="28" y="22" fill="#FFC085" font-size="14" font-weight="700">Financial Data Migration: 10+ TB AWS Lakehouse</text>
-      <text x="415" y="22" text-anchor="end" fill="#FF9B4A" font-size="15" font-weight="800">-40% OPEX</text>
+      <text x="28" y="22" fill="#FFC085" font-size="13" font-weight="700">Financial Data Migration (10+ TB AWS)</text>
+      <text x="415" y="22" text-anchor="end" fill="#FF9B4A" font-size="14" font-weight="800">-40% OPEX</text>
 
-      <text x="14" y="44" fill="#91A8A2" font-size="12">Automated metadata-driven Glue &amp; DMS pipelines from SQL Server to Redshift.</text>
+      <text x="14" y="44" fill="#91A8A2" font-size="11.5">Automated Glue &amp; DMS pipelines from SQL Server to AWS Redshift.</text>
       
       <rect x="14" y="58" width="400" height="8" rx="4" fill="#06100E" stroke="#17352F" stroke-width="0.5" />
       <rect x="14" y="58" width="280" height="8" rx="4" fill="url(#bar-orange)" />
 
-      <text x="14" y="86" fill="#FFC085" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">SCALE: 10+ TB FINANCIAL RECORDS · REPRODUCIBLE TERRAFORM IAC</text>
-      <text x="14" y="100" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Result: Zero-loss migration with CloudWatch automated observability.</text>
+      <text x="14" y="86" fill="#FFC085" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">SCALE: 10+ TB FINANCIAL RECORDS · TERRAFORM IAC</text>
+      <text x="14" y="100" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Result: Zero-loss migration with CloudWatch automated observability.</text>
     </g>
   </g>
 
@@ -134,7 +134,7 @@
   <g transform="translate(36, 335)">
     <rect x="0" y="0" width="888" height="26" rx="4" fill="#071614" />
     <text x="12" y="17" fill="#91A8A2" font-size="12" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">
-      CORE ENGINEERING DISCIPLINE: <tspan fill="#2EE6A7">EMPIRICAL BENCHMARKING OVER ASSUMPTIONS</tspan> · <tspan fill="#FF9B4A">COST &amp; LATENCY AWARE SYSTEMS</tspan>
+      <tspan fill="#2EE6A7" font-weight="700">LESS HYPE. MORE ENGINEERING.</tspan> · <tspan fill="#FF9B4A">EMPIRICAL BENCHMARKING OVER ASSUMPTIONS</tspan> · <tspan fill="#91A8A2">MEASURED SYSTEMS</tspan>
     </text>
   </g>
 </svg>

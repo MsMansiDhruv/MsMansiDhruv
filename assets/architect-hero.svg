@@ -64,8 +64,8 @@
   <text x="36" y="92" fill="#F0F6FC" font-size="36" font-weight="700" letter-spacing="-0.8">Mansi Dhruv</text>
 
   <!-- Core Positioning Quote -->
-  <text x="36" y="128" fill="#C9D1D9" font-size="15.5" font-weight="400">I build reliable data platforms — from raw inputs to decisions teams can trust.</text>
-  <text x="36" y="152" fill="#8B949E" font-size="13.5" font-weight="400">7+ years across AWS, Databricks, Apache Spark, Delta Lake, and GPU-accelerated pipelines.</text>
+  <text x="36" y="128" fill="#2EE6A7" font-size="16.5" font-weight="600" letter-spacing="0.5">Less hype. More engineering.</text>
+  <text x="36" y="152" fill="#8B949E" font-size="13.5" font-weight="400">Lead Data Engineer &amp; Solution Architect · 7+ years across Databricks, Spark, Delta Lake, and AWS.</text>
 
   <!-- Divider -->
   <line x1="36" y1="180" x2="600" y2="180" stroke="#21262D" stroke-width="1" />

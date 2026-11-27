@@ -162,14 +162,14 @@
 
     <!-- Data Callout Markers on the 3D Topography -->
     <!-- Marker 1: Peak Compute Optimization -->
-    <g transform="translate(535, 85)">
+    <g transform="translate(520, 98)">
       <circle cx="0" cy="0" r="4" fill="#FF9B4A" />
       <circle cx="0" cy="0" r="4" fill="none" stroke="#FF9B4A" stroke-width="1" class="beacon-ring" />
       
       <!-- Leader Line -->
-      <polyline points="0,-4 0,-30 40,-30" fill="none" stroke="#FF9B4A" stroke-width="1.2" />
-      <rect x="44" y="-42" width="200" height="24" rx="4" fill="#0A1715" stroke="#FF9B4A" stroke-width="1" />
-      <text x="52" y="-26" fill="#FFC085" font-size="12.5" font-weight="700" letter-spacing="0.8">OPTIMAL SHUFFLE &amp; PARTITIONING</text>
+      <polyline points="0,0 25,-16 55,-16" fill="none" stroke="#FF9B4A" stroke-width="1.2" />
+      <rect x="58" y="-28" width="185" height="24" rx="4" fill="#0A1715" stroke="#FF9B4A" stroke-width="1" />
+      <text x="66" y="-12" fill="#FFC085" font-size="11" font-weight="700" letter-spacing="0.6">OPTIMAL SHUFFLE &amp; PARTITIONING</text>
     </g>
 
     <!-- Marker 2: Acceleration Frontier -->
@@ -198,6 +198,6 @@
     <rect x="0" y="0" width="888" height="38" rx="6" fill="#0A1715" stroke="#17352F" stroke-width="1" />
     <circle cx="16" cy="19" r="3" fill="#2EE6A7" />
     <text x="30" y="23" fill="#EAF4F0" font-size="13.5" font-weight="600" letter-spacing="0.6">ENGINEERING PRINCIPLE:</text>
-    <text x="195" y="23" fill="#2EE6A7" font-size="13.5" font-weight="700" letter-spacing="0.6">"I Measure Before I Scale — The Interesting Part Is What The Engine Is Doing Underneath."</text>
+    <text x="215" y="23" fill="#2EE6A7" font-size="14" font-weight="700" letter-spacing="0.8">"Less hype. More engineering."</text>
   </g>
 </svg>

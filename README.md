@@ -2,7 +2,9 @@
 
 <img src="./assets/architect-hero.svg" alt="Mansi Dhruv — Lead Data Engineer & Solution Architect" width="100%" />
 
-<br/>
+<p align="center">
+  <em><strong>"Less hype. More engineering."</strong></em>
+</p>
 
 <p align="center">
   <a href="https://portfolio-mansi-eight.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mansidhruv.com-0EA5A4?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
@@ -26,28 +28,26 @@
 
 <img src="./assets/whoami.svg" alt="3D System Topography / Compute & Scale Surface wireframe" width="100%" />
 
-I design and productionize large-scale data platforms across **Databricks, Apache Spark, Delta Lake, and AWS**. My engineering spans **platform architecture, query engine internals, and hardware acceleration**—from architecting multi-terabyte medallion lakehouses with zero silent data drops to eliminating streaming state-store leaks and Catalyst plan bloat before deployment.
+I build and tune production data platforms across **Databricks, Apache Spark, Delta Lake, and AWS**.
 
-The trajectory is deliberate: **Cloud Lakehouses → Distributed Query Engines → Performance Optimization → Accelerated GPU Computing (RAPIDS cuDF)**, with **Compound AI, Databricks Genie Semantic Layers, and Model Context Protocol (MCP)** forming the operational intelligence layer.
+Most data problems aren't solved by adding more tools—they're solved by understanding what the query engine is doing underneath the hood. Over 7+ years, my work has centered on the mechanics of scale: eliminating 100GB+ disk spills in Spark, catching silent data drops before they corrupt financial ledgers, pruning millions of unnecessary file scans with Liquid clustering, and cutting cloud compute waste.
+
+When standard JVM runtimes hit their limits, I look at the execution primitives: vectorized execution, off-heap memory, and GPU kernel offload with **NVIDIA RAPIDS (cuDF)**. For the modern agentic tier, I build native **Model Context Protocol (MCP)** tools and semantic layers that give AI reasoning engines structured, reliable access to enterprise lakehouses without hallucinations.
 
 ---
 
-### Developer Metrics & Activity
+### Systems Footprint & Developer Activity
 
 <div align="center">
-  <a href="https://github.com/MsMansiDhruv">
-    <img src="https://github-readme-stats.vercel.app/api?username=MsMansiDhruv&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2EE6A7&text_color=C9D1D9&icon_color=0EA5A4" alt="Mansi Dhruv GitHub Stats" height="165" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/MsMansiDhruv">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MsMansiDhruv&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=2EE6A7&text_color=C9D1D9" alt="Top Languages" height="165" />
-  </a>
-</div>
+
+| Production Systems | Migration Scale | Upstream Engine PRs | MCP Ecosystem |
+| :---: | :---: | :---: | :---: |
+| **7+ Years** Enterprise Platforms | **10+ TB** Financial Lakehouse | **7** Merged / Active Upstream PRs | **Grade A (100%)** on Glama |
 
 <br/>
 
-<div align="center">
-  <img src="./assets/contributions.svg" alt="Mansi Dhruv Contribution Activity Map" width="100%" />
+<img src="./assets/contributions.svg" alt="Mansi Dhruv Contribution Activity Map" width="100%" />
+
 </div>
 
 ---
@@ -105,15 +105,15 @@ The trajectory is deliberate: **Cloud Lakehouses → Distributed Query Engines �
 
 ---
 
-### GenAI & AI/BI Architecture: Sentinel-GenAI Studio
+### GenAI & Lakehouse Intelligence: Sentinel-GenAI Studio
 
 <img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness & Autonomous Agentic Lakehouse UI Screenshot" width="100%" />
 
-**Databricks Genie AI/BI · Mosaic AI Vector Search · Autonomous RCA · Compound Query Routing**
+**Databricks Genie AI/BI · Mosaic AI Vector Search · Autonomous Observability · Compound Query Routing**
 
-- **Genie-Bench (Semantic Layer & Evaluation Harness)**: Automated compiler generating Unity Catalog table annotations, join graphs, and a safety-validated **Trusted SQL Catalog** with 100% intent classification and zero metric hallucinations.
-- **AutoHeal-DE (Autonomous Agentic Observability & RCA)**: Live Delta commit log analyzer detecting late-arriving partitions, bounding historical window blast radii, and generating surgical partition-pruned Delta `MERGE` statements without expensive full-table backfills.
-- **Hybrid Compound Router**: Fuses structured Databricks SQL aggregations with unstructured Mosaic AI Vector Search chunks via Reciprocal Rank Fusion (RRF k=60) with numerical consistency guardrails.
+- **Genie-Bench (Semantic Harness)**: Generates Unity Catalog annotations, join graphs, and a validated **Trusted SQL Catalog** to prevent metric hallucinations when business users query lakehouses.
+- **AutoHeal-DE (Automated Observability & RCA)**: Scans live Delta transaction logs to detect late-arriving partitions, isolates affected date ranges, and writes surgical partition-pruned Delta `MERGE` statements without expensive full-table recomputations.
+- **Hybrid Compound Router**: Blends structured Databricks SQL queries with unstructured Mosaic AI Vector Search using Reciprocal Rank Fusion (RRF k=60), backed by strict numerical consistency checks.
 
 ---
 
