@@ -24,7 +24,7 @@
 
 ---
 
-### Executive Profile & Engineering Arc
+### About Me
 
 <img src="./assets/whoami.svg" alt="3D System Topography / Compute & Scale Surface wireframe" width="100%" />
 
@@ -36,23 +36,29 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Systems Footprint & Developer Activity
+### What I Focus On
 
 <div align="center">
 
-| Production Systems | Migration Scale | Upstream Engine PRs | MCP Ecosystem |
+| Experience | Migration Scale | Open Source PRs | Ecosystem Rating |
 | :---: | :---: | :---: | :---: |
-| **7+ Years** Enterprise Platforms | **10+ TB** Financial Lakehouse | **7** Merged / Active Upstream PRs | **Grade A (100%)** on Glama |
-
-<br/>
-
-<img src="./assets/contributions.svg" alt="Mansi Dhruv Contribution Activity Map" width="100%" />
+| **7+ Years** Enterprise Platforms | **10+ TB** Financial Lakehouse | **7** Upstream Engine PRs | **Grade A (100%)** on Glama |
 
 </div>
 
+<br/>
+
+| Engineering Focus | What I Solve in Production | Measured Result |
+| :--- | :--- | :--- |
+| **Spark & Memory Tuning** | Skew join resolution via AQE adaptive splitting, broadcast threshold tuning, off-heap allocation | Eliminated **100GB+ disk spills** and zero JVM GC pauses |
+| **Lakehouse Architecture & I/O** | Medallion design (Bronze → Silver → Gold), Delta Lake Liquid clustering, Change Data Feed (CDF) | **24% I/O scan reduction** across high-cardinality analytical predicates |
+| **Cloud Migrations & Streaming** | Automated metadata-driven AWS Glue & DMS pipelines from legacy SQL Server to Redshift, Terraform IaC | **10+ TB financial data** migrated with **40% lower OPEX** and zero loss |
+| **Hardware Acceleration** | Columnar vectorized query execution, memory-mapped buffers, SIMD GPU offload with NVIDIA RAPIDS (cuDF) | Replaced heavy JVM iteration loops with parallel GPU kernel execution |
+| **Agentic AI & Lakehouse MCP** | Offline AST static code analysis (`dlt-doctor`), Unity Catalog semantic harnesses, Model Context Protocol | Production AI agents querying lakehouse tables with zero hallucinations |
+
 ---
 
-### Measured Systems Benchmarks & Trade-Offs
+### Production Benchmarks
 
 <img src="./assets/benchmarks.svg" alt="Production Engineering Benchmarks and Measured Decisions" width="100%" />
 
@@ -63,13 +69,13 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Distributed Execution Topology // Spark Internals & GPU Offload
+### Under the Hood: Spark Internals & GPU Acceleration
 
 <img src="./assets/systems-map.svg" alt="Distributed Spark Internals and Query Engine Execution Topology" width="100%" />
 
 ---
 
-### Flagship Systems & Laboratories
+### Featured Projects
 
 <table>
   <tr>
@@ -105,7 +111,7 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### GenAI & Lakehouse Intelligence: Sentinel-GenAI Studio
+### Lakehouse AI & Agentic Systems
 
 <img src="./assets/genai-compound-ui.svg" alt="Sentinel-GenAI Studio: Databricks Genie Semantic Harness & Autonomous Agentic Lakehouse UI Screenshot" width="100%" />
 
@@ -117,7 +123,7 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Upstream Open Source & Engine Internals
+### Upstream Open Source PRs
 
 <!-- OSS_PRS:START -->
 | Engine / Repository | Pull Request | Technical Scope | Status |
@@ -134,7 +140,7 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Recent Architecture Notes & Case Studies
+### Case Studies & Architecture Notes
 
 <!-- ARCH_NOTES:START -->
 - **[Legacy Data Modernization](https://portfolio-mansi-eight.vercel.app/projects/project-amc-datalake-solution)** (`2025-03`) — Cloud-native lake, Glue ETL, and Redshift analytics
@@ -145,7 +151,7 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Certifications, Credentials & Honors
+### Certifications & Awards
 
 <p>
   <a href="https://academy.claude.com/verify/8322df364fb4d1f0609198a5e7823602"><img src="https://img.shields.io/badge/Anthropic-MCP:_Advanced_Topics_(Oct_2026)-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic MCP Advanced Topics" /></a>
@@ -201,7 +207,7 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 
 ---
 
-### Core Technology Stack & Systems Tooling
+### Tech Stack
 
 <p align="center">
   <img src="https://cdn.simpleicons.org/python/2EE6A7" height="28" alt="Python" />

@@ -57,115 +57,115 @@
 
   <!-- Connectors / Execution Paths -->
   <g transform="translate(0, 10)">
-    <!-- Driver to Catalyst & Optimizer -->
-    <path d="M 170 150 L 220 150" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 170 150 L 220 150" fill="none" stroke="#2EE6A7" stroke-width="2.5" class="engine-ray" />
+    <!-- Driver to Catalyst (186 to 216) -->
+    <path d="M 186 150 L 216 150" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 186 150 L 216 150" fill="none" stroke="#2EE6A7" stroke-width="2.5" class="engine-ray" />
 
-    <!-- Optimizer to Whole-Stage Codegen & Tungsten -->
-    <path d="M 370 150 L 420 150" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 370 150 L 420 150" fill="none" stroke="#5EC8FF" stroke-width="2.5" class="engine-ray" />
+    <!-- Catalyst to Tungsten (381 to 411) -->
+    <path d="M 381 150 L 411 150" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 381 150 L 411 150" fill="none" stroke="#5EC8FF" stroke-width="2.5" class="engine-ray" />
 
-    <!-- Tungsten to Shuffle Exchange Mesh -->
-    <path d="M 570 150 L 620 150" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 570 150 L 620 150" fill="none" stroke="#5EC8FF" stroke-width="2.5" class="engine-ray" />
+    <!-- Tungsten to Shuffle Mesh (576 to 606) -->
+    <path d="M 576 150 L 606 150" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 576 150 L 606 150" fill="none" stroke="#5EC8FF" stroke-width="2.5" class="engine-ray" />
 
-    <!-- Shuffle Mesh to Executor Workers (Fan out) -->
-    <path d="M 740 150 C 770 150, 770 110, 800 110" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 740 150 C 770 150, 770 110, 800 110" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="engine-ray" />
+    <!-- Shuffle Mesh to Executor Workers (771 to 804) -->
+    <path d="M 771 150 C 788 150, 788 105, 804 105" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 771 150 C 788 150, 788 105, 804 105" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="engine-ray" />
 
-    <path d="M 740 150 C 770 150, 770 190, 800 190" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 740 150 C 770 150, 770 190, 800 190" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="engine-ray" />
+    <path d="M 771 150 C 788 150, 788 185, 804 185" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 771 150 C 788 150, 788 185, 804 185" fill="none" stroke="#FF9B4A" stroke-width="2.5" class="engine-ray" />
 
-    <!-- GPU Accelerated Kernel Vector Branch (Lower Track) -->
-    <path d="M 495 210 C 495 280, 520 310, 560 310" fill="none" stroke="#17352F" stroke-width="2" />
-    <path d="M 495 210 C 495 280, 520 310, 560 310" fill="none" stroke="url(#spark-edge)" stroke-width="2.5" class="engine-ray" />
+    <!-- GPU Accelerated Kernel Branch (from Tungsten down to Node 6) -->
+    <path d="M 493 215 C 493 275, 515 295, 540 295" fill="none" stroke="#17352F" stroke-width="2" />
+    <path d="M 493 215 C 493 275, 515 295, 540 295" fill="none" stroke="url(#spark-edge)" stroke-width="2.5" class="engine-ray" />
   </g>
 
-  <!-- Node 1: Spark Driver & Session Orchestrator -->
-  <g transform="translate(36, 100)">
-    <rect x="0" y="0" width="138" height="126" rx="8" fill="#0A1715" stroke="#2EE6A7" stroke-width="1.2" />
-    <rect x="0" y="0" width="138" height="24" rx="8" fill="#0B1D1A" />
+  <!-- Node 1: Spark Driver -->
+  <g transform="translate(36, 95)">
+    <rect x="0" y="0" width="150" height="130" rx="8" fill="#0A1715" stroke="#2EE6A7" stroke-width="1.2" />
+    <rect x="0" y="0" width="150" height="24" rx="8" fill="#0B1D1A" />
     <text x="10" y="16" fill="#2EE6A7" font-size="12" font-weight="700">01. SPARK DRIVER</text>
     
     <text x="10" y="42" fill="#EAF4F0" font-size="12" font-weight="700">SparkSession</text>
-    <text x="10" y="58" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Logical Analysis</text>
-    <text x="10" y="74" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">DAGScheduler</text>
-    <text x="10" y="90" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">TaskSet Partitioning</text>
-    <text x="10" y="108" fill="#2EE6A7" font-size="11" font-weight="600" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Adaptive Query (AQE)</text>
+    <text x="10" y="60" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Logical Analysis</text>
+    <text x="10" y="78" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">DAGScheduler</text>
+    <text x="10" y="96" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">TaskSet Partitioning</text>
+    <text x="10" y="114" fill="#2EE6A7" font-size="10.5" font-weight="600" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Adaptive Query (AQE)</text>
   </g>
 
-  <!-- Node 2: Catalyst Optimizer & Physical Planner -->
-  <g transform="translate(220, 100)">
-    <rect x="0" y="0" width="150" height="120" rx="8" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1.2" />
-    <rect x="0" y="0" width="150" height="24" rx="8" fill="#11333F" />
-    <text x="10" y="16" fill="#5EC8FF" font-size="12.5" font-weight="700">02. CATALYST ENGINE</text>
+  <!-- Node 2: Catalyst Optimizer -->
+  <g transform="translate(216, 95)">
+    <rect x="0" y="0" width="165" height="130" rx="8" fill="#0B1D1A" stroke="#5EC8FF" stroke-width="1.2" />
+    <rect x="0" y="0" width="165" height="24" rx="8" fill="#11333F" />
+    <text x="10" y="16" fill="#5EC8FF" font-size="12" font-weight="700">02. CATALYST ENGINE</text>
     
-    <text x="10" y="42" fill="#EAF4F0" font-size="12" font-weight="700">Rule-Based / Cost Optimizer</text>
-    <text x="10" y="58" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Predicate Pushdown</text>
-    <text x="10" y="74" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Column Pruning</text>
-    <text x="10" y="90" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Dynamic Partition Prune</text>
-    <text x="10" y="106" fill="#5EC8FF" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Broadcast Join Selection</text>
+    <text x="10" y="42" fill="#EAF4F0" font-size="12" font-weight="700">Query Optimizer</text>
+    <text x="10" y="60" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Predicate Pushdown</text>
+    <text x="10" y="78" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Column Pruning</text>
+    <text x="10" y="96" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Partition Pruning</text>
+    <text x="10" y="114" fill="#5EC8FF" font-size="10.5" font-weight="600" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Broadcast Joins</text>
   </g>
 
-  <!-- Node 3: Whole-Stage Codegen & Tungsten Memory -->
-  <g transform="translate(420, 100)">
-    <rect x="0" y="0" width="150" height="120" rx="8" fill="#0A1715" stroke="#5EC8FF" stroke-width="1.2" />
-    <rect x="0" y="0" width="150" height="24" rx="8" fill="#0B1D1A" />
-    <text x="10" y="16" fill="#5EC8FF" font-size="12.5" font-weight="700">03. TUNGSTEN &amp; CODEGEN</text>
+  <!-- Node 3: Whole-Stage Codegen & Tungsten -->
+  <g transform="translate(411, 95)">
+    <rect x="0" y="0" width="165" height="130" rx="8" fill="#0A1715" stroke="#5EC8FF" stroke-width="1.2" />
+    <rect x="0" y="0" width="165" height="24" rx="8" fill="#0B1D1A" />
+    <text x="10" y="16" fill="#5EC8FF" font-size="12" font-weight="700">03. TUNGSTEN &amp; CODEGEN</text>
     
-    <text x="10" y="42" fill="#EAF4F0" font-size="12" font-weight="700">Off-Heap Binary Format</text>
-    <text x="10" y="58" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Eliminates JVM GC Pause</text>
-    <text x="10" y="74" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Whole-Stage Java Bytecode</text>
-    <text x="10" y="90" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Cache-Aware Algorithms</text>
-    <text x="10" y="106" fill="#FF9B4A" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Zero-Copy Memory Alloc</text>
+    <text x="10" y="42" fill="#EAF4F0" font-size="12" font-weight="700">Off-Heap Binary</text>
+    <text x="10" y="60" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Zero GC Overhead</text>
+    <text x="10" y="78" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Whole-Stage Codegen</text>
+    <text x="10" y="96" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Cache-Aware Joins</text>
+    <text x="10" y="114" fill="#FF9B4A" font-size="10.5" font-weight="600" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Zero-Copy Memory</text>
   </g>
 
-  <!-- Node 4: Shuffle Exchange & Skew Resolver -->
-  <g transform="translate(620, 100)">
-    <rect x="0" y="0" width="120" height="120" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
-    <rect x="0" y="0" width="120" height="24" rx="8" fill="#23170B" />
-    <text x="10" y="16" fill="#FFC085" font-size="12.5" font-weight="700">04. SHUFFLE MESH</text>
+  <!-- Node 4: Shuffle Exchange & Skew Mitigator -->
+  <g transform="translate(606, 95)">
+    <rect x="0" y="0" width="165" height="130" rx="8" fill="#0A1715" stroke="#FF9B4A" stroke-width="1.2" />
+    <rect x="0" y="0" width="165" height="24" rx="8" fill="#23170B" />
+    <text x="10" y="16" fill="#FFC085" font-size="12" font-weight="700">04. SHUFFLE MESH</text>
     
-    <text x="10" y="42" fill="#FFC085" font-size="12" font-weight="700">Sort-Shuffle Mgr</text>
-    <text x="10" y="58" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Hash Partitioning</text>
-    <text x="10" y="74" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Skew Join Mitigator</text>
-    <text x="10" y="90" fill="#91A8A2" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Spill-to-Disk Min.</text>
-    <text x="10" y="106" fill="#2EE6A7" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Network Block I/O</text>
+    <text x="10" y="42" fill="#FFC085" font-size="12" font-weight="700">Sort-Shuffle Manager</text>
+    <text x="10" y="60" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Hash Partitioning</text>
+    <text x="10" y="78" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Skew Mitigator</text>
+    <text x="10" y="96" fill="#91A8A2" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Spill Minimizer</text>
+    <text x="10" y="114" fill="#2EE6A7" font-size="10.5" font-weight="600" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Network Block I/O</text>
   </g>
 
-  <!-- Node 5: Multi-Core Executor Workers -->
-  <g transform="translate(800, 75)">
+  <!-- Node 5: Executors -->
+  <g transform="translate(804, 75)">
     <!-- Worker A -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="124" height="60" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
+      <rect x="0" y="0" width="120" height="60" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
       <circle cx="12" cy="16" r="3.5" fill="#2EE6A7" />
       <circle cx="12" cy="16" r="3.5" fill="none" stroke="#2EE6A7" stroke-width="1" class="core-pulse" />
-      <text x="22" y="20" fill="#2EE6A7" font-size="12.5" font-weight="700">EXECUTOR 01</text>
-      <text x="10" y="38" fill="#EAF4F0" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">8 Tasks · In-Memory</text>
-      <text x="10" y="50" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Thread Pool Active</text>
+      <text x="22" y="20" fill="#2EE6A7" font-size="12" font-weight="700">EXECUTOR 01</text>
+      <text x="10" y="38" fill="#EAF4F0" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">8 Tasks · Memory</text>
+      <text x="10" y="50" fill="#91A8A2" font-size="10" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Active Threads</text>
     </g>
 
     <!-- Worker B -->
     <g transform="translate(0, 80)">
-      <rect x="0" y="0" width="124" height="60" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
+      <rect x="0" y="0" width="120" height="60" rx="6" fill="#0B1D1A" stroke="#2EE6A7" stroke-width="1" />
       <circle cx="12" cy="16" r="3.5" fill="#2EE6A7" />
-      <text x="22" y="20" fill="#2EE6A7" font-size="12.5" font-weight="700">EXECUTOR 02</text>
-      <text x="10" y="38" fill="#EAF4F0" font-size="11.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">8 Tasks · In-Memory</text>
-      <text x="10" y="50" fill="#91A8A2" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Thread Pool Active</text>
+      <text x="22" y="20" fill="#2EE6A7" font-size="12" font-weight="700">EXECUTOR 02</text>
+      <text x="10" y="38" fill="#EAF4F0" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">8 Tasks · Memory</text>
+      <text x="10" y="50" fill="#91A8A2" font-size="10" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Active Threads</text>
     </g>
   </g>
 
   <!-- Node 6: GPU Accelerated Vector Offload (RAPIDS / CUDA) -->
-  <g transform="translate(560, 255)">
-    <rect x="0" y="0" width="364" height="105" rx="8" fill="#081A16" stroke="#FF5C5C" stroke-width="1.5" />
-    <rect x="0" y="0" width="364" height="26" rx="8" fill="#231210" />
+  <g transform="translate(540, 250)">
+    <rect x="0" y="0" width="384" height="110" rx="8" fill="#081A16" stroke="#FF5C5C" stroke-width="1.5" />
+    <rect x="0" y="0" width="384" height="26" rx="8" fill="#231210" />
     <circle cx="14" cy="13" r="3.5" fill="#FF5C5C" />
     <circle cx="14" cy="13" r="3.5" fill="none" stroke="#FF5C5C" stroke-width="1" class="core-pulse" />
-    <text x="26" y="17" fill="#FF5C5C" font-size="12" font-weight="700" letter-spacing="0.5">GPU KERNEL OFFLOAD · NVIDIA RAPIDS &amp; CUDA</text>
+    <text x="26" y="17" fill="#FF5C5C" font-size="12" font-weight="700" letter-spacing="0.5">GPU ACCELERATION · NVIDIA RAPIDS &amp; CUDA</text>
 
-    <text x="14" y="46" fill="#FFC085" font-size="11.5" font-weight="700">Columnar cuDF Execution &amp; GPU Shuffle Mesh</text>
-    <text x="14" y="66" fill="#EAF4F0" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">SIMD GPU kernels replace JVM CPU loops</text>
-    <text x="14" y="85" fill="#2EE6A7" font-size="11" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Zero-copy PCIe / NVLink data streaming</text>
+    <text x="14" y="48" fill="#FFC085" font-size="11.5" font-weight="700">Columnar cuDF Execution &amp; GPU Shuffle Mesh</text>
+    <text x="14" y="70" fill="#EAF4F0" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">SIMD GPU kernels replace JVM CPU loops</text>
+    <text x="14" y="90" fill="#2EE6A7" font-size="10.5" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace">Zero-copy PCIe / NVLink host streaming</text>
   </g>
 
   <!-- Bottom Principle Banner -->
