@@ -17,6 +17,8 @@
   &nbsp;
   <a href="https://pypi.org/project/dlt-doctor/"><img src="https://img.shields.io/badge/PyPI-dlt--doctor-0EA5A4?style=flat-square&logo=pypi&logoColor=white" alt="PyPI dlt-doctor" /></a>
   &nbsp;
+  <a href="https://github.com/MsMansiDhruv?tab=achievements"><img src="https://img.shields.io/badge/GitHub-YOLO-FF4500?style=flat-square&logo=github&logoColor=white" alt="GitHub YOLO" /></a>
+  &nbsp;
   <a href="mailto:mansi.p.dhruv@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=flat-square&logo=gmail&logoColor=0EA5A4" alt="Email" /></a>
 </p>
 
@@ -172,6 +174,8 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 </p>
 
 <p>
+  <a href="https://github.com/MsMansiDhruv?tab=achievements"><img src="https://img.shields.io/badge/GitHub_Achievement-YOLO-FF4500?style=flat-square&logo=github&logoColor=white" alt="GitHub YOLO" /></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-Value--able_Award_(2024)-161B22?style=flat-square&logo=award&logoColor=FF9B4A" alt="Value-able Award" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/mansidhruv/details/honors-awards/"><img src="https://img.shields.io/badge/SG_Analytics-GEM_Leadership_Award_(2023)-161B22?style=flat-square&logo=award&logoColor=2EE6A7" alt="GEM Award" /></a>
