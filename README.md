@@ -130,10 +130,10 @@ When standard JVM runtimes hit their limits, I look at the execution primitives:
 <!-- OSS_PRS:START -->
 | Engine / Repository | Pull Request | Technical Scope | Status |
 | :--- | :---: | :--- | :--- |
+| **NVIDIA/cudf-spark** | [#16863](https://github.com/NVIDIA/cudf-spark/pull/16863) | Fix buffer and resource leaks on multithreaded file reader cancellation [re... | Open (In Review) · 2026-11-28 |
+| **NVIDIA/cudf-spark** | [#16783](https://github.com/NVIDIA/cudf-spark/pull/16783) | Support PartitioningCollection intersection and attribute normalization in... | Open (In Review) · 2026-11-28 |
 | **punkpeye/awesome-mcp-servers** | [#20359](https://github.com/punkpeye/awesome-mcp-servers/pull/20359) | Add MsMansiDhruv/dlt-doctor to Data Platforms 🤖🤖🤖 | Open (In Review) · 2026-11-27 |
-| **NVIDIA/cudf-spark** | [#16881](https://github.com/NVIDIA/cudf-spark/pull/16881) | Fix multithreaded read when maxNumFilesParallel is below task file count [r... | Open (In Review) · 2026-11-27 |
 | **delta-io/delta-rs** | [#5126](https://github.com/delta-io/delta-rs/pull/5126) | feat(merge): use exact source keys to prune streamed MERGE scans (#5120) | Open (In Review) · 2026-11-27 |
-| **NVIDIA/cudf-spark** | [#16939](https://github.com/NVIDIA/cudf-spark/pull/16939) | Support aggregate formatting in driverless broadcast metric assertion [redu... | Open (In Review) · 2026-11-26 |
 | **databricks/dbt-databricks** | [#1758](https://github.com/databricks/dbt-databricks/pull/1758) | fix: escape relation string literals in metadata queries (#1747) | Open (In Review) · 2026-11-22 |
 | **databricks/dbt-databricks** | [#1787](https://github.com/databricks/dbt-databricks/pull/1787) | feat: support databricks_tags and liquid clustering for seeds (#1783) | Open (In Review) · 2026-11-22 |
 | **apache/iceberg-python** | [#4265](https://github.com/apache/iceberg-python/pull/4265) | Fix: assert ref snapshot id requirements during snapshot expiration (#4200) | Open (In Review) · 2026-11-21 |
